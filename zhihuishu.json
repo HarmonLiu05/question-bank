@@ -1,855 +1,3443 @@
 {
   "version": 1,
+  "category": "zhihuishu",
   "name": "zhihuishu",
   "questions": [
     {
       "stem": "1. 单选题\n\n设一组初始记录关键字序列为(345,253,674,924,627),则用基数排序需要进行( )趟的分配和回收才能使得初始关键字序列变成有序序列。\n\nA.\n\n3\n\nB.\n\n4\n\nC.\n\n5\n\nD.\n\n8\nA 3\nB 4\nC 5\nD 8",
       "answer": "A",
       "fingerprint": "54d9ef53396914111d99ab62ce56fb82a210bc0f71d02d7062c8af8c757b7200",
+      "questionType": "choice",
+      "statementFingerprint": "stem:a1feef7c31e8edd4e9e0b8b90545622c52654bb812858445dfa37730d9252090",
+      "answerText": "3",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n按照二叉树的定义，具有3个结点的二叉树有（    ）种。\nA. 3\nB. 4\nC. 5\nD. 6",
       "answer": "C",
+      "fingerprint": "c5920bcf026ab6a2590dcb6118204d4a7cc0fa137d1ceb1025360c94033f0a15",
+      "questionType": "choice",
+      "statementFingerprint": "stem:a7a731cc572588cb7eb09e941547a5d78c24ec2180d9a165d8a0dc396eef73ad",
+      "answerText": "5",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n把一棵树转换为二叉树后，这棵二叉树的形态是(   )。\nA. 唯一的\nB. 有多种\nC. 有多种，但根结点都没有左孩子\nD. 有多种，但根结点都没有右孩子",
       "answer": "A",
+      "fingerprint": "e787eeaacb92b15a97178dc236dc516774c97735040188ffe03ac76c30fed9ec",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ebb8a64cd7c962fd138cb0c8afadec31c2ac3a7fb0467dc065a3053868a0d488",
+      "answerText": "唯一的",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "唯一的"
+        },
+        {
+          "label": "B",
+          "text": "有多种"
+        },
+        {
+          "label": "C",
+          "text": "有多种，但根结点都没有左孩子"
+        },
+        {
+          "label": "D",
+          "text": "有多种，但根结点都没有右孩子"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n编写递归算法，将二叉树中所有结点的左、右子树相互交换。Status ExchangeBiTree(BiTree& T){    BiTree p;    if(T){        p=T->lchild;        T->lchild=T->rchild;        T->rchild=p;        ExchangeBiTree(T->lchild);         ____        }    return OK;}\nA. ExchangeBiTree(p);\nB. ExchangeBiTree(T->rchild);\nC. ExchangeBiTree(T->lchild->rchild);\nD. ExchangeBiTree(T);",
       "answer": "B",
+      "fingerprint": "e527c4becf0335f1fd9a78bde5ab9d64ff8edf3af5a284efb01f1a7b41730125",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7bbcf92a828ba4e9c6750694ffb1d36a6b9bb89a3149a00b7353b0b1a680959b",
+      "answerText": "ExchangeBiTree(T->rchild);",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "ExchangeBiTree(p);"
+        },
+        {
+          "label": "B",
+          "text": "ExchangeBiTree(T->rchild);"
+        },
+        {
+          "label": "C",
+          "text": "ExchangeBiTree(T->lchild->rchild);"
+        },
+        {
+          "label": "D",
+          "text": "ExchangeBiTree(T);"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n采用邻接表存储的图的宽度优先遍历算法类似于二叉树的（   ）。\nA 先序遍历\nB 中序遍历\nC 后序遍历\nD 层次遍历",
       "answer": "D",
+      "fingerprint": "96f89a08f4412a2b742e160f440ce252d9abfe086a5830cdac5aaf24031ec54b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:a6826454bd8371705dd8cf01bfac3e76854f313a4c6dfba82e08516904af21da",
+      "answerText": "层次遍历",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "先序遍历"
+        },
+        {
+          "label": "B",
+          "text": "中序遍历"
+        },
+        {
+          "label": "C",
+          "text": "后序遍历"
+        },
+        {
+          "label": "D",
+          "text": "层次遍历"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n对关键字{28,16,32,12,60,2,5,72}序列进行快速排序,第一趟从小到大一次划分结果为( )\nA.\n(2,5,12,16)28(60,32,72)\nB.\n(5,16,2,12)28(60,32,72)\nC.\n(2,16,12,5)28(60,32,72)\nD.\n(5,16,2,12)28(32,60,72)\nA (2,5,12,16)28(60,32,72)\nB (5,16,2,12)28(60,32,72)\nC (2,16,12,5)28(60,32,72)\nD (5,16,2,12)28(32,60,72)",
       "answer": "B",
       "fingerprint": "71ad5900af478f54e2bf9c44a362c459ffea047601a9db9b8ce4e563b35dfd05",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ecf9ee03819541fe195f3a0a842a96cd4cafef642923db3df24e29cfd7bb66b4",
+      "answerText": "(5,16,2,12)28(60,32,72)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "(2,5,12,16)28(60,32,72)"
+        },
+        {
+          "label": "B",
+          "text": "(5,16,2,12)28(60,32,72)"
+        },
+        {
+          "label": "C",
+          "text": "(2,16,12,5)28(60,32,72)"
+        },
+        {
+          "label": "D",
+          "text": "(5,16,2,12)28(32,60,72)"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n二叉排序树可以得到一个从小到大的有序序列。(   )\nA. 先序遍历\nB. 中序遍历\nC. 后序遍历\nD. 层次遍历",
       "answer": "B",
+      "fingerprint": "67e68ccfcd08dbd4dbe5aa5e8a6f4c9c221dac324d278131ad528d15831d82c0",
+      "questionType": "choice",
+      "statementFingerprint": "stem:4c0525b582c9627501f28aa3c803a34d90e19a975fa42ffe9f0562f7923fc476",
+      "answerText": "中序遍历",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "先序遍历"
+        },
+        {
+          "label": "B",
+          "text": "中序遍历"
+        },
+        {
+          "label": "C",
+          "text": "后序遍历"
+        },
+        {
+          "label": "D",
+          "text": "层次遍历"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n二叉树是每个结点最多有两个子树的树结构,假设一棵二叉树的高度为m，所有结点的度为0，或为2，则关于此树拥有的最少节点个数，下列选项正确的是\nA. 2m-1\nB. 2m-2\nC. 2m+1\nD. m+1",
       "answer": "A",
+      "fingerprint": "20fad1564007e859a41a053b9b4341c11350f5d65a51b3db4fdfdb8802959502",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f06b2fee9df2b6235719f252ee4596f571795173b629bb7d1ab89579175e84de",
+      "answerText": "2m-1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "2m-1"
+        },
+        {
+          "label": "B",
+          "text": "2m-2"
+        },
+        {
+          "label": "C",
+          "text": "2m+1"
+        },
+        {
+          "label": "D",
+          "text": "m+1"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n广义表（（（））,a,((b,c),(),d),(((e)))）的长度为（  ）\nA. 3\nB. 4\nC. 5\nD. 2",
       "answer": "B",
-      "source": "local"
-    },
-    {
-      "stem": "1. 单选题\n广义表的深度=Max {子表的深度} +1。（  ）\nA. 对\nB. 错",
-      "answer": "对",
+      "fingerprint": "7c2c2c929bf9fdff1adc4f6b0cc93486c9d41c8409b7746802ebb05a0567ca94",
+      "questionType": "choice",
+      "statementFingerprint": "stem:767533513923226d5127d9e89324d378bda1cff796ae76177171bf50f8fe917c",
+      "answerText": "4",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "2"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n广义表A=(a,b,(c,d),(e,(f,g)))，则Head(Tail(Head(Tail(Tail(A)))))的值为（ ）\nA. (g)\nB. (d)\nC. c\nD. d",
       "answer": "CD",
+      "fingerprint": "05acad7a044c1a999def4ecdeeda20a009069d1c67d2be49f9445fe440c31e6e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:14e723ef3f5cec398d7ca3b2e82d4685ab51b13b3a3f2b2a82e537f9610383d4",
+      "answerText": "c | d",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "(g)"
+        },
+        {
+          "label": "B",
+          "text": "(d)"
+        },
+        {
+          "label": "C",
+          "text": "c"
+        },
+        {
+          "label": "D",
+          "text": "d"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n赫夫曼编码适用于以下哪种情况？\nA. 所有字符出现频率相同\nB. 所有字符出现频率不同\nC. 只有一种字符出现\nD. 没有任何字符出现",
       "answer": "B",
+      "fingerprint": "f862da62872d8b1a2a45a29a8514d466d33d77d07fa89dea3a28e0d615b304f6",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ed787c549f9491ab75c24be850697689b13da31c7737360a2c86009d07e07e26",
+      "answerText": "所有字符出现频率不同",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "所有字符出现频率相同"
+        },
+        {
+          "label": "B",
+          "text": "所有字符出现频率不同"
+        },
+        {
+          "label": "C",
+          "text": "只有一种字符出现"
+        },
+        {
+          "label": "D",
+          "text": "没有任何字符出现"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n假设称正度和反读都相同的字符序列为“回文”，例如，‘abba’和‘abcba’是回文，‘abcde’和‘ababab’则不是回文。试写一个算法判别读入的一个以‘@’为结束符的字符序列是否是“回文”。Status SymmetryString(char* p){    Queue q;    if(!InitQueue(q)) return 0;    Stack s;    InitStack(s);    ElemType e1,e2;    while(*p){        ____                EnQueue(q,*p);        p++;    }    while(!StackEmpty(s)){        Pop(s,e1);        DeQueue(q,e2);        if(e1!=e2) return FALSE;    }    return OK;}\nA. Pop(s,e1)\nB. Push(s,*p)\nC. EnQueue(q,*p)\nD. P--",
       "answer": "B",
+      "fingerprint": "cff2eee62ff9f69344f07dcda6bc2c79345275198cb1be13a30a81146f880769",
+      "questionType": "choice",
+      "statementFingerprint": "stem:87244167d4eef29305eff9ca5244717c811cc69dc8883474c531b3216ec92fc0",
+      "answerText": "Push(s,*p)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "Pop(s,e1)"
+        },
+        {
+          "label": "B",
+          "text": "Push(s,*p)"
+        },
+        {
+          "label": "C",
+          "text": "EnQueue(q,*p)"
+        },
+        {
+          "label": "D",
+          "text": "P--"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n假设以行序为主序存储二维数组A=array[1..100,1..100],设每个数据元素占2个存储单元,基地址为10,则LOC[5,5]=( )。\nA.\n808\nB.\n818\nC.\n1010\nD.\n020\nA 808\nB 818\nC 1010\nD 020",
       "answer": "B",
       "fingerprint": "5e1b0eea94c77fa22a3b1f664d03d3e156175a5e8a1086db690c6890fe843f51",
+      "questionType": "choice",
+      "statementFingerprint": "stem:896e0910d63f3f5d4779461aed5da5372997ced7ef4d240a5b83353c4436c358",
+      "answerText": "818",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "808"
+        },
+        {
+          "label": "B",
+          "text": "818"
+        },
+        {
+          "label": "C",
+          "text": "1010"
+        },
+        {
+          "label": "D",
+          "text": "020"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n假设以行序为主序存储二维数组A=array[1..100,1..100]，设每个数据元素占2个存储单元，基地址为10，则LOC[5,5]=（ ）。\nA.\n808\nB.\n818\nC.\n1010\nD.\n020\nA 808\nB 818\nC 1010\nD 020",
       "answer": "B",
       "fingerprint": "dbd47cfa0bcda65fbd44ea7bc3a73e5d7cacfd7e31802f4f25bbda7e404954de",
+      "questionType": "choice",
+      "statementFingerprint": "stem:26f5d6988c6a6790f9a2abd3f0f06131bc9a04ddc58e63d257164bb4700d3bfb",
+      "answerText": "818",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "808"
+        },
+        {
+          "label": "B",
+          "text": "818"
+        },
+        {
+          "label": "C",
+          "text": "1010"
+        },
+        {
+          "label": "D",
+          "text": "020"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n空串与空格串是相同的，这种说法____。\nA. 正确\nB. 不正确",
       "answer": "B",
+      "fingerprint": "b06f35d73781fa07fa59957881948ea140fb3247d8036492569029bc4fe670ff",
+      "questionType": "choice",
+      "statementFingerprint": "stem:fdeec6ccf14aa9d338ab6f00e400ab8d6d6f812a585b6e344924ab260d478a86",
+      "answerText": "不正确",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "正确"
+        },
+        {
+          "label": "B",
+          "text": "不正确"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n若采用三元组压缩技术存储稀疏矩阵，只要把每个元素的行下标和列下标互换，就完成了对该矩阵的转置运算，这种观点（  ）。\nA. 正确\nB. 错误",
       "answer": "B",
+      "fingerprint": "6b7cff13873baeec6c6cbfa3f42760a5c088d358be6c722835a248236165dc2e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b5233cbef46f1b316c849fb20728dd5c3357efea0eed6f7641180badd9d442bb",
+      "answerText": "错误",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "正确"
+        },
+        {
+          "label": "B",
+          "text": "错误"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n若某线性表最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算,则利用( )存储方式最节省时间。\nA 顺序表\nB 双链表\nC 带头结点的双循环链表\nD 单循环链表",
       "answer": "A",
       "fingerprint": "08e0f4892d11e2cfc74b8828812fd7b2391952899fa0f3168c5b864ed5b30fe1",
+      "questionType": "choice",
+      "statementFingerprint": "stem:38a8f7abab0360e4207ff78da49462558b68a183cce32f84d55c1e29d66545ed",
+      "answerText": "顺序表",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "顺序表"
+        },
+        {
+          "label": "B",
+          "text": "双链表"
+        },
+        {
+          "label": "C",
+          "text": "带头结点的双循环链表"
+        },
+        {
+          "label": "D",
+          "text": "单循环链表"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n若一个广义表的表头为空表，则此广义表亦为空表。（   ）\nA. 对\nB. 错",
       "answer": "A",
+      "fingerprint": "385d019592a6c74ff7bf0e9e5b5e068cb67153591a78c8e1d16e2c1456f2c798",
+      "questionType": "choice",
+      "statementFingerprint": "stem:726f7f52093f0aad17c560d92a67bc99eb4dfd27b3cba21ed1da44cb6db682b5",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n设串sl=″Data Structures with Java″,s2=“it″，则子串定位函数index(s1,s2)的值为（  ）\nA. 15\nB. 16\nC. 17\nD. 18",
       "answer": "D",
+      "fingerprint": "8b67776a2c73215dd245a05ab19d1b2184d42486af16eb6bb3de57fdb4412475",
+      "questionType": "choice",
+      "statementFingerprint": "stem:fd15b45dc118df86df64f712599ba0bbc806d5228284dd305eacb61a9a0592c3",
+      "answerText": "18",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "17"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n设有两个串p和q，其中q是p的子串，求q在p中首次出现的位置的算法称为（    ）\nA. 求子串\nB. 联接\nC. 匹配\nD. 求串长",
       "answer": "A",
+      "fingerprint": "578a0e7ec16b8d90f6fa55848272c5f34d1ca8f32874a93cf2e4b2d8cccc6f61",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c136f1d30beb59b71c152d414ca2365f194c74bc744715d44ece49321adbcae9",
+      "answerText": "求子串",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "求子串"
+        },
+        {
+          "label": "B",
+          "text": "联接"
+        },
+        {
+          "label": "C",
+          "text": "匹配"
+        },
+        {
+          "label": "D",
+          "text": "求串长"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n设有一个10阶的对称矩阵A，采用压缩存储方式，以行序为主存储，a11为第一元素，其存储地址为1，每个元素占一个地址空间，则a85的地址为（ ）。\nA 13\nB 32\nC 33\nD 40",
       "answer": "C",
+      "fingerprint": "2b2423d9d930b4b15ad14c76e8e3f25c32b7ac981a1db36ddd998884ec2f126f",
+      "questionType": "choice",
+      "statementFingerprint": "stem:577a7a357ba922cc5d7b1f0af1ae9bd81f2cdc8828ee283f8693b69a1bd6ff28",
+      "answerText": "33",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "13"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "33"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n数组A中，每个元素A的长度为3个字节，行下标i从1到8，列下标j从1到10，从首地址SA开始连续存放在存储器内，存放该数组至少需要的单元数是____。\nA. 80\nB. 100\nC. 240\nD. 270",
       "answer": "C",
+      "fingerprint": "095f4bc20b220a9f0caff47de81e9f63f5e2d2e96a7e958e7878ce7376d27481",
+      "questionType": "choice",
+      "statementFingerprint": "stem:03eecc1d04dbfb95028b0f2afbf01bb39e5a1113a08a6364d3338c92d8a7b706",
+      "answerText": "240",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "80"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "240"
+        },
+        {
+          "label": "D",
+          "text": "270"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n下面哪个选项不是数组顺序存储的优点？\nA. 随机访问速度快\nB. 插入和删除操作快\nC. 内存利用率高\nD. 存储空间分配简单",
       "answer": "B",
+      "fingerprint": "af36153aeaf3df10fa6d218dee4247329931f18002090cc3e4f712ed1ab2b8e1",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b2acae138aef7910dc580acf9701fbf0face4bc3ab668f5f8f22fdffa2a2f288",
+      "answerText": "插入和删除操作快",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "随机访问速度快"
+        },
+        {
+          "label": "B",
+          "text": "插入和删除操作快"
+        },
+        {
+          "label": "C",
+          "text": "内存利用率高"
+        },
+        {
+          "label": "D",
+          "text": "存储空间分配简单"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n下面说法不正确的是 (  )。\nA. 广义表的表头总是一个广义表\nB. 广义表的表尾总是一个广义表\nC. 广义表难以用顺序存储结构\nD. 广义表可以是一个多层次的结构",
       "answer": "A",
+      "fingerprint": "cac0c6eb02dc192fde3dc8c3b56d3c2a87f178c0376a67ac2b93d7188979df47",
+      "questionType": "choice",
+      "statementFingerprint": "stem:fae6ff9e466d7739d2b06a375ab2a44d3ee192be7005dfcc445f14892bc8a25b",
+      "answerText": "广义表的表头总是一个广义表",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "广义表的表头总是一个广义表"
+        },
+        {
+          "label": "B",
+          "text": "广义表的表尾总是一个广义表"
+        },
+        {
+          "label": "C",
+          "text": "广义表难以用顺序存储结构"
+        },
+        {
+          "label": "D",
+          "text": "广义表可以是一个多层次的结构"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n已知一棵树边的集合为{<I,M>, <I,N>, <E,I>, <B,E>, <B,D>, <A,B>, <G,J>, <G,K>, <C,G>, <C,F>, <H,L>, <C,H>, <A,C>},将此树转化为二叉树后，E的左孩子为（  ）\nA. A\nB. C\nC. I\nD. B",
       "answer": "C",
+      "fingerprint": "cadc9cdd28bc75deac59cce5e9fa134129a1d66ea232f58aa2b80f0ce4f3d679",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1a5924779e8b9a64dd6386176f90cb86f5202105b75064f2ce7ab7a4f95effed",
+      "answerText": "I",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "C"
+        },
+        {
+          "label": "C",
+          "text": "I"
+        },
+        {
+          "label": "D",
+          "text": "B"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n已知一棵树的先根次序访问序列为GFKDAIEBCHJ;数的后根次序访问序列为DIAEKFCJHBG。请问这棵树中结点I的双亲为(   )。\nA. A\nB. B\nC. C\nD. D",
       "answer": "A",
+      "fingerprint": "f705a8e7b89c4ca529de485f3ae4e5f8058701c2009e9f7f4af88453ec5420bf",
+      "questionType": "choice",
+      "statementFingerprint": "stem:0624773d3252a6665316e72b3d2842343ce503ea808a0e53f7c8d95fc1eef253",
+      "answerText": "A",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "A"
+        },
+        {
+          "label": "B",
+          "text": "B"
+        },
+        {
+          "label": "C",
+          "text": "C"
+        },
+        {
+          "label": "D",
+          "text": "D"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n以下数据结构中，是非线性数据结构的是（   ）\nA. 树\nB. 队列\nC. 栈\nD. 串",
       "answer": "A",
+      "fingerprint": "083c7290f7e82954004919fc04d517ede73beb3923871b266a2d2f576c720bed",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7068c75cac6c8924c61e4bacd078f6f2657b72de529649826a2339b4be053436",
+      "answerText": "树",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "树"
+        },
+        {
+          "label": "B",
+          "text": "队列"
+        },
+        {
+          "label": "C",
+          "text": "栈"
+        },
+        {
+          "label": "D",
+          "text": "串"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n由于二叉树中每个结点的度最大为2,所以二叉树是一种特殊的树,这种说法（   ）\nA. 正确\nB. 错误\nC. 不确定",
       "answer": "B",
+      "fingerprint": "f68ea4608a3a462ca85b65ccbe8faa8d2a1e1bc48a60362ca89eff0ab6f6d747",
+      "questionType": "choice",
+      "statementFingerprint": "stem:6c448187ef8646bf5b1c1e2fed24f72190cfbcf401ebd616a0b5089fa2f2477e",
+      "answerText": "错误",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "正确"
+        },
+        {
+          "label": "B",
+          "text": "错误"
+        },
+        {
+          "label": "C",
+          "text": "不确定"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n有关二叉树下列说法正确的是（     ）。\nA. 二叉树的度为2\nB. 一棵二叉树的度可以小于2\nC. 二叉树中至少有一个结点的度为2\nD. 二叉树中任何一个结点的度都为2",
       "answer": "B",
+      "fingerprint": "8eadb5a90ca3160ef80882e2c32345af5ab6180d7d7648a631b738b94b9f106f",
+      "questionType": "choice",
+      "statementFingerprint": "stem:5cc7c39b92e58a16abee8e1095d2622452424383e8ad793f0749e843dc6c1d1e",
+      "answerText": "一棵二叉树的度可以小于2",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "二叉树的度为2"
+        },
+        {
+          "label": "B",
+          "text": "一棵二叉树的度可以小于2"
+        },
+        {
+          "label": "C",
+          "text": "二叉树中至少有一个结点的度为2"
+        },
+        {
+          "label": "D",
+          "text": "二叉树中任何一个结点的度都为2"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n在构建赫夫曼树的过程中，以下哪个操作是必须的？\nA. 合并两个权重最大的节点\nB. 合并两个权重最小的节点\nC. 随机选择两个节点合并\nD. 按照字母表顺序选择两个节点合并",
       "answer": "B",
+      "fingerprint": "22abaae17b59743f427f038c827ded120d9386475aa4581ce3122a6ec641e9b6",
+      "questionType": "choice",
+      "statementFingerprint": "stem:4f585ddb33d39c3dbf76f153fe921ffe752bbf0ff92639badb5a8a1124d6eac7",
+      "answerText": "合并两个权重最小的节点",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "合并两个权重最大的节点"
+        },
+        {
+          "label": "B",
+          "text": "合并两个权重最小的节点"
+        },
+        {
+          "label": "C",
+          "text": "随机选择两个节点合并"
+        },
+        {
+          "label": "D",
+          "text": "按照字母表顺序选择两个节点合并"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n在图的存储结构中，邻接矩阵表示法适用于哪种类型的图？\nA. 无向图\nB. 有向图\nC. 稀疏图\nD. 稠密图",
       "answer": "D",
+      "fingerprint": "b26d2d7edbf7dca2f09625863f8253b547af6ae8e01ddfa6a4a69e84dc190c0b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:2ce44e3b263ad116047f4b92a939d8f26ec83eed5d1d940f93a204c617403190",
+      "answerText": "稠密图",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "无向图"
+        },
+        {
+          "label": "B",
+          "text": "有向图"
+        },
+        {
+          "label": "C",
+          "text": "稀疏图"
+        },
+        {
+          "label": "D",
+          "text": "稠密图"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "1. 单选题\n在线索二叉树中，若一个节点的右孩子为空，那么该节点的右指针应该指向什么？\nA. 其左子节点\nB. 其右子节点\nC. 其前驱节点\nD. 其后继节点",
       "answer": "D",
-      "source": "local"
-    },
-    {
-      "stem": "1. 多选题\n以下哪些操作可以在二叉树中实现？",
-      "answer": "ABCD",
-      "source": "local"
-    },
-    {
-      "stem": "1. 多选题\n以下哪些矩阵适合使用压缩存储？",
-      "answer": "BC",
-      "source": "local"
-    },
-    {
-      "stem": "1. 判断题\n从树根到每个结点的路径长度之和叫做结点的路径长度\nA. 对\nB. 错",
-      "answer": "错",
-      "source": "local"
-    },
-    {
-      "stem": "1. 判断题\n广义表的子表可以嵌套任意多层。\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
-    },
-    {
-      "stem": "1. 判断题\n平衡二叉树指的是每个结点的左右子树的深度完全一致,保持平衡。\nA 对\nB 错",
-      "answer": "错",
-      "fingerprint": "439f6a235646ab5b2e56ae6504967337d1bc60825bc5df964a8160265df3fc9c",
-      "source": "github-issue-contribution"
-    },
-    {
-      "stem": "1. 判断题\n线索二叉树是一种特殊的二叉树，它通过给二叉树增加线索来提高查找效率。\nA. 对\nB. 错",
-      "answer": "对",
+      "fingerprint": "3dfe4daf97c04284e1eed3eb9763ae11f09d4750284674c5858fc4a3d0e59d6a",
+      "questionType": "choice",
+      "statementFingerprint": "stem:13a22824d1d5531a0ce8918640387f82a1c3d449290de8265e6c4a4c9d918a34",
+      "answerText": "其后继节点",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "其左子节点"
+        },
+        {
+          "label": "B",
+          "text": "其右子节点"
+        },
+        {
+          "label": "C",
+          "text": "其前驱节点"
+        },
+        {
+          "label": "D",
+          "text": "其后继节点"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n\n采用递归方式对顺序表进行快速排序。下列关于递归次数的叙述中,正确的是()\n\nA.\n递归次数与初始数据的排列次序无关\nB.\n每次划分后,先处理较长的分区可以减少递归次数\nC.\n每次划分后,先处理较短的分区可以减少递归次数\nD.\n递归次数与每次划分后得到的分区的处理顺序无关\nA 递归次数与初始数据的排列次序无关\nB 每次划分后,先处理较长的分区可以减少递归次数\nC 每次划分后,先处理较短的分区可以减少递归次数\nD 递归次数与每次划分后得到的分区的处理顺序无关",
       "answer": "D",
       "fingerprint": "f1d2bedd47c5c393984c3d7769649517f1df89d06f5ab85265edcc7ff7afcebc",
+      "questionType": "choice",
+      "statementFingerprint": "stem:d4f40c083d7d06aac6ced838843b80084a5d300dcf0e0fbdb7f0eca8232fc2bf",
+      "answerText": "递归次数与每次划分后得到的分区的处理顺序无关",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "递归次数与初始数据的排列次序无关"
+        },
+        {
+          "label": "B",
+          "text": "每次划分后,先处理较长的分区可以减少递归次数"
+        },
+        {
+          "label": "C",
+          "text": "每次划分后,先处理较短的分区可以减少递归次数"
+        },
+        {
+          "label": "D",
+          "text": "递归次数与每次划分后得到的分区的处理顺序无关"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n\n在多关键字排序方法中低位优先排序采用的排序算法必须是稳定的算法( )\n\nA.\n\n对\n\nB.\n\n错\nA 对\nB 错",
       "answer": "A",
       "fingerprint": "3d09841b01862df7c1d4657e2f2d6a1b8ee5a02f47907c0fb59d0810696df966",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c4a12d916ba5c17daec93a3c800a91596bad4727574f404ad4f68f51d35ce837",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n采用邻接表存储的图的深度优先遍历算法类似于二叉树的（   ）。\nA 先序遍历\nB 中序遍历\nC 后序遍历\nD 按层遍历",
       "answer": "A",
+      "fingerprint": "001e88ed063a1c0f15ca13ebcf2166fda8df2fe3f4ffb9083be31f3316cdd943",
+      "questionType": "choice",
+      "statementFingerprint": "stem:3ed22003ef950c7b86e5f1bd7b2b3bed738bd4701cfa54a112eadcdbf0dfeb5d",
+      "answerText": "先序遍历",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "先序遍历"
+        },
+        {
+          "label": "B",
+          "text": "中序遍历"
+        },
+        {
+          "label": "C",
+          "text": "后序遍历"
+        },
+        {
+          "label": "D",
+          "text": "按层遍历"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n常对数组进行的两种基本操作是____。\nA. 建立与删除\nB. 索引和修改\nC. 查找和修改\nD. 查找与索引",
       "answer": "C",
+      "fingerprint": "0df1f0643b480d96569843e51bde6af04a17ff25c16569dedaedded3492aa55e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f883458de0ecea8a3285dfec28015173647be8ec7e92160fb0e9cb1c674a341e",
+      "answerText": "查找和修改",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "建立与删除"
+        },
+        {
+          "label": "B",
+          "text": "索引和修改"
+        },
+        {
+          "label": "C",
+          "text": "查找和修改"
+        },
+        {
+          "label": "D",
+          "text": "查找与索引"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n二叉树的先序遍历序列中,任意一个结点均处在其子女结点的（    ）位置。\nA. 后面\nB. 前面\nC. 中间\nD. 不确定",
       "answer": "B",
+      "fingerprint": "bb686962b275a54a7ecbe1d3054fd40fa67bd96edb8403b9eeeafdb8c359e96b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:fa4c46956201ce4dfdb78ad6d0ed163ecd43743d6b26904cca25822d5e298323",
+      "answerText": "前面",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "后面"
+        },
+        {
+          "label": "B",
+          "text": "前面"
+        },
+        {
+          "label": "C",
+          "text": "中间"
+        },
+        {
+          "label": "D",
+          "text": "不确定"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n广义表((a,b,c,d))的表头是（ ）。\nA. a\nB. ()\nC. (a,b,c,d)\nD. (b,c,d)",
       "answer": "C",
+      "fingerprint": "8b4742862bae13cdc152d97d41983e77f8f337fd27c42578b643349a7d9593e2",
+      "questionType": "choice",
+      "statementFingerprint": "stem:55ce20c6841b1fffc5fa2528d9981012d11f9de8cea9cfc7de81ae1dc8b3ada0",
+      "answerText": "(a,b,c,d)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "a"
+        },
+        {
+          "label": "B",
+          "text": "()"
+        },
+        {
+          "label": "C",
+          "text": "(a,b,c,d)"
+        },
+        {
+          "label": "D",
+          "text": "(b,c,d)"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n广义表的元素可以是什么类型的数据？\nA. 只有原子\nB. 只有子表\nC. 既可以是原子，也可以是子表\nD. 只能是数字",
       "answer": "C",
-      "source": "local"
-    },
-    {
-      "stem": "2. 单选题\n哈夫曼编码得到的是定长编码。（   ）\nA. 对\nB. 错",
-      "answer": "错",
+      "fingerprint": "3a9c894978ab48772ece463ac60fb720a91de5d3f3243c8c80b56fda2d18df09",
+      "questionType": "choice",
+      "statementFingerprint": "stem:76b9133f1ec3ca9616ddb27cabbac4d4a2b3823e4106f1c15a406665810cd8b4",
+      "answerText": "既可以是原子，也可以是子表",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "只有原子"
+        },
+        {
+          "label": "B",
+          "text": "只有子表"
+        },
+        {
+          "label": "C",
+          "text": "既可以是原子，也可以是子表"
+        },
+        {
+          "label": "D",
+          "text": "只能是数字"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n假如一棵二叉树的中序遍历结果为ABCD，则结点A和结点D的关系一定不是（  ）\nA. 结点A是结点D的双亲结点\nB. 结点A是结点D的右子树上的结点\nC. 结点A是结点D的左子树上的结点\nD. 结点A与结点D具有共同的双亲的右子树上的结",
       "answer": "B",
+      "fingerprint": "20602baba6694d02b6a72e9b0f82b1134f8cbb86efff4784035d77b1135dca7f",
+      "questionType": "choice",
+      "statementFingerprint": "stem:61ee881b37f3fd8e329f78223b661567a23406e6c19e1007fa0e4119a84d502c",
+      "answerText": "结点A是结点D的右子树上的结点",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "结点A是结点D的双亲结点"
+        },
+        {
+          "label": "B",
+          "text": "结点A是结点D的右子树上的结点"
+        },
+        {
+          "label": "C",
+          "text": "结点A是结点D的左子树上的结点"
+        },
+        {
+          "label": "D",
+          "text": "结点A与结点D具有共同的双亲的右子树上的结"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n具有10个叶子结点的二叉树中有（  ）个度为2的结点\nA. 8\nB. 9\nC. 10\nD. 11",
       "answer": "B",
+      "fingerprint": "ed4bba180220484a6ae07da11ed5a05063cbce049e2a4ac86ed35a433ad6d6d0",
+      "questionType": "choice",
+      "statementFingerprint": "stem:bc805113217d61f1c72cbfb3f1dcd6d063f5b64d6a68a4c1de1c0af6cb322dab",
+      "answerText": "9",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n利用二叉链表存储树，则根结点的右指针是（   ）。\nA. 指向最左孩子\nB. 指向最右孩子\nC. 空\nD. 非空",
       "answer": "C",
+      "fingerprint": "d0349332ccbc44e14aeb7426a3b26cebac8331c53db9c997c75c6795ea655100",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e65a426f9317da4edfdf094cdbb7482fcc74c049041d42156f415f6d2b999910",
+      "answerText": "空",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "指向最左孩子"
+        },
+        {
+          "label": "B",
+          "text": "指向最右孩子"
+        },
+        {
+          "label": "C",
+          "text": "空"
+        },
+        {
+          "label": "D",
+          "text": "非空"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n若对n阶对称矩阵A以行序为主序方式将其下三角形的元素(包括主对角线上所有元素)依次存放于一维数组B[1..(n(n+1))/2]中，则在B中确定aij（i\nA i*(i-1)/2+j\nB j*(j-1)/2+i\nC i*(i+1)/2+j\nD j*(j+1)/2+i",
       "answer": "B",
+      "fingerprint": "2a9e07210b551cce1bd17e5ac5ab2689203d799e603d129b3c5cab53f39f78d1",
+      "questionType": "choice",
+      "statementFingerprint": "stem:0073983d97d70693a93719a1be765da3abd2fbf39bf412b48930523c8c21cf18",
+      "answerText": "j*(j-1)/2+i",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "i*(i-1)/2+j"
+        },
+        {
+          "label": "B",
+          "text": "j*(j-1)/2+i"
+        },
+        {
+          "label": "C",
+          "text": "i*(i+1)/2+j"
+        },
+        {
+          "label": "D",
+          "text": "j*(j+1)/2+i"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n三元组用来存储（  ）\nA. 稠密矩阵\nB. 稀疏矩阵\nC. 广义表\nD. 特殊矩阵",
       "answer": "B",
+      "fingerprint": "f435244c3ef3287af90fdc2ab12bd1d2d11f5cfddf3b9bf55902207c5431d5e8",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1e53d77a01de1f658b02587e3334de97095e40916051ee8de327f20290e7f8bd",
+      "answerText": "稀疏矩阵",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "稠密矩阵"
+        },
+        {
+          "label": "B",
+          "text": "稀疏矩阵"
+        },
+        {
+          "label": "C",
+          "text": "广义表"
+        },
+        {
+          "label": "D",
+          "text": "特殊矩阵"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n设串sl=″Data Structures with Java″,s2=“it″，则子串定位函数index(s1,s2)的值为（  ）\nA. 15\nB. 16\nC. 17\nD. 18",
       "answer": "D",
+      "fingerprint": "2311c2811e30a0dec0488b977350921a877e077ff0df4e852592679c6abe5bc5",
+      "questionType": "choice",
+      "statementFingerprint": "stem:49388bebeda68b4cd688ffccc22c215414a9e23d99d82b349b4204181b52564d",
+      "answerText": "18",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "17"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n设二维数组A[1.. m,1.. n](即m行n列)按行存储在数组B[1.. m*n]中,则二维数组元素A[i,j]在一维数组B中的下标为( )。\nA (i-1)*n+j\nB (i-1)*n+j-1\nC i*(j-1)\nD j*m+i-1",
       "answer": "A",
       "fingerprint": "4b2f459b399303e97d79a28f63f23ce66cc605db5b5ac977ea7a4c151b3eccbd",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c8fcfe6716e31274eb75caf412e4ff9e8b39fa9481c6a0ed2c360236edda63e3",
+      "answerText": "(i-1)*n+j",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "(i-1)*n+j"
+        },
+        {
+          "label": "B",
+          "text": "(i-1)*n+j-1"
+        },
+        {
+          "label": "C",
+          "text": "i*(j-1)"
+        },
+        {
+          "label": "D",
+          "text": "j*m+i-1"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n设哈夫曼树中的叶子结点总数为m，若用二叉链表作为存储结构，则该哈夫曼树中总共有（   ）个空指针域。\nA. 2m-1\nB. 2m\nC. 2m+1\nD. 4m",
       "answer": "B",
+      "fingerprint": "321bd618f23d592e1eb49946c3cfd64f48e36c12f12c183c55f4856f64e0cefc",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ea4b8fef8eec4f37313574a60114ee382f3c9701c45dc83dd1750b32ac33bb14",
+      "answerText": "2m",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "2m-1"
+        },
+        {
+          "label": "B",
+          "text": "2m"
+        },
+        {
+          "label": "C",
+          "text": "2m+1"
+        },
+        {
+          "label": "D",
+          "text": "4m"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n设无向图G中有n个顶点，则该无向图的最小生成树上有（   ）条边。\nA. n\nB. n-1\nC. 2n\nD. 2n-1",
       "answer": "B",
+      "fingerprint": "b18244f0430f93f9c56996931f59a0bc0b0dcdb0c17888fc4e043756e0b88320",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1bf6a1b271b4542da39dbb940b1ea9ff67622bbdb9be646946e21707ccbe87cb",
+      "answerText": "n-1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "n"
+        },
+        {
+          "label": "B",
+          "text": "n-1"
+        },
+        {
+          "label": "C",
+          "text": "2n"
+        },
+        {
+          "label": "D",
+          "text": "2n-1"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n设有两个串p和q，其中q是p的子串，求q在p中首次出现的位置的算法称为（    ）\nA. 求子串\nB. 联接\nC. 匹配\nD. 求串长",
       "answer": "A",
+      "fingerprint": "228cab10449d90ac865ccd9ab79f87aa7fa7097ba0bddd0d6becba792e2913de",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ba3e607d1f9293b27146a91c43f49de041be7719475e3f2cc37305d0b286e36a",
+      "answerText": "求子串",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "求子串"
+        },
+        {
+          "label": "B",
+          "text": "联接"
+        },
+        {
+          "label": "C",
+          "text": "匹配"
+        },
+        {
+          "label": "D",
+          "text": "求串长"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n深度为3的二叉树至多有（   ）结点\nA. 5\nB. 6\nC. 7\nD. 8",
       "answer": "C",
+      "fingerprint": "d816b3a2ead88d498c2b36ac09d90ab6ed950d9657afc0269c9c7d8e276381ae",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ae5822187c3e244307a731a2bdb9cb62a2a8930f530af5cdad25bddb3b0504ed",
+      "answerText": "7",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "5"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n深度为i的二叉树至少有(   )结点\nA. 2ˆ(i-1 )\nB. 2ˆi-1\nC. 2ˆi\nD. 2ˆi-2",
       "answer": "A",
+      "fingerprint": "41443778c009e38e039068995e6b2b2c6a6c654d366db3446e479175c7d39405",
+      "questionType": "choice",
+      "statementFingerprint": "stem:a36b51df53973a35c610aa6697b04226475aac16c6d84471e7617987679acff3",
+      "answerText": "2ˆ(i-1 )",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "2ˆ(i-1 )"
+        },
+        {
+          "label": "B",
+          "text": "2ˆi-1"
+        },
+        {
+          "label": "C",
+          "text": "2ˆi"
+        },
+        {
+          "label": "D",
+          "text": "2ˆi-2"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n试按教科书5.5节图5.10所示的结点结构编写复制广义表的递归算法。// 由广义表L复制广义表Tint CopyGList(GList& T,GList& L){    if(!L) T=NULL;    else{        T=new GLNode;        if(!T) exit(OVERFLOW);        T->tag=L->tag;        if(L->tag==ATOM) T->atom=L->atom;        else{            ____                CopyGList(T->tp,L->tp);        }    }    return OK;}\nA. CopyGList(T,L);\nB. CopyGList(L->tp,T->tp);\nC. CopyGList(L->hp,T->hp);\nD. CopyGList(T->hp,L->hp);",
       "answer": "D",
+      "fingerprint": "ba0a47a1385782b5ef0ca44f0242ff2c4f299f21016f16cbd7a59f30c357681a",
+      "questionType": "choice",
+      "statementFingerprint": "stem:83d25079e62d70aa0b04857e54338c6e2bb40844f8146f0a3101b3fe30f27011",
+      "answerText": "CopyGList(T->hp,L->hp);",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "CopyGList(T,L);"
+        },
+        {
+          "label": "B",
+          "text": "CopyGList(L->tp,T->tp);"
+        },
+        {
+          "label": "C",
+          "text": "CopyGList(L->hp,T->hp);"
+        },
+        {
+          "label": "D",
+          "text": "CopyGList(T->hp,L->hp);"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n顺序表的容量通常如何确定?\nA 根据实际需要动态分配\nB 预先分配一个固定大小\nC 根据元素个数动态调整\nD 以上都不是",
       "answer": "B",
       "fingerprint": "f2029a19ed36531bd9ecdd52f9f51a8fc35b5c4b6040c32d82390cea449099e3",
+      "questionType": "choice",
+      "statementFingerprint": "stem:bb98c3a80b89c4d84687dd456f4ff1731de10c419a00067834c69afc07c3580b",
+      "answerText": "预先分配一个固定大小",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "根据实际需要动态分配"
+        },
+        {
+          "label": "B",
+          "text": "预先分配一个固定大小"
+        },
+        {
+          "label": "C",
+          "text": "根据元素个数动态调整"
+        },
+        {
+          "label": "D",
+          "text": "以上都不是"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n下列陈述中正确的是(    )\nA. 二叉树是度为2的有序树\nB. 二叉树中结点只有一个孩子时无左右之分\nC. 二叉树中必有度为2的结点\nD. 二叉树中最多只有两棵子树，并且有左右之分",
       "answer": "D",
+      "fingerprint": "63935bd3aff8162c938a5a35b33a96b8a7bbd1aa0c18445c3c01cb698c50fb8a",
+      "questionType": "choice",
+      "statementFingerprint": "stem:22f0869940b8c2c368696f12e41714bc2bffd2903ff9eb65f0575532ac28074e",
+      "answerText": "二叉树中最多只有两棵子树，并且有左右之分",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "二叉树是度为2的有序树"
+        },
+        {
+          "label": "B",
+          "text": "二叉树中结点只有一个孩子时无左右之分"
+        },
+        {
+          "label": "C",
+          "text": "二叉树中必有度为2的结点"
+        },
+        {
+          "label": "D",
+          "text": "二叉树中最多只有两棵子树，并且有左右之分"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n下面哪种树结构不是二叉树(  )\nA. 红黑树\nB. AVL树\nC. B-Tree\nD. 哈夫曼树",
       "answer": "B",
+      "fingerprint": "aef90cd3b65baa90636ddb2fdfa97c47894f61a0761b4b58e02139d749c3f9ff",
+      "questionType": "choice",
+      "statementFingerprint": "stem:64a4138daa23be06b1deff6e04cd747c02c3dbfa5b0d5f760ac30d58d7a4e534",
+      "answerText": "AVL树",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "红黑树"
+        },
+        {
+          "label": "B",
+          "text": "AVL树"
+        },
+        {
+          "label": "C",
+          "text": "B-Tree"
+        },
+        {
+          "label": "D",
+          "text": "哈夫曼树"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n引入二叉线索树的目的是（    ）\nA. 加快查找结点的前驱或后继的速度\nB. 为了能在二叉树中方便的进行插入与删除\nC. 为了能方便的找到双亲\nD. 使二叉树的遍历结果唯一",
       "answer": "A",
+      "fingerprint": "7a652c6773985437cb9aae5b7403f3913e6f41e6453bd68da40bc3270aed794b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:da3a39fc879a3b1164f0f0298ee43d7d476d2c8d23be34c66090eeefd850568c",
+      "answerText": "加快查找结点的前驱或后继的速度",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "加快查找结点的前驱或后继的速度"
+        },
+        {
+          "label": "B",
+          "text": "为了能在二叉树中方便的进行插入与删除"
+        },
+        {
+          "label": "C",
+          "text": "为了能方便的找到双亲"
+        },
+        {
+          "label": "D",
+          "text": "使二叉树的遍历结果唯一"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n用二叉链表表示具有n个结点的二叉树时，值为空的指针域的个数为（     ）\nA. n-1\nB. n\nC. n+1\nD. 2n",
       "answer": "C",
+      "fingerprint": "39b3215daf251cc9a307f0cbb6918af745fbfb099e69e3b2ae2db0b73bf3a0f6",
+      "questionType": "choice",
+      "statementFingerprint": "stem:0181c817798d21d857443aac10c14170d4c5a94c131a8f26377a992283a79b7d",
+      "answerText": "n+1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "n-1"
+        },
+        {
+          "label": "B",
+          "text": "n"
+        },
+        {
+          "label": "C",
+          "text": "n+1"
+        },
+        {
+          "label": "D",
+          "text": "2n"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n在串的定长顺序存储表示中执行串连接操作可能会出现字符串的“截断”现象（  ）\nA. 对\nB. 错",
       "answer": "A",
+      "fingerprint": "c66f5ed0718281ffd0ec4385fff7b02209cf952aa00d1c3dd3b0e4f05f3c8820",
+      "questionType": "choice",
+      "statementFingerprint": "stem:492115b0c5e7a3d99c9abefc25c998fa9d093a116be7cbc5ede18c64d7ef5a09",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n在离散事件的模拟中，（   ）采用队列结构来实现。\nA. 到达事件和离开事件\nB. 每个窗口的客户\nC. 其它",
       "answer": "B",
+      "fingerprint": "b29d31421b64eae93b03f460689892ed04e5b514a02d1e7a1e9a479d752be759",
+      "questionType": "choice",
+      "statementFingerprint": "stem:491160bdd573af7454f721629d154f4fa545213b9c48ba492c2de3d5da339cb0",
+      "answerText": "每个窗口的客户",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "到达事件和离开事件"
+        },
+        {
+          "label": "B",
+          "text": "每个窗口的客户"
+        },
+        {
+          "label": "C",
+          "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n在数组的顺序存储中，如果已知数组的起始地址和元素大小，如何计算任意元素的地址？\nA. 起始地址 + 元素大小 * 索引\nB. 起始地址 + 索引\nC. 起始地址 + 元素大小 * (索引 - 1)\nD. 起始地址 + 索引 / 元素大小",
       "answer": "C",
+      "fingerprint": "3779d7ef9c7297bc54309eb09ddccb96528494e3a26d8c07a55467a59515f303",
+      "questionType": "choice",
+      "statementFingerprint": "stem:cb8ff1d21a47ea68ae8633c0b3ea23b5dd03e86f495f2da528c6290eec1a9924",
+      "answerText": "起始地址 + 元素大小 * (索引 - 1)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "起始地址 + 元素大小 * 索引"
+        },
+        {
+          "label": "B",
+          "text": "起始地址 + 索引"
+        },
+        {
+          "label": "C",
+          "text": "起始地址 + 元素大小 * (索引 - 1)"
+        },
+        {
+          "label": "D",
+          "text": "起始地址 + 索引 / 元素大小"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n在图的存储结构中，邻接表表示法的主要优点是什么？\nA. 节省空间\nB. 便于随机访问\nC. 便于插入和删除操作\nD. 所有选项都正确",
       "answer": "A",
+      "fingerprint": "4aa5f13f8896237252fac8877c8b174c76b2a57025d10335676a3d65a131ac9d",
+      "questionType": "choice",
+      "statementFingerprint": "stem:30c2fa2f337b897c623770f269b9f250739d7fadb857145bd5c01185aa9b34c9",
+      "answerText": "节省空间",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "节省空间"
+        },
+        {
+          "label": "B",
+          "text": "便于随机访问"
+        },
+        {
+          "label": "C",
+          "text": "便于插入和删除操作"
+        },
+        {
+          "label": "D",
+          "text": "所有选项都正确"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 单选题\n在一棵度数为4的树T中，若有20个度为4的结点，10个度为3的结点，1个度为2的结点，10个度为1的结点，则树T的叶结点个数是（  B   ）\nA. 41\nB. 82\nC. 113\nD. 122",
       "answer": "B",
-      "source": "local"
-    },
-    {
-      "stem": "2. 多选题\n二叉树遍历的方式有（ ）",
-      "answer": "ABC",
+      "fingerprint": "371c143bd739cf9449e02d95c384ef268cc0fcaf27d1babbd46577f259f2226e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b503c77a3c297de0e9719d8dca2ea746a64ad5d455a03b5894b1a7d607e82dae",
+      "answerText": "82",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "41"
+        },
+        {
+          "label": "B",
+          "text": "82"
+        },
+        {
+          "label": "C",
+          "text": "113"
+        },
+        {
+          "label": "D",
+          "text": "122"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "2. 多选题\n以下不是平衡二叉查找树的是\nA AVL树\nB 红黑树\nC B+/B-树\nD 哈夫曼树",
       "answer": "CD",
       "fingerprint": "8887f5a977164d7a9baa140fc792f38616275657b1868a954a7e7fdc47349371",
+      "questionType": "choice",
+      "statementFingerprint": "stem:a53e4111788da80f8a80a58a7ba245a298786ca028e5c7f38a0ac243df057109",
+      "answerText": "B+/B-树 | 哈夫曼树",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "AVL树"
+        },
+        {
+          "label": "B",
+          "text": "红黑树"
+        },
+        {
+          "label": "C",
+          "text": "B+/B-树"
+        },
+        {
+          "label": "D",
+          "text": "哈夫曼树"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
-    },
-    {
-      "stem": "2. 判断题\n广义表具有线性结构（    ）。\nA. 对\nB. 错",
-      "answer": "错",
-      "source": "local"
     },
     {
       "stem": "3. 单选题\n\n设一组初始记录关键字序列(5,2,6,3,8),以第一个记录关键字5为基准进行一趟快速排序的结果为\n\nA.\n2\n,3,5,8,6\nB.\n3\n,2,5,8,6\nC.\n3,2,5,6,8\nD.\n2\n,3,6,5,8\nA 2,3,5,8,6\nB 3,2,5,8,6\nC 3,2,5,6,8\nD 2,3,6,5,8",
       "answer": "C",
       "fingerprint": "06e7d2eee7f8d9e14a22a0ab77b29eba6bb5bfe94f462b33577714983c538b82",
+      "questionType": "choice",
+      "statementFingerprint": "stem:8b6daa15ef1e220562c28b427990455c664043b266dfe7e879aebf3d2197bc93",
+      "answerText": "3,2,5,6,8",
+      "optionMapSnapshot": [
+        {
+          "label": "C",
+          "text": "3,2,5,6,8"
+        },
+        {
+          "label": "A",
+          "text": "2,3,5,8,6"
+        },
+        {
+          "label": "B",
+          "text": "3,2,5,8,6"
+        },
+        {
+          "label": "D",
+          "text": "2,3,6,5,8"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "3. 单选题\n采用顺序查找方法查找长度为n的线性表时,不成功情况下的平均比较次数为( )\nA.\nn\nB.\nn/2\nC.\n(n+1)/2\nD.\n(n-1)/2\nA n\nB n/2\nC (n+1)/2\nD (n-1)/2",
       "answer": "A",
       "fingerprint": "0418c50980ec158ea31cacff41c140e7800e738b37b3cc2330e8873937d0c246",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f17145545ee8b1fde4d3c0eb32505a3524f8e7ea7882e54c86b6fbb95ef396e0",
+      "answerText": "n",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "n"
+        },
+        {
+          "label": "B",
+          "text": "n/2"
+        },
+        {
+          "label": "C",
+          "text": "(n+1)/2"
+        },
+        {
+          "label": "D",
+          "text": "(n-1)/2"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "3. 单选题\n对于一个具有n个顶点的无向图,若采用邻接矩阵表示,则该矩阵的大小为\nA. n ×n\nB. (n-1)× (n-1)\nC. (n-1)×n\nD. n×(n+1)",
       "answer": "A",
+      "fingerprint": "a79d16f0c2322ed4898d2ca67450e8a9583f50d93e2b593e283d6502b713478f",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b6d09e7c35914c4da368e5f925ae0fc27b8a3f5967251bd209126b1aaaed20f6",
+      "answerText": "n ×n",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "n ×n"
+        },
+        {
+          "label": "B",
+          "text": "(n-1)× (n-1)"
+        },
+        {
+          "label": "C",
+          "text": "(n-1)×n"
+        },
+        {
+          "label": "D",
+          "text": "n×(n+1)"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n二叉树的先序遍历和中序遍历如下： 先序遍历：EFHIGJK；中序遍历: HFIEJKG 。该二叉树根的右子树的根是\nA. E\nB. F\nC. G\nD. H",
       "answer": "C",
+      "fingerprint": "b08e4f4b5bf7d6ac35989a80537a7286a576468c5bfb3e072095dc4f54463f6e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:24019c1ccf47af7e5a98860efe01b2f04e09684e9ca6dcb2b8424908ca4963d1",
+      "answerText": "G",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "E"
+        },
+        {
+          "label": "B",
+          "text": "F"
+        },
+        {
+          "label": "C",
+          "text": "G"
+        },
+        {
+          "label": "D",
+          "text": "H"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n赫夫曼编码中，节点的权重是如何决定的？\nA. 随机分配\nB. 根据字符出现的频率\nC. 根据字符的ASCII值\nD. 按照字母表顺序",
       "answer": "B",
-      "source": "local"
-    },
-    {
-      "stem": "3. 单选题\n若一个广义表的表尾为空表，则此广义表亦为空表。 （   ）\nA. 对\nB. 错",
-      "answer": "错",
+      "fingerprint": "80379ee049ceb86f732af113ba0c922dc32ca270149f667d9bfb7c875a7bf95c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c45d9d8123eb3406994cae4054f186342a4e2030fec4d214dce46df0ce401df5",
+      "answerText": "根据字符出现的频率",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "随机分配"
+        },
+        {
+          "label": "B",
+          "text": "根据字符出现的频率"
+        },
+        {
+          "label": "C",
+          "text": "根据字符的ASCII值"
+        },
+        {
+          "label": "D",
+          "text": "按照字母表顺序"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n若一棵具有n个结点的二叉树采用二叉链表存储结构,那么该二叉树所有结点共有（   ）个空指针域。\nA. n+1\nB. n\nC. n-1\nD. n-2",
       "answer": "A",
+      "fingerprint": "adc0888b10d4570ff06c60d8e9f04cad37bef8d8cc8579d15f87ea89817db7a4",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e1183c136043b4314d593529219798c1d2581c623dd5f069507888d1277f42da",
+      "answerText": "n+1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "n+1"
+        },
+        {
+          "label": "B",
+          "text": "n"
+        },
+        {
+          "label": "C",
+          "text": "n-1"
+        },
+        {
+          "label": "D",
+          "text": "n-2"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n设 n行n列的下三角矩阵A已压缩到一维数组B[0..n*（n+1）/2-1]中，若按行为主序存储，则A[i,j](i>=j)对应的B中存储位置为_______。\nA. i(i-1)/2+j-1\nB. i*i/2+j\nC. i*i/2+j-1\nD. 其它",
       "answer": "A",
+      "fingerprint": "3aba5a38500da1d642dd06b2c0f0059225773f9c650cfae7bb4191a005b31e18",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7f20b93d77c3a648ceaa159ffac1f046323883f97b1090f667b9341f2364c527",
+      "answerText": "i(i-1)/2+j-1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "i(i-1)/2+j-1"
+        },
+        {
+          "label": "B",
+          "text": "i*i/2+j"
+        },
+        {
+          "label": "C",
+          "text": "i*i/2+j-1"
+        },
+        {
+          "label": "D",
+          "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n设广义表L=（（a,b,c）），则L的长度和深度分别为（   ）。\nA. 1和1\nB. 1和3\nC. 1和2\nD. 2和3",
       "answer": "C",
+      "fingerprint": "4da68bc80f15ece41e4ad28b1456749d4713fb506a78756bdc7798931beacf96",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ee89166a45de22f62dc1a6effdb735a48f725160cfdf8330187d4ec2f44b8c1d",
+      "answerText": "1和2",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "1和1"
+        },
+        {
+          "label": "B",
+          "text": "1和3"
+        },
+        {
+          "label": "C",
+          "text": "1和2"
+        },
+        {
+          "label": "D",
+          "text": "2和3"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n设有数组A[i,j],数组的每个元素长度为3字节,i的值为1到8,j的值为1到10,数组从内存首地址BA开始顺序存放,当用以列为主存放时,元素A[5,8]的存储首地址为( )。\nA BA+141\nB BA+180\nC BA+222\nD BA+225",
       "answer": "B",
       "fingerprint": "df773464e8effa44d18601a3feb0db9be0a413028f89c61e32a90f131800112d",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e29b61bd8143d3b103a534bb0e3e49795761c6f388ef65d753b31bd3c95cd9bc",
+      "answerText": "BA+180",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "BA+141"
+        },
+        {
+          "label": "B",
+          "text": "BA+180"
+        },
+        {
+          "label": "C",
+          "text": "BA+222"
+        },
+        {
+          "label": "D",
+          "text": "BA+225"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "3. 单选题\n试写一个算法，为一棵二叉树建立后序线索二叉树。Status PostOrderThreading(BiThrTree& T,BiThrTree& pre);//首先建立后序线索树Status FindNextInBiThrTree(BiThrTree& q,TElemType *p);//再进行查找// 后序线索二叉树的算法Status PostOrderThreading(BiThrTree& Thrt,BiThrTree& T){    BiThrTree pre;    Thrt=new BiThrNode; // 为线索二叉树建立头结点    if(!Thrt) exit(OVERFLOW);    Thrt->LTag=Link;    Thrt->RTag=Thread;    Thrt->rchild=Thrt;// 右子树回指    if(!T) Thrt->lchild=Thrt;// 若二叉树空，左子树回指    else{        Thrt->lchild=T;        pre=Thrt;        PostThreading(T,pre); // 后序遍历进行后序线索化        pre->rchild=Thrt;// 最后一个结点线索化        pre->RTag=Thread;        Thrt->rchild=pre;    }    return OK;}Status PostThreading(BiThrTree& T,BiThrTree& pre){    if(T){        if(T->LTag==Link) PostThreading(T->lchild,pre);        if(T->RTag==Link) PostThreading(T->rchild,pre);        if(!T->lchild){            T->LTag=Thread;             ____            }        if(pre && !pre->rchild){            pre->RTag=Thread;            pre->rchild=T;        }        pre=T;    }    return OK;}\nA. T->lchild=pre;\nB. pre->lchild=T;\nC. T->rchild=pre;\nD. pre->rchild=T;",
       "answer": "A",
+      "fingerprint": "3ad82c258e8bbd1002652f3e861cebf5665d578bd98eff2ee391c2a4e8014eb8",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c41e7b73f829805fd5a2621b557b13e8ba42cf0ef50cc1b13438902d41734c01",
+      "answerText": "T->lchild=pre;",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "T->lchild=pre;"
+        },
+        {
+          "label": "B",
+          "text": "pre->lchild=T;"
+        },
+        {
+          "label": "C",
+          "text": "T->rchild=pre;"
+        },
+        {
+          "label": "D",
+          "text": "pre->rchild=T;"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n树最适合用来表示\nA. 有序数据元素\nB. 无序数据元素\nC. 元素之间具有分支层次关系的数据\nD. 元素之间无联系的数据",
       "answer": "C",
+      "fingerprint": "9d9598544f8298ed39acf69cba051a25c9bce1795896f128bc1d433c4c1af217",
+      "questionType": "choice",
+      "statementFingerprint": "stem:3e85f3b483c499691ddedb30af48d2eac7f995b2c408727af4daeec6ae0d0325",
+      "answerText": "元素之间具有分支层次关系的数据",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "有序数据元素"
+        },
+        {
+          "label": "B",
+          "text": "无序数据元素"
+        },
+        {
+          "label": "C",
+          "text": "元素之间具有分支层次关系的数据"
+        },
+        {
+          "label": "D",
+          "text": "元素之间无联系的数据"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n顺着某一条搜索路径巡访二叉树中的结点，使得每个结点均被访问一次，而且仅被访问一次称作二叉树的（ ）\nA. 遍历\nB. 游览\nC. 浏览\nD. 查询",
       "answer": "A",
+      "fingerprint": "ee3c874425f5e7a8131faf8e9ee6dc0afa3a459c66188a4fdf6563e01470055c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1e943430d7de27de4c093321c5a7b9436a0c9714a39adc6023c536c149feccf1",
+      "answerText": "遍历",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "遍历"
+        },
+        {
+          "label": "B",
+          "text": "游览"
+        },
+        {
+          "label": "C",
+          "text": "浏览"
+        },
+        {
+          "label": "D",
+          "text": "查询"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n图的广度优先遍历算法需要采用（    ）结构来实现。\nA 栈\nB 队列\nC 链表\nD 其它",
       "answer": "B",
+      "fingerprint": "ff15c29291c224fdd1794f86ade9d1efdcf5a5b6c1d335fb2fc31e8f0a35d88c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ddeb325d15f309bf31cfa979efa4da202b7984c7f33855bbff4ec22add70839b",
+      "answerText": "队列",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "栈"
+        },
+        {
+          "label": "B",
+          "text": "队列"
+        },
+        {
+          "label": "C",
+          "text": "链表"
+        },
+        {
+          "label": "D",
+          "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n下面关于串的叙述中，哪一个是不正确的？（    ）\nA. 串是字符的有限序列\nB. 空串是由空格构成的串\nC. 模式匹配是串的一种重要运算\nD. 串既可以采用顺序存储，也可以采用链式存储",
       "answer": "B",
+      "fingerprint": "dee2a960b41a8ad9e28b7a2eaf67e9c3b878afc6e6251407a4d5fdec2e73998f",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9e06b857c65f924729a4b1de63b3896f07ca23e616dc4b5d4a22d8963614ff7c",
+      "answerText": "空串是由空格构成的串",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "串是字符的有限序列"
+        },
+        {
+          "label": "B",
+          "text": "空串是由空格构成的串"
+        },
+        {
+          "label": "C",
+          "text": "模式匹配是串的一种重要运算"
+        },
+        {
+          "label": "D",
+          "text": "串既可以采用顺序存储，也可以采用链式存储"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n下面结构中最适于表示稀疏有向图的是（    ）。\nA. 邻接矩阵\nB. 逆邻接表\nC. 邻接多重表\nD. 十字链表",
       "answer": "D",
+      "fingerprint": "35d2b4d7a1dfabf26c1c0238b8007edabeeee48e9e52645c102b95acea088776",
+      "questionType": "choice",
+      "statementFingerprint": "stem:39a08a9a1822982fe620d6fdc9dd5ed1326e8aac82cc9d77dfc5b2c5f140d970",
+      "answerText": "十字链表",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "邻接矩阵"
+        },
+        {
+          "label": "B",
+          "text": "逆邻接表"
+        },
+        {
+          "label": "C",
+          "text": "邻接多重表"
+        },
+        {
+          "label": "D",
+          "text": "十字链表"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n由权值分别为3，8，6，2，5的叶子结点生成一棵哈夫曼树，它的带权路径长度为(    )\nA. 24\nB. 48\nC. 72\nD. 53",
       "answer": "D",
+      "fingerprint": "b0602ad779e32f3eafa714f55190a7bc72730bbf287280fcbfb35e7b324be207",
+      "questionType": "choice",
+      "statementFingerprint": "stem:beeff32309d7ff19669e7a3246ef448046990f2becdebb31743073458a5671e1",
+      "answerText": "53",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "24"
+        },
+        {
+          "label": "B",
+          "text": "48"
+        },
+        {
+          "label": "C",
+          "text": "72"
+        },
+        {
+          "label": "D",
+          "text": "53"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\n执行（  ）操作时，需要使用队列做辅助存储空间。\nA. 查找哈希（Hash）表\nB. 广度优先搜索网\nC. 前序（根）遍历二叉树\nD. 深度优先搜索网",
       "answer": "B",
+      "fingerprint": "ac86036bc4e558757e225b87160ba50081510ff0594eebb4fece41dbc4c59b01",
+      "questionType": "choice",
+      "statementFingerprint": "stem:2e75c6cf037776d36aaef0a5e3302f6d3627e828e4e51043411bf933cc5f3969",
+      "answerText": "广度优先搜索网",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "查找哈希（Hash）表"
+        },
+        {
+          "label": "B",
+          "text": "广度优先搜索网"
+        },
+        {
+          "label": "C",
+          "text": "前序（根）遍历二叉树"
+        },
+        {
+          "label": "D",
+          "text": "深度优先搜索网"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\nC语言中提供的串类型以（   ）存储方式实现。\nA. 定长顺序\nB. 堆\nC. 其它",
       "answer": "B",
+      "fingerprint": "b60d5a4192d558cd3aae7d0a00ebdb606ef5d7024296e903e9cf40e3e67c5314",
+      "questionType": "choice",
+      "statementFingerprint": "stem:433347acf3443f341c3a3597429271478a6b6b488855cf399df472a1c0228e2c",
+      "answerText": "堆",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "定长顺序"
+        },
+        {
+          "label": "B",
+          "text": "堆"
+        },
+        {
+          "label": "C",
+          "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "3. 单选题\nn个顶点的连通图的生成树有（  ）条边\nA. n\nB. n-1\nC. n+1\nD. 不确定",
       "answer": "B",
+      "fingerprint": "69eb7f22a19a8220c375b35552b0a994d63ae6f6d34e68d63de67e7f13050010",
+      "questionType": "choice",
+      "statementFingerprint": "stem:3eeda5db5e0744f6d764b01b3d6abd56780a7e08908fad051e0ff330a2184714",
+      "answerText": "n-1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "n"
+        },
+        {
+          "label": "B",
+          "text": "n-1"
+        },
+        {
+          "label": "C",
+          "text": "n+1"
+        },
+        {
+          "label": "D",
+          "text": "不确定"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
-    },
-    {
-      "stem": "3. 多选题\n二叉树可以是（ )",
-      "answer": "ABCD",
-      "source": "local"
-    },
-    {
-      "stem": "3. 多选题\n广义表的定义包含哪些元素？",
-      "answer": "BCD",
-      "source": "local"
-    },
-    {
-      "stem": "3. 多选题\n在图的存储结构中，哪些因素会影响存储空间的大小？",
-      "answer": "ABC",
-      "source": "local"
-    },
-    {
-      "stem": "3. 判断题\n满二叉树指的是深度为k且含有2k-1个结点的二叉树\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
-    },
-    {
-      "stem": "3. 判断题\n数组的顺序表示中，每个元素的存储位置是连续的。\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
-    },
-    {
-      "stem": "3. 判断题\n顺序表的插入操作总是需要移动大量元素。\nA 对\nB 错",
-      "answer": "错",
-      "fingerprint": "45cc28e2fedb5295102682124b6c905606d5dc718f13cbcfeec57c4240c66244",
-      "source": "github-issue-contribution"
-    },
-    {
-      "stem": "3. 判断题\n在二叉树的前序遍历中，节点的访问顺序是根-左-右。\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
-    },
-    {
-      "stem": "3. 判断题\n在平衡二叉树中,插入一个新节点后,树可能不再是平衡的,因此需要进行旋转操作来恢复平衡。\nA 对\nB 错",
-      "answer": "对",
-      "fingerprint": "c0a8fce6dbd962c517bd335e43fee1249cebc92c88e78fe605c86197c03c7675",
-      "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n根据使用频率为5个字符设计的哈夫曼编码不可能是（  ）\nA. 000，001，010，011，1\nB. 0000，0001，001，01，1\nC. 000，001，01，10，11\nD. 00，100，101，110，111",
       "answer": "D",
+      "fingerprint": "ee28ef42693748d4292bc565dc2741d5fcfacff3f12d8d49f47d023199aad065",
+      "questionType": "choice",
+      "statementFingerprint": "stem:2ce95ee762cec5b399f179ae13c6a125d44533a73b1b52c0bde39b1d373e5890",
+      "answerText": "00，100，101，110，111",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "000，001，010，011，1"
+        },
+        {
+          "label": "B",
+          "text": "0000，0001，001，01，1"
+        },
+        {
+          "label": "C",
+          "text": "000，001，01，10，11"
+        },
+        {
+          "label": "D",
+          "text": "00，100，101，110，111"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n广义表是 （   ）的推广。\nA. 数组\nB. 线性表\nC. 队列\nD. 树",
       "answer": "B",
-      "source": "local"
-    },
-    {
-      "stem": "4. 单选题\n具有 n 个结点的完全二叉树的深度为（ )\nA.\nB.\nC.\nD.",
-      "answer": "B",
+      "fingerprint": "420b9fecdd5ff144024eea279e56f79bfb2a595da7cdc5a3fe9de48a1ed7c080",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7399ba2836bd23aa8d28309c53e52676c2f277c37836a9050731274ed8865cbb",
+      "answerText": "线性表",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "数组"
+        },
+        {
+          "label": "B",
+          "text": "线性表"
+        },
+        {
+          "label": "C",
+          "text": "队列"
+        },
+        {
+          "label": "D",
+          "text": "树"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n设一组初始关键字记录关键字为(20,15,14,18,21,36,40,10),则以20为基准记录的一趟快速排序结束后的结果为( )。\nA.\n10,15,14,18,20,36,40,21\nB.\n10,15,14,18,20,40,36,21\nC.\n10,15,14,20,18,40,36,2l\nD.\n15,10,14,18,20,36,40,21\nA 10,15,14,18,20,36,40,21\nB 10,15,14,18,20,40,36,21\nC 10,15,14,20,18,40,36,2l\nD 15,10,14,18,20,36,40,21",
       "answer": "A",
       "fingerprint": "8a0970e2eb22bdd14075353e110d1534707b38a6be8d9e6aef8d8d6884cf0744",
+      "questionType": "choice",
+      "statementFingerprint": "stem:eed2e4eeec0589ad0b5e51362f3fce4d5cad2920f8002e3eb1d9e2764209d1dc",
+      "answerText": "10,15,14,18,20,36,40,21",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "10,15,14,18,20,36,40,21"
+        },
+        {
+          "label": "B",
+          "text": "10,15,14,18,20,40,36,21"
+        },
+        {
+          "label": "C",
+          "text": "10,15,14,20,18,40,36,2l"
+        },
+        {
+          "label": "D",
+          "text": "15,10,14,18,20,36,40,21"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n顺序表的哪些操作需要进行元素的移动?\nA 插入操作\nB 删除操作\nC 插入和删除操作\nD 以上都不是",
       "answer": "C",
       "fingerprint": "3913587d26155a9c63378f872404b9c6eeb92fba556827140325cc774608301b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:293e419476f20056c74061e95b69839951d8fcfc3ba46f13676002c4459d4378",
+      "answerText": "插入和删除操作",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "插入操作"
+        },
+        {
+          "label": "B",
+          "text": "删除操作"
+        },
+        {
+          "label": "C",
+          "text": "插入和删除操作"
+        },
+        {
+          "label": "D",
+          "text": "以上都不是"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n图中的简单路径指的是（ ）\nA 图序列中顶点不重复出现的路径\nB 图序列中第一个顶点和最后一个顶点相同，其他顶点不重复出现的路径\nC 图序列中第一个顶点和最后一个顶点相同的路径\nD 图序列中最短的路径",
       "answer": "A",
+      "fingerprint": "235f1d46fcbdafbee0245b6413c273540455cfcf62c6af4b621049d6735a1ac0",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f5628336509e92bd4cd507f78517995b1dd163ad74253674702a7a921b648bf8",
+      "answerText": "图序列中顶点不重复出现的路径",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "图序列中顶点不重复出现的路径"
+        },
+        {
+          "label": "B",
+          "text": "图序列中第一个顶点和最后一个顶点相同，其他顶点不重复出现的路径"
+        },
+        {
+          "label": "C",
+          "text": "图序列中第一个顶点和最后一个顶点相同的路径"
+        },
+        {
+          "label": "D",
+          "text": "图序列中最短的路径"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n下面结构中最适于表示稀疏无向图的是（    ）。\nA. 邻接矩阵\nB. 逆邻接表\nC. 邻接多重表\nD. 十字链表",
       "answer": "C",
+      "fingerprint": "9a43d6326bab9e1987476914570f95a3bb9fba630a24b3373528d7709d34bc00",
+      "questionType": "choice",
+      "statementFingerprint": "stem:436c311baacdfc234bd95edad66972764118062a05652b76e536ba85cbe1e022",
+      "answerText": "邻接多重表",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "邻接矩阵"
+        },
+        {
+          "label": "B",
+          "text": "逆邻接表"
+        },
+        {
+          "label": "C",
+          "text": "邻接多重表"
+        },
+        {
+          "label": "D",
+          "text": "十字链表"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n一棵二叉树的前序遍历序列为ABCDEFG，它的中序遍历序列可能是\nA. CABDEFG\nB. ABCDEFG\nC. DACEFBG\nD. ADCFEG",
       "answer": "B",
+      "fingerprint": "95694c65db5460af32954e420a975e1b101cfed96c14bf102ce7624e5c78ef71",
+      "questionType": "choice",
+      "statementFingerprint": "stem:53f46217ae1c2dffa91c2557f8b83694a3835fb3bc7e0d55acc08e03eb832111",
+      "answerText": "ABCDEFG",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "CABDEFG"
+        },
+        {
+          "label": "B",
+          "text": "ABCDEFG"
+        },
+        {
+          "label": "C",
+          "text": "DACEFBG"
+        },
+        {
+          "label": "D",
+          "text": "ADCFEG"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n一棵二叉树中有7个叶子结点和5个单分支结点，其总共有（  ）结点。\nA. 16\nB. 18\nC. 12\nD. 31",
       "answer": "B",
+      "fingerprint": "18d73de791b34523fff6d968c471922dee1d0bf86d9f154da54e9f5edc38e0c1",
+      "questionType": "choice",
+      "statementFingerprint": "stem:49632d39ead2eca8a041255ecdd6afe1e73812f4d3b0e76a39bbb3cd806653d6",
+      "answerText": "18",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "12"
+        },
+        {
+          "label": "D",
+          "text": "31"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n一棵哈夫曼树有17个结点，则其叶子结点的个数是____。\nA. 7\nB. 8\nC. 9\nD. 10",
       "answer": "C",
+      "fingerprint": "80a9f6b9d891450b8dce885fef39f5d919e9888a5b4adc1020bce35b6bb23e45",
+      "questionType": "choice",
+      "statementFingerprint": "stem:56e30f74fd353d4f239537ddbaac51ffe41f1a30bc63751a8f6aa060ff65077c",
+      "answerText": "9",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n已知一棵二叉树的前序遍历结果为ABCDEF,中序遍历结果为CBAEDF,则后序遍历的结果为（     ）。\nA. CBEFDA\nB. FEDCBA\nC. CBEDFA\nD. 不确定",
       "answer": "A",
+      "fingerprint": "3a86a7dccac88205b02a70863f58f21a3b36627620af90c8521162bea4b0c0dc",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7d7cd2874736331ff2ee5b3e133290fa701693fb9231a336683bf045ebaa14c1",
+      "answerText": "CBEFDA",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "CBEFDA"
+        },
+        {
+          "label": "B",
+          "text": "FEDCBA"
+        },
+        {
+          "label": "C",
+          "text": "CBEDFA"
+        },
+        {
+          "label": "D",
+          "text": "不确定"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n以下排序方法中,( )不需要进行关键字的比较。\nA.\n归并排序\nB.\n基数排序\nC.\n堆排序\nD.\n快速排序\nA 归并排序\nB 基数排序\nC 堆排序\nD 快速排序",
       "answer": "B",
       "fingerprint": "2ac05397bde172a9bd96416b8dfbb068fd8ced6246655176c2f8d0147b3e36b3",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9de097b9fc5369a6e9051e768aa23a92c91dae5ac041161bb9c35b044d362f3f",
+      "answerText": "基数排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "归并排序"
+        },
+        {
+          "label": "B",
+          "text": "基数排序"
+        },
+        {
+          "label": "C",
+          "text": "堆排序"
+        },
+        {
+          "label": "D",
+          "text": "快速排序"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
-    },
-    {
-      "stem": "4. 单选题\n用链表存储时，通常一个结点中可以存放一个字符，也可以存放多个字符。（   ）\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
     },
     {
       "stem": "4. 单选题\n用邻接表存储图所用所用的空间大小（  ）\nA. 与图的顶点和边数有关\nB. 只与图的边数有关\nC. 只与图的顶点数有关\nD. 与边数的平方有关",
       "answer": "A",
+      "fingerprint": "931abfe6a5175a714cdfe5384110b8b3254e66de13b38632b2601ff0abbea002",
+      "questionType": "choice",
+      "statementFingerprint": "stem:53f2a7c3bbc14f5adb3585df58709fc6cf38cddc7375594e6f70474cb38f6e15",
+      "answerText": "与图的顶点和边数有关",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "与图的顶点和边数有关"
+        },
+        {
+          "label": "B",
+          "text": "只与图的边数有关"
+        },
+        {
+          "label": "C",
+          "text": "只与图的顶点数有关"
+        },
+        {
+          "label": "D",
+          "text": "与边数的平方有关"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n在图的存储结构中，哪种表示法可以方便地获取图中所有顶点的度数？\nA. 邻接矩阵\nB. 邻接表\nC. 边列表\nD. 所有选项都可以",
       "answer": "A",
+      "fingerprint": "47b27a843bfec2325bcad20dcf581767fa80d00d434f6b9b9e6c09ad422a8eb9",
+      "questionType": "choice",
+      "statementFingerprint": "stem:fe5aec6c81a0c688a975dce262c04df98968fbf70d678147186de00d05a0e298",
+      "answerText": "邻接矩阵",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "邻接矩阵"
+        },
+        {
+          "label": "B",
+          "text": "邻接表"
+        },
+        {
+          "label": "C",
+          "text": "边列表"
+        },
+        {
+          "label": "D",
+          "text": "所有选项都可以"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n在一棵具有5层的满二叉树中结点总数为( )。\nA. 31\nB. 32\nC. 33\nD. 16",
       "answer": "A",
+      "fingerprint": "7578d5b7d8569ed6936466d69ffb920b72858b951e923bb5b2deee2b07705d13",
+      "questionType": "choice",
+      "statementFingerprint": "stem:96e511b252387877ddd20f4a2d99e2d9c56010fb290415cf95e437542d90a3f9",
+      "answerText": "31",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "31"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "33"
+        },
+        {
+          "label": "D",
+          "text": "16"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 单选题\n在以下的叙述中，正确的是  ( )  。\nA. 线性表的顺序存储结构优于链表存储结构\nB. 二维数组是其数据元素为线性表的线性表\nC. 栈的操作方式是先进先出\nD. 队列的操作方式是先进后出",
       "answer": "B",
-      "source": "local"
-    },
-    {
-      "stem": "4. 多选题\n线索二叉树的线索化方法有哪些？",
-      "answer": "ABC",
+      "fingerprint": "0fc4b3b1f1a92e5ea0fdc8ca399ede61337c16aea0c38faf98c6451eb1bc74f5",
+      "questionType": "choice",
+      "statementFingerprint": "stem:08d984b59e2c483eb24df95388098f6a6ac2b05843ab5bda39fa1629c94e255d",
+      "answerText": "二维数组是其数据元素为线性表的线性表",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "线性表的顺序存储结构优于链表存储结构"
+        },
+        {
+          "label": "B",
+          "text": "二维数组是其数据元素为线性表的线性表"
+        },
+        {
+          "label": "C",
+          "text": "栈的操作方式是先进先出"
+        },
+        {
+          "label": "D",
+          "text": "队列的操作方式是先进后出"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "4. 多选题\n以下哪些是平衡二叉树的性质?\nA 所有叶子节点都在同一层\nB 任意节点的左子树和右子树的高度差不超过1\nC 节点的值按照从左到右的顺序排列\nD 每个节点的值都大于其左子树中所有节点的值,且小于其右子树中所有节点的值",
       "answer": "BCD",
       "fingerprint": "38764d3044ceee77e8891b071b732588c6c8a67352eb8099f8d410dbc9f835af",
+      "questionType": "choice",
+      "statementFingerprint": "stem:02446034b5193f4847a5b7e8bb92bca44b4c03a6ab5803d8b7f7ff7403652e03",
+      "answerText": "任意节点的左子树和右子树的高度差不超过1 | 节点的值按照从左到右的顺序排列 | 每个节点的值都大于其左子树中所有节点的值,且小于其右子树中所有节点的值",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "所有叶子节点都在同一层"
+        },
+        {
+          "label": "B",
+          "text": "任意节点的左子树和右子树的高度差不超过1"
+        },
+        {
+          "label": "C",
+          "text": "节点的值按照从左到右的顺序排列"
+        },
+        {
+          "label": "D",
+          "text": "每个节点的值都大于其左子树中所有节点的值,且小于其右子树中所有节点的值"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
-    },
-    {
-      "stem": "4. 判断题\n动态数组在插入元素时，如果空间不足，需要重新分配内存并复制原有元素到新内存空间。\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
-    },
-    {
-      "stem": "4. 判断题\n使用压缩存储表示稀疏矩阵时，可以通过遍历非零元素来快速计算矩阵的和。\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
-    },
-    {
-      "stem": "4. 判断题\n完全二叉树指的是树中所含的 n 个结点和满二叉树中编号为 1 至 n 的结点一一对应\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
-    },
-    {
-      "stem": "4. 判断题\n在二叉树中，每个节点最多有两个子节点。\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
     },
     {
       "stem": "5. 单选题\n\n若用冒泡排序对关键字序列{10,8,6,4,2},进行从小到大的排序,所需进行的关键字比较总次数是\n\nA.\n10\nB.\n20\nC.\n25\nD.\n15\nA 10\nB 20\nC 25\nD 15",
       "answer": "A",
       "fingerprint": "a57859f5de4e7081a5f63d13de6eabfc2f60d4a16c8ee4021e24f6bbe3273091",
+      "questionType": "choice",
+      "statementFingerprint": "stem:4a48b195d39efb409988fef2c5a004e67b781fff7d34c032dc5a99587194a405",
+      "answerText": "10",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "25"
+        },
+        {
+          "label": "D",
+          "text": "15"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "5. 单选题\n二维数组A的每个元素是由10个字符组成的串,其行下标i=0,1,...,8,列下标j=1,2,...,10。若A按行先存储,元素A[8,5]的起始地址与当A按列先存储时的元素( )的起始地址相同。设每个字符占一个字节。\nA A[8,5]\nB A[3,10]\nC A[5,8]\nD A[0,9]",
       "answer": "B",
       "fingerprint": "a2879b34dc9cb06189cb2dd4ebd48cb0c0f8f430b4fb3316fc5643bc3e6b6780",
+      "questionType": "choice",
+      "statementFingerprint": "stem:808272027b873ea6f03c4b337e61e2aed98ff258d9bc41c898ab33d4dbdd5109",
+      "answerText": "A[3,10]",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "A[8,5]"
+        },
+        {
+          "label": "B",
+          "text": "A[3,10]"
+        },
+        {
+          "label": "C",
+          "text": "A[5,8]"
+        },
+        {
+          "label": "D",
+          "text": "A[0,9]"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "5. 单选题\n赫夫曼编码算法的时间复杂度是多少？\nA. O(n)\nB. O(nlogn)\nC. O(n^2)\nD. O(logn)",
       "answer": "B",
+      "fingerprint": "8467a4c60109fb71cedbe3f7c4d2bc5dae4cab4ab240323698ad814ae1f551c0",
+      "questionType": "choice",
+      "statementFingerprint": "stem:4da331c81c7d9c5d1b734bf17c6a725ccdcaccbc02745abdd1ae7a72a044083f",
+      "answerText": "O(nlogn)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "O(n)"
+        },
+        {
+          "label": "B",
+          "text": "O(nlogn)"
+        },
+        {
+          "label": "C",
+          "text": "O(n^2)"
+        },
+        {
+          "label": "D",
+          "text": "O(logn)"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "5. 单选题\n假设有二维数组A6×8，每个元素用相邻的6个字节存储，存储器按字节编址。已知A的起始存储位置为1000，计算数组A按行存储时元素A[1][4]第一个字节的位置,下标从0开始（  ）\nA. 1018\nB. 1024\nC. 1030\nD. 1072",
       "answer": "D",
+      "fingerprint": "babbe691edd41134019084619e8fd7364c7c7cff698791bff2a16e17f77ad520",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e1bfe67fb08d3e6cc268d743c8a810fa31055cba4f0c35a81eef58e38cb4fb9e",
+      "answerText": "1072",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "1018"
+        },
+        {
+          "label": "B",
+          "text": "1024"
+        },
+        {
+          "label": "C",
+          "text": "1030"
+        },
+        {
+          "label": "D",
+          "text": "1072"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "5. 单选题\n设某哈夫曼树中有199个结点，则该哈夫曼树中有（  ）个叶子结点\nA. 99\nB. 100\nC. 101\nD. 102",
       "answer": "B",
+      "fingerprint": "047e0212012ab7ff11f0664088587df809bab008f8cb23a0feb3b46333e63de0",
+      "questionType": "choice",
+      "statementFingerprint": "stem:8dda26a4fe46089a72c2cc73c9bd93bbb2f9ec5d9f4b89081ffa21aa827c4b7b",
+      "answerText": "100",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "99"
+        },
+        {
+          "label": "B",
+          "text": "100"
+        },
+        {
+          "label": "C",
+          "text": "101"
+        },
+        {
+          "label": "D",
+          "text": "102"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "5. 单选题\n深度为5的二叉树至多有    个结点\nA. 16\nB. 32\nC. 31\nD. 10",
       "answer": "C",
+      "fingerprint": "dba21941064ed07b53def97edc5de7759a2c338022794ba8a6e92e458a759a3b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:701d9da662a02843233f758df2cc1e096b1a8c006006f3e66e4d8643b3b118a9",
+      "answerText": "31",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "31"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "5. 单选题\n图的深度优先遍历算法类似于二又树的算法( )\nA. 先序遍历\nB. 中序遍历\nC. 后序遍历\nD. 层次遍历",
       "answer": "A",
+      "fingerprint": "124c70ab3ec61bf336987695c627673f83497eb7728886be2f200c094e7b2b47",
+      "questionType": "choice",
+      "statementFingerprint": "stem:71546d2caea93ed7951155aaeca22af4ecdb57f4d52b498675e59640af4a2382",
+      "answerText": "先序遍历",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "先序遍历"
+        },
+        {
+          "label": "B",
+          "text": "中序遍历"
+        },
+        {
+          "label": "C",
+          "text": "后序遍历"
+        },
+        {
+          "label": "D",
+          "text": "层次遍历"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "5. 单选题\n线索二叉树中，线索节点的指针域通常用于存储什么类型的信息？\nA. 节点的键值\nB. 节点的平衡因子\nC. 节点的前驱或后继节点的指针\nD. 节点的颜色（用于红黑树）",
       "answer": "C",
-      "source": "local"
-    },
-    {
-      "stem": "5. 单选题\n一个有向图的邻接矩阵中各非零元素之和与图中边的条数相等。（  ）\nA. 对\nB. 错",
-      "answer": "对",
+      "fingerprint": "ac0438364993409f896b42834cc8905f017d064708c679de72031bc6056284ce",
+      "questionType": "choice",
+      "statementFingerprint": "stem:90c05720fea00743f592682f3aeab62fd2f6368e461f0894526272494dc2125c",
+      "answerText": "节点的前驱或后继节点的指针",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "节点的键值"
+        },
+        {
+          "label": "B",
+          "text": "节点的平衡因子"
+        },
+        {
+          "label": "C",
+          "text": "节点的前驱或后继节点的指针"
+        },
+        {
+          "label": "D",
+          "text": "节点的颜色（用于红黑树）"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "5. 单选题\n在二叉树的第i层上至多有(   )结点\nA.\nB.\nC.\nD.",
       "answer": "A",
-      "source": "local"
-    },
-    {
-      "stem": "5. 多选题\n以下哪些遍历方式适用于二叉树？",
-      "answer": "ABCD",
-      "source": "local"
-    },
-    {
-      "stem": "5. 多选题\n在邻接矩阵表示的图结构中，哪些操作的时间复杂度较高？",
-      "answer": "CD",
-      "source": "local"
-    },
-    {
-      "stem": "5. 判断题\n广义表的表尾可以是空表。\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
-    },
-    {
-      "stem": "5. 判断题\n树具有非线性数据结构（    ）\nA. 对\nB. 错",
-      "answer": "对",
-      "source": "local"
-    },
-    {
-      "stem": "5. 判断题\n顺序表中的元素一定是连续存储的。\nA 对\nB 错",
-      "answer": "对",
-      "fingerprint": "c2bf67a5ebee832530b150f47147c3bae36f99623e1c0f7bd169278b0388f338",
-      "source": "github-issue-contribution"
-    },
-    {
-      "stem": "5. 判断题\n用树的前序遍历和后序遍历可以导出树的中序遍历。（ ）\nA. 对\nB. 错",
-      "answer": "错",
-      "source": "local"
-    },
-    {
-      "stem": "5. 判断题\n由于二叉树中每个结点的度最大为2,所以二叉树是一棵度为2的树.（ ）\nA. 对\nB. 错",
-      "answer": "错",
+      "fingerprint": "f85e2cc8312f3f147585eb317ecac195af8320c3005225bdf51f0f4ce3cda720",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9e20d43a21112d2f86fc3ebcf8f57f0e2a30330d4267e3fbede47da2b17fd130",
+      "answerText": "B.",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "B."
+        },
+        {
+          "label": "C",
+          "text": "D."
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "5. 判断题\n在平衡二叉树中,插入一个新节点后,树可能不再保持平衡。\nA 对\nB 错",
       "answer": "A",
       "fingerprint": "e35ee180b2f923dbfda55fe6d16022b947fdba0a5819d91fd396f66ab4fd6bd1",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ec075487a176e542e6d162b02495070ba7ea2f5309f4e11c16f5e09f3aacca51",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n\n基数排序的设计思想是按照对关键字的比较来实施的。( )\n\nA.\n\n对\n\nB.\n\n错\nA 对\nB 错",
       "answer": "B",
       "fingerprint": "8ce1910b53919dc3e027ba64937d20f2872ae27c96e141dd3a8a86b933df21d1",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e2c64deba28777fac3b99d40a3dc27ee8579fec726e92ff6eb1ba707ecbe6f5c",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n\n在AVL树中,插入一个新节点后,可能需要进行以下哪种操作来恢复树的平衡?\n\nA.\n\n单旋\n\nB.\n\n双旋\n\nC.\n\n单旋和双旋\n\nD.\n\n无需任何操作\nA 单旋\nB 双旋\nC 单旋和双旋\nD 无需任何操作",
       "answer": "C",
       "fingerprint": "83208f49bc2358352c01646562ddafb5b2faa87a0e9ed48081fd2957a9f9d4f9",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f13085a1c00a833ad0904886cbf280d2955ee3756f5af7557b982dfcb9700496",
+      "answerText": "单旋和双旋",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "单旋"
+        },
+        {
+          "label": "B",
+          "text": "双旋"
+        },
+        {
+          "label": "C",
+          "text": "单旋和双旋"
+        },
+        {
+          "label": "D",
+          "text": "无需任何操作"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n对于一个具有n个顶点和e条边的无向图,若采用邻接表表示，所有邻接表中的结点总数是（   ）。\nA. e/2\nB. e\nC. 2e\nD. n+e",
       "answer": "C",
+      "fingerprint": "8127c757a377efa3639ba4af03b984182eed3bb72617927a4628cb253c83ddba",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ae664c862c32bfeb69fe86d9302907f10872d231abb9a5e99556c79a3ca97877",
+      "answerText": "2e",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "e/2"
+        },
+        {
+          "label": "B",
+          "text": "e"
+        },
+        {
+          "label": "C",
+          "text": "2e"
+        },
+        {
+          "label": "D",
+          "text": "n+e"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n二维数组A[8][9]按行优先顺序存储，若数组元素A[2][3]的存储地址为1087，A[4][7]的存储地址为1153，则数组元素A[6][7]的存储地址为（　　）\nA. 1207\nB. 1209\nC. 1211\nD. 1213",
       "answer": "A",
+      "fingerprint": "d0fe39f6bf4c9bcc90a8fd3bd98a0ad7f482fbe2116e67f947b1b9d7ec6f5916",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9ddcbd8519859355e69a5d26ecd850c9f7f0832fc1377971bdecbd8d47980ae5",
+      "answerText": "1207",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "1207"
+        },
+        {
+          "label": "B",
+          "text": "1209"
+        },
+        {
+          "label": "C",
+          "text": "1211"
+        },
+        {
+          "label": "D",
+          "text": "1213"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n赫夫曼编码的编码长度与以下哪个因素有关？\nA. 字符的ASCII值\nB. 字符在编码中的顺序\nC. 字符出现的频率\nD. 编码使用的符号集大小",
       "answer": "C",
+      "fingerprint": "6f32cde50f605487bb5239f6ba6753acabdee8f3be4ed76ca1380197e5ca2e1b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:95e2de9db7489fb851a48923c927f66578f164aacf256f4d9361ea515b89686c",
+      "answerText": "字符出现的频率",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "字符的ASCII值"
+        },
+        {
+          "label": "B",
+          "text": "字符在编码中的顺序"
+        },
+        {
+          "label": "C",
+          "text": "字符出现的频率"
+        },
+        {
+          "label": "D",
+          "text": "编码使用的符号集大小"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n如何表示一个空的广义表？\nA. ()\nB. []\nC. {}\nD. \"\"",
       "answer": "A",
+      "fingerprint": "50b39d15a44cf066b5762a266fa52b877731e5fb23e3b09a9c04619dda37e0a3",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1ef1daa3df340dd42aa3bc29307862b90d03b7c05d5fa353c3bc6fc0fe6558f4",
+      "answerText": "()",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "()"
+        },
+        {
+          "label": "B",
+          "text": "[]"
+        },
+        {
+          "label": "C",
+          "text": "{}"
+        },
+        {
+          "label": "D",
+          "text": "\"\""
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n如下的无向图中有多少个不同的最小生成树（  ）\nA. 4\nB. 5\nC. 6\nD. 7",
       "answer": "A",
+      "fingerprint": "4c77c5ceaaaa243fa6bc72e86e6694039f003f17c2d311917bf43834d4b0a5b7",
+      "questionType": "choice",
+      "statementFingerprint": "stem:0badfc2e25aff9ea369d15f5becdb1f5abf7494212c83713c3f734ba2344352b",
+      "answerText": "4",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n若采用三元组压缩技术存储稀疏矩阵,只要把每个元素的行下标和列下标互换,就完成了对该矩阵的转置运算,这种观点( )。\nA 正确\nB 错误",
       "answer": "B",
       "fingerprint": "0fbfe7c330dd6ac2f708b3d288ec83b21da96de60fb34ddde83b30fd12ab694e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:92276499615f1125dfa4bb124eb6c171487c8c6cd9507e530c95e617616c362e",
+      "answerText": "错误",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "正确"
+        },
+        {
+          "label": "B",
+          "text": "错误"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n若一棵二叉树具有10个度为2的结点，5个度为1的结点，则度为0的结点个数为（  ）\nA. 9\nB. 11\nC. 15\nD. 不确定",
       "answer": "B",
+      "fingerprint": "0714115664716311e11c71c1dd002a05b2b32252b5ffdf3964a463a635d88f64",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c09d84586e50fbf5b206acf719e6ad903266bdeac47a67b816a056a2bb7c7da0",
+      "answerText": "11",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "不确定"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n设给定权值总数有n个，其哈夫曼二叉树的结点总数为（     ）。\nA. 不确定\nB. 2n\nC. 2n+1\nD. 2n-1",
       "answer": "D",
+      "fingerprint": "62eabdff2bdab42336233d317051a230ce732de5d25ec2dce2839272619f9ed9",
+      "questionType": "choice",
+      "statementFingerprint": "stem:0c9e907b6648c68ede407b5560288f5442dd047d3c293f87c162088da5d19398",
+      "answerText": "2n-1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "不确定"
+        },
+        {
+          "label": "B",
+          "text": "2n"
+        },
+        {
+          "label": "C",
+          "text": "2n+1"
+        },
+        {
+          "label": "D",
+          "text": "2n-1"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n线索二叉树中，若一个节点的左孩子为空，那么该节点的左指针应该指向什么？\nA. 其左子节点\nB. 其右子节点\nC. 其前驱节点\nD. 其后继节点",
       "answer": "C",
+      "fingerprint": "b6d467eb7e28da7b29f35887d2a633a63ee9b0bd7e65133e90e7c57193f2d480",
+      "questionType": "choice",
+      "statementFingerprint": "stem:42696f8dbb04011464e08075f9d20a56190395f6b8b7a627b0aed14d741e03b7",
+      "answerText": "其前驱节点",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "其左子节点"
+        },
+        {
+          "label": "B",
+          "text": "其右子节点"
+        },
+        {
+          "label": "C",
+          "text": "其前驱节点"
+        },
+        {
+          "label": "D",
+          "text": "其后继节点"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n一棵二叉树中，叶子的个数为10，则其度为2的结点的个数为(  )\nA. 9\nB. 10\nC. 11\nD. 12",
       "answer": "A",
+      "fingerprint": "4ff5909714beddaa1f1abbd5566661b92e2f24087f7180ff0f6385cf7f0f9065",
+      "questionType": "choice",
+      "statementFingerprint": "stem:313b79487e61ea2d6704aab5dd4361030413db2b0d245d8e6ffddc7af8407a64",
+      "answerText": "9",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n已知某二叉树的后序遍历序列是dabec, 中序遍历序列是debac ,  它的前序遍历是\nA. acbed\nB. decab\nC. deabc\nD. cedba",
       "answer": "D",
+      "fingerprint": "e47080fc7bbe8912d038a6f2c16918437b25ea29e3882f19ac29d9480bc75f83",
+      "questionType": "choice",
+      "statementFingerprint": "stem:aa101ce2e4132f917fc2ebd0c4552fd9810641e2234db1930b91dde6196a14ce",
+      "answerText": "cedba",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "acbed"
+        },
+        {
+          "label": "B",
+          "text": "decab"
+        },
+        {
+          "label": "C",
+          "text": "deabc"
+        },
+        {
+          "label": "D",
+          "text": "cedba"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n以下数据结构中哪一个是非线性结构？\nA. 队列\nB. 栈\nC. 线性表\nD. 二叉树",
       "answer": "D",
+      "fingerprint": "6740fcfabb41af0a7060dc341081af15fa14778d5a38ba36c5a9208470a2fc79",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e1a5ae5b9a6b243e8afbffffefd7929409c0aa90922080912221dd39ede8fc7b",
+      "answerText": "二叉树",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "队列"
+        },
+        {
+          "label": "B",
+          "text": "栈"
+        },
+        {
+          "label": "C",
+          "text": "线性表"
+        },
+        {
+          "label": "D",
+          "text": "二叉树"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 单选题\n用顺序结构存储,删除最后一个结点时( )\nA 会移动其它结点位置\nB 一定不会移动其它结点位置\nC 可能会移动其它结点位置\nD 其它",
       "answer": "B",
       "fingerprint": "e81e23ba2742d6270f4279d4b8d65ee63946152bb20a550caf10f3fc053c3277",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b1f19fd5b8bbcef1c7d3d861d26861569580f288abca7f906cf6817dfc29ac87",
+      "answerText": "一定不会移动其它结点位置",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "会移动其它结点位置"
+        },
+        {
+          "label": "B",
+          "text": "一定不会移动其它结点位置"
+        },
+        {
+          "label": "C",
+          "text": "可能会移动其它结点位置"
+        },
+        {
+          "label": "D",
+          "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n在二叉树的层序遍历中，节点访问的顺序是什么？\nA. 从左到右，逐层访问\nB. 从右到左，逐层访问\nC. 从上到下，逐层访问\nD. 从下到上，逐层访问",
       "answer": "A",
-      "source": "local"
-    },
-    {
-      "stem": "6. 多选题\n二叉树遍历的方式有（ ）",
-      "answer": "ABC",
+      "fingerprint": "b6f068a89818af8ee8a0e946ddddfa8fff04654435ea381b4edf5c81ab03167e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c2a5a5c2fc096e67af557e4c501ec70ad1a21c6df44652832ce2ed0692a0e865",
+      "answerText": "从左到右，逐层访问",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "从左到右，逐层访问"
+        },
+        {
+          "label": "B",
+          "text": "从右到左，逐层访问"
+        },
+        {
+          "label": "C",
+          "text": "从上到下，逐层访问"
+        },
+        {
+          "label": "D",
+          "text": "从下到上，逐层访问"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "6. 判断题\n使用三元组表表示稀疏矩阵时，可以省略矩阵的行数和列数信息。\nA. 对\nB. 错",
       "answer": "B",
+      "fingerprint": "0c2678b6df2df53c7841e9610b58cb56646478295f77d1d46c83017f399adc77",
+      "questionType": "choice",
+      "statementFingerprint": "stem:709416a16e8cb498baa148b8722beee3c7594c8f83b69238a43d6c1e9165bf62",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "local"
     },
     {
       "stem": "返回\n平衡二叉树\n错题反馈\n提交作业\n一、 知识点练习默认部分\n2. 多选题\n\n以下不是平衡二叉查找树的是\n\nA\nAVL树\nB\n红黑树\nC\n B+/B-\n树\nD\n哈夫曼树\n上一题下一题\n答题进度\n66.7%\n答题卡\n知识点练习默认部分\n1\n2\n3\n4\n5\n6\n已作答: 未作答:\nA AVL树\nB 红黑树\nC B+/B-树\nD 哈夫曼树",
       "answer": "CD",
       "fingerprint": "b40bcdbcb1db1af0a714bf41a56357edee0341146d54f370283c2ced2e7c0c5c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:697e3ec9f13566bc579815c4c7b8cbd956bd30a2f60e821ce977c4f74ab839c2",
+      "answerText": "B+/B-树 | 哈夫曼树",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "AVL树"
+        },
+        {
+          "label": "B",
+          "text": "红黑树"
+        },
+        {
+          "label": "C",
+          "text": "B+/B-树"
+        },
+        {
+          "label": "D",
+          "text": "哈夫曼树"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
-    },
-    {
-      "stem": "任务描述\n编程要求\n任务描述\n\n本关要求按照完成顺序栈数据类型定义，并初始化一个空的顺序栈。\n\n编程要求\n\n顺序栈数据结构定义如下：\ntypedef int DataType;\nstruct seqList\n{\n  int MAXNUM;//用于记录顺序栈中能存放的最大元素个数的 整型 MAXNUM\n  int top;//用于存放顺序栈的栈顶位置  整型  curNum\n  DataType *element;//用于存放顺序栈数据元素的连续空间的起始地址\n};\n\n本关的编程任务是补全文件中createNullStack_seq函数，以实现初始化一个空的顺序栈的要求。\n\n开始你的任务吧，祝你成功！",
-      "answer": "#include <stdio.h>\n#include <stdlib.h>\n\n/*此处是顺序栈数据结构定义*/\ntypedef int DataType;\nstruct seqStack\n{//有3个数据成员\n  int MAXNUM;//用于记录顺序栈中能存放的最大元素个数的 整型 MAXNUM\n  int top;//用于存放顺序栈的栈顶位置，初始化为0或-1 均可  整型  curNum\n  DataType *element;//用于存放顺序栈数据元素的连续空间的起始地址\n};\n\ntypedef struct seqStack *PseqStack;\n//第一关\nPseqStack createNullStack_seq(int m)\n{ //此处填写代码，创建一个空的顺序栈，能存放的最大元素个数为 m\n  //若m=0，则返回NULL\n  if (m <= 0) {\n    return NULL;\n  }\n  PseqStack stack = (PseqStack)malloc(sizeof(struct seqStack));\n  if (stack == NULL) {\n    return NULL;\n  }\n  stack->element = (DataType *)malloc(m * sizeof(DataType));\n  if (stack->element == NULL) {\n    free(stack);\n    return NULL;\n  }\n  stack->MAXNUM = m;\n  stack->top = 0; // 初始化为空栈，top 指向下一个可插入位置\n  return stack;\n}",
-      "source": "local"
-    },
-    {
-      "stem": "任务描述\n以十进制数转换为二进制数为例，规则（只考虑整数）\n如何存储和输出二进制数\n编程要求\n测试说明\n任务描述\n\n本关任务：使用栈基本操作实现数的进制转换。\n\n以十进制数转换为二进制数为例，规则（只考虑整数）\n\n采用除2取余法。如：\n\n如何存储和输出二进制数\n\n从数制转换示例可以看出，十进制数转换成相应二进制数可使用栈存放，再依次弹出栈顶元素输出，即可得到相应二进制结果。\n\n编程要求\n\n在右侧编辑器补充代码，完成数的进制转换。\n\n测试说明\n\n平台会对你编写的代码进行测试：\n\n测试输入：173 2\n预期输出：10101101\n\n测试输入：10 8\n预期输出：12\n\n开始你的任务吧，祝你成功！",
-      "answer": "#include <stdio.h>\n#include <stdlib.h>\n\n/*此处是顺序栈数据结构定义*/\ntypedef int DataType;\nstruct seqStack\n{//有3个数据成员\n  int MAXNUM;//用于记录顺序栈中能存放的最大元素个数的 整型 MAXNUM\n  int top;//用于存放顺序栈的栈顶位置，初始化为0或-1 均可  整型  curNum\n  DataType *element;//用于存放顺序栈数据元素的连续空间的起始地址\n};\n\ntypedef struct seqStack *PseqStack;\n//第一关\nPseqStack createNullStack_seq(int m)\n{//此处填写代码，创建一个空的顺序栈，能存放的最大元素个数为 m,栈顶top设置为0\n //若m=0，则返回NULL\n    if (m <= 0) {\n        return NULL;\n    }\n    \n    PseqStack stack = (PseqStack)malloc(sizeof(struct seqStack));\n    if (stack == NULL) {\n        return NULL;\n    }\n    \n    stack->element = (DataType*)malloc(sizeof(DataType) * m);\n    if (stack->element == NULL) {\n        free(stack);\n        return NULL;\n    }\n    \n    stack->MAXNUM = m;\n    stack->top = 0;  // 栈顶指针初始化为0，表示空栈\n    \n    return stack;\n}\n\n//第二关\nint isNullStack_seq(PseqStack L)\n{\n  //判断顺序栈是否为空，若为空，返回值为1，否则返回值为0,若栈不存在，则返回-1\n    if (L == NULL) {\n        return -1;\n    }\n    return L->top == 0 ? 1 : 0;\n}\n\n//第三关\nint isFullStack_seq(PseqStack L)\n{\n  //判断顺序栈是否已满，若已满，返回值为1，否则返回值为0\n    if (L == NULL) {\n        return -1;\n    }\n    return L->top == L->MAXNUM ? 1 : 0;\n}\n\n//第四关\nint push_seq(PseqStack L ,DataType x)\n{//在顺序栈中插入数据元素x，若插入不成功，返回0；插入成功返回值为1\n    if (L == NULL || L->top == L->MAXNUM) {\n        return 0;\n    }\n    L->element[L->top] = x;\n    L->top++;\n    return 1;\n}\n\n//第五关\nDataType pop_seq(PseqStack L)\n{//弹栈并返回删除元素，若栈为空，则返回-1\n    if (L == NULL || L->top == 0) {\n        return -1;\n    }\n    L->top--;\n    return L->element[L->top];\n}\n\n//第六关\nDataType top_seq(PseqStack L)\n{// 取栈顶元素返回，若栈为空，则返回-1\n    if (L == NULL || L->top == 0) {\n        return -1;\n    }\n    return L->element[L->top - 1];\n}\n\n//销毁顺序栈，释放栈所占存储空间\nint destroystack_seq(PseqStack L)\n{\n    //返回值为销毁的栈中现有数据元素的个数，若待销毁的线性表不存在，则返回0\n    if (L == NULL) {\n        return 0;\n    }\n    int count = L->top;\n    free(L->element);\n    free(L);\n    return count;\n}\n\n//第七关\n//使用已实现的栈操作，实现数制转换\n\nvoid print(PseqStack L)\n{\n//逐个弹出栈L中的数据元素并输出，输出数据间不需要任何间隔符号\n    while (L->top > 0) {\n        DataType value = pop_seq(L);\n        if (value >= 10) {\n            printf(\"%c\", 'A' + (value - 10));\n        } else {\n            printf(\"%d\", value);\n        }\n    }\n}\n\nvoid convert(int data , int k)\n{\n//利用栈实现将data转换为k进制，k可能是2，8，16. 在本函数内实现转换并调用print函数输出转换后的结果\n//十六进制时输出 A ,B ,C, D,E,F 使用大写字母\n    if (k != 2 && k != 8 && k != 16) {\n        return;\n    }\n    \n    PseqStack stack = createNullStack_seq(32); // 假设最大32位\n    if (stack == NULL) {\n        return;\n    }\n    \n    int temp = data;\n    if (temp == 0) {\n        push_seq(stack, 0);\n    } else {\n        while (temp > 0) {\n            int remainder = temp % k;\n            push_seq(stack, remainder);\n            temp = temp / k;\n        }\n    }\n    \n    print(stack);\n    destroystack_seq(stack);\n}",
-      "source": "local"
-    },
-    {
-      "stem": "作业考试",
-      "answer": "A",
-      "source": "local"
     }
   ]
 }
