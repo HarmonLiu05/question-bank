@@ -92,6 +92,12 @@
       "source": "local"
     },
     {
+      "stem": "1. 单选题\n若某线性表最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算,则利用( )存储方式最节省时间。\nA 顺序表\nB 双链表\nC 带头结点的双循环链表\nD 单循环链表",
+      "answer": "A",
+      "fingerprint": "08e0f4892d11e2cfc74b8828812fd7b2391952899fa0f3168c5b864ed5b30fe1",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n若一个广义表的表头为空表，则此广义表亦为空表。（   ）\nA. 对\nB. 错",
       "answer": "A",
       "source": "local"
@@ -270,6 +276,12 @@
       "source": "local"
     },
     {
+      "stem": "2. 单选题\n设二维数组A[1.. m,1.. n](即m行n列)按行存储在数组B[1.. m*n]中,则二维数组元素A[i,j]在一维数组B中的下标为( )。\nA (i-1)*n+j\nB (i-1)*n+j-1\nC i*(j-1)\nD j*m+i-1",
+      "answer": "A",
+      "fingerprint": "4b2f459b399303e97d79a28f63f23ce66cc605db5b5ac977ea7a4c151b3eccbd",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 单选题\n设哈夫曼树中的叶子结点总数为m，若用二叉链表作为存储结构，则该哈夫曼树中总共有（   ）个空指针域。\nA. 2m-1\nB. 2m\nC. 2m+1\nD. 4m",
       "answer": "B",
       "source": "local"
@@ -298,6 +310,12 @@
       "stem": "2. 单选题\n试按教科书5.5节图5.10所示的结点结构编写复制广义表的递归算法。// 由广义表L复制广义表Tint CopyGList(GList& T,GList& L){    if(!L) T=NULL;    else{        T=new GLNode;        if(!T) exit(OVERFLOW);        T->tag=L->tag;        if(L->tag==ATOM) T->atom=L->atom;        else{            ____                CopyGList(T->tp,L->tp);        }    }    return OK;}\nA. CopyGList(T,L);\nB. CopyGList(L->tp,T->tp);\nC. CopyGList(L->hp,T->hp);\nD. CopyGList(T->hp,L->hp);",
       "answer": "D",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n顺序表的容量通常如何确定?\nA 根据实际需要动态分配\nB 预先分配一个固定大小\nC 根据元素个数动态调整\nD 以上都不是",
+      "answer": "B",
+      "fingerprint": "f2029a19ed36531bd9ecdd52f9f51a8fc35b5c4b6040c32d82390cea449099e3",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n下列陈述中正确的是(    )\nA. 二叉树是度为2的有序树\nB. 二叉树中结点只有一个孩子时无左右之分\nC. 二叉树中必有度为2的结点\nD. 二叉树中最多只有两棵子树，并且有左右之分",
@@ -408,6 +426,12 @@
       "source": "local"
     },
     {
+      "stem": "3. 单选题\n设有数组A[i,j],数组的每个元素长度为3字节,i的值为1到8,j的值为1到10,数组从内存首地址BA开始顺序存放,当用以列为主存放时,元素A[5,8]的存储首地址为( )。\nA BA+141\nB BA+180\nC BA+222\nD BA+225",
+      "answer": "B",
+      "fingerprint": "df773464e8effa44d18601a3feb0db9be0a413028f89c61e32a90f131800112d",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 单选题\n试写一个算法，为一棵二叉树建立后序线索二叉树。Status PostOrderThreading(BiThrTree& T,BiThrTree& pre);//首先建立后序线索树Status FindNextInBiThrTree(BiThrTree& q,TElemType *p);//再进行查找// 后序线索二叉树的算法Status PostOrderThreading(BiThrTree& Thrt,BiThrTree& T){    BiThrTree pre;    Thrt=new BiThrNode; // 为线索二叉树建立头结点    if(!Thrt) exit(OVERFLOW);    Thrt->LTag=Link;    Thrt->RTag=Thread;    Thrt->rchild=Thrt;// 右子树回指    if(!T) Thrt->lchild=Thrt;// 若二叉树空，左子树回指    else{        Thrt->lchild=T;        pre=Thrt;        PostThreading(T,pre); // 后序遍历进行后序线索化        pre->rchild=Thrt;// 最后一个结点线索化        pre->RTag=Thread;        Thrt->rchild=pre;    }    return OK;}Status PostThreading(BiThrTree& T,BiThrTree& pre){    if(T){        if(T->LTag==Link) PostThreading(T->lchild,pre);        if(T->RTag==Link) PostThreading(T->rchild,pre);        if(!T->lchild){            T->LTag=Thread;             ____            }        if(pre && !pre->rchild){            pre->RTag=Thread;            pre->rchild=T;        }        pre=T;    }    return OK;}\nA. T->lchild=pre;\nB. pre->lchild=T;\nC. T->rchild=pre;\nD. pre->rchild=T;",
       "answer": "A",
       "source": "local"
@@ -483,6 +507,12 @@
       "source": "local"
     },
     {
+      "stem": "3. 判断题\n顺序表的插入操作总是需要移动大量元素。\nA 对\nB 错",
+      "answer": "错",
+      "fingerprint": "45cc28e2fedb5295102682124b6c905606d5dc718f13cbcfeec57c4240c66244",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 判断题\n在二叉树的前序遍历中，节点的访问顺序是根-左-右。\nA. 对\nB. 错",
       "answer": "对",
       "source": "local"
@@ -512,6 +542,12 @@
       "stem": "4. 单选题\n设一组初始关键字记录关键字为(20,15,14,18,21,36,40,10),则以20为基准记录的一趟快速排序结束后的结果为( )。\nA.\n10,15,14,18,20,36,40,21\nB.\n10,15,14,18,20,40,36,21\nC.\n10,15,14,20,18,40,36,2l\nD.\n15,10,14,18,20,36,40,21\nA 10,15,14,18,20,36,40,21\nB 10,15,14,18,20,40,36,21\nC 10,15,14,20,18,40,36,2l\nD 15,10,14,18,20,36,40,21",
       "answer": "A",
       "fingerprint": "8a0970e2eb22bdd14075353e110d1534707b38a6be8d9e6aef8d8d6884cf0744",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "4. 单选题\n顺序表的哪些操作需要进行元素的移动?\nA 插入操作\nB 删除操作\nC 插入和删除操作\nD 以上都不是",
+      "answer": "C",
+      "fingerprint": "3913587d26155a9c63378f872404b9c6eeb92fba556827140325cc774608301b",
       "source": "github-issue-contribution"
     },
     {
@@ -613,6 +649,12 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "5. 单选题\n二维数组A的每个元素是由10个字符组成的串,其行下标i=0,1,...,8,列下标j=1,2,...,10。若A按行先存储,元素A[8,5]的起始地址与当A按列先存储时的元素( )的起始地址相同。设每个字符占一个字节。\nA A[8,5]\nB A[3,10]\nC A[5,8]\nD A[0,9]",
+      "answer": "B",
+      "fingerprint": "a2879b34dc9cb06189cb2dd4ebd48cb0c0f8f430b4fb3316fc5643bc3e6b6780",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "5. 单选题\n赫夫曼编码算法的时间复杂度是多少？\nA. O(n)\nB. O(nlogn)\nC. O(n^2)\nD. O(logn)",
       "answer": "B",
       "source": "local"
@@ -671,6 +713,12 @@
       "stem": "5. 判断题\n树具有非线性数据结构（    ）\nA. 对\nB. 错",
       "answer": "对",
       "source": "local"
+    },
+    {
+      "stem": "5. 判断题\n顺序表中的元素一定是连续存储的。\nA 对\nB 错",
+      "answer": "对",
+      "fingerprint": "c2bf67a5ebee832530b150f47147c3bae36f99623e1c0f7bd169278b0388f338",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "5. 判断题\n用树的前序遍历和后序遍历可以导出树的中序遍历。（ ）\nA. 对\nB. 错",
@@ -760,6 +808,12 @@
       "stem": "6. 单选题\n以下数据结构中哪一个是非线性结构？\nA. 队列\nB. 栈\nC. 线性表\nD. 二叉树",
       "answer": "D",
       "source": "local"
+    },
+    {
+      "stem": "6. 单选题\n用顺序结构存储,删除最后一个结点时( )\nA 会移动其它结点位置\nB 一定不会移动其它结点位置\nC 可能会移动其它结点位置\nD 其它",
+      "answer": "B",
+      "fingerprint": "e81e23ba2742d6270f4279d4b8d65ee63946152bb20a550caf10f3fc053c3277",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n在二叉树的层序遍历中，节点访问的顺序是什么？\nA. 从左到右，逐层访问\nB. 从右到左，逐层访问\nC. 从上到下，逐层访问\nD. 从下到上，逐层访问",
