@@ -3,6 +3,12 @@
   "name": "zhihuishu",
   "questions": [
     {
+      "stem": "1. 单选题\n\n设一组初始记录关键字序列为(345,253,674,924,627),则用基数排序需要进行( )趟的分配和回收才能使得初始关键字序列变成有序序列。\n\nA.\n\n3\n\nB.\n\n4\n\nC.\n\n5\n\nD.\n\n8\nA 3\nB 4\nC 5\nD 8",
+      "answer": "A",
+      "fingerprint": "54d9ef53396914111d99ab62ce56fb82a210bc0f71d02d7062c8af8c757b7200",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n按照二叉树的定义，具有3个结点的二叉树有（    ）种。\nA. 3\nB. 4\nC. 5\nD. 6",
       "answer": "C",
       "source": "local"
@@ -21,6 +27,12 @@
       "stem": "1. 单选题\n采用邻接表存储的图的宽度优先遍历算法类似于二叉树的（   ）。\nA 先序遍历\nB 中序遍历\nC 后序遍历\nD 层次遍历",
       "answer": "D",
       "source": "local"
+    },
+    {
+      "stem": "1. 单选题\n对关键字{28,16,32,12,60,2,5,72}序列进行快速排序,第一趟从小到大一次划分结果为( )\nA.\n(2,5,12,16)28(60,32,72)\nB.\n(5,16,2,12)28(60,32,72)\nC.\n(2,16,12,5)28(60,32,72)\nD.\n(5,16,2,12)28(32,60,72)\nA (2,5,12,16)28(60,32,72)\nB (5,16,2,12)28(60,32,72)\nC (2,16,12,5)28(60,32,72)\nD (5,16,2,12)28(32,60,72)",
+      "answer": "B",
+      "fingerprint": "71ad5900af478f54e2bf9c44a362c459ffea047601a9db9b8ce4e563b35dfd05",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n二叉排序树可以得到一个从小到大的有序序列。(   )\nA. 先序遍历\nB. 中序遍历\nC. 后序遍历\nD. 层次遍历",
@@ -56,6 +68,12 @@
       "stem": "1. 单选题\n假设称正度和反读都相同的字符序列为“回文”，例如，‘abba’和‘abcba’是回文，‘abcde’和‘ababab’则不是回文。试写一个算法判别读入的一个以‘@’为结束符的字符序列是否是“回文”。Status SymmetryString(char* p){    Queue q;    if(!InitQueue(q)) return 0;    Stack s;    InitStack(s);    ElemType e1,e2;    while(*p){        ____                EnQueue(q,*p);        p++;    }    while(!StackEmpty(s)){        Pop(s,e1);        DeQueue(q,e2);        if(e1!=e2) return FALSE;    }    return OK;}\nA. Pop(s,e1)\nB. Push(s,*p)\nC. EnQueue(q,*p)\nD. P--",
       "answer": "B",
       "source": "local"
+    },
+    {
+      "stem": "1. 单选题\n假设以行序为主序存储二维数组A=array[1..100,1..100],设每个数据元素占2个存储单元,基地址为10,则LOC[5,5]=( )。\nA.\n808\nB.\n818\nC.\n1010\nD.\n020\nA 808\nB 818\nC 1010\nD 020",
+      "answer": "B",
+      "fingerprint": "5e1b0eea94c77fa22a3b1f664d03d3e156175a5e8a1086db690c6890fe843f51",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n假设以行序为主序存储二维数组A=array[1..100,1..100]，设每个数据元素占2个存储单元，基地址为10，则LOC[5,5]=（ ）。\nA.\n808\nB.\n818\nC.\n1010\nD.\n020\nA 808\nB 818\nC 1010\nD 020",
@@ -169,9 +187,27 @@
       "source": "local"
     },
     {
+      "stem": "1. 判断题\n平衡二叉树指的是每个结点的左右子树的深度完全一致,保持平衡。\nA 对\nB 错",
+      "answer": "错",
+      "fingerprint": "439f6a235646ab5b2e56ae6504967337d1bc60825bc5df964a8160265df3fc9c",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 判断题\n线索二叉树是一种特殊的二叉树，它通过给二叉树增加线索来提高查找效率。\nA. 对\nB. 错",
       "answer": "对",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n\n采用递归方式对顺序表进行快速排序。下列关于递归次数的叙述中,正确的是()\n\nA.\n递归次数与初始数据的排列次序无关\nB.\n每次划分后,先处理较长的分区可以减少递归次数\nC.\n每次划分后,先处理较短的分区可以减少递归次数\nD.\n递归次数与每次划分后得到的分区的处理顺序无关\nA 递归次数与初始数据的排列次序无关\nB 每次划分后,先处理较长的分区可以减少递归次数\nC 每次划分后,先处理较短的分区可以减少递归次数\nD 递归次数与每次划分后得到的分区的处理顺序无关",
+      "answer": "D",
+      "fingerprint": "f1d2bedd47c5c393984c3d7769649517f1df89d06f5ab85265edcc7ff7afcebc",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "2. 单选题\n\n在多关键字排序方法中低位优先排序采用的排序算法必须是稳定的算法( )\n\nA.\n\n对\n\nB.\n\n错\nA 对\nB 错",
+      "answer": "A",
+      "fingerprint": "3d09841b01862df7c1d4657e2f2d6a1b8ee5a02f47907c0fb59d0810696df966",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n采用邻接表存储的图的深度优先遍历算法类似于二叉树的（   ）。\nA 先序遍历\nB 中序遍历\nC 后序遍历\nD 按层遍历",
@@ -314,9 +350,27 @@
       "source": "local"
     },
     {
+      "stem": "2. 多选题\n以下不是平衡二叉查找树的是\nA AVL树\nB 红黑树\nC B+/B-树\nD 哈夫曼树",
+      "answer": "CD",
+      "fingerprint": "8887f5a977164d7a9baa140fc792f38616275657b1868a954a7e7fdc47349371",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 判断题\n广义表具有线性结构（    ）。\nA. 对\nB. 错",
       "answer": "错",
       "source": "local"
+    },
+    {
+      "stem": "3. 单选题\n\n设一组初始记录关键字序列(5,2,6,3,8),以第一个记录关键字5为基准进行一趟快速排序的结果为\n\nA.\n2\n,3,5,8,6\nB.\n3\n,2,5,8,6\nC.\n3,2,5,6,8\nD.\n2\n,3,6,5,8\nA 2,3,5,8,6\nB 3,2,5,8,6\nC 3,2,5,6,8\nD 2,3,6,5,8",
+      "answer": "C",
+      "fingerprint": "06e7d2eee7f8d9e14a22a0ab77b29eba6bb5bfe94f462b33577714983c538b82",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 单选题\n采用顺序查找方法查找长度为n的线性表时,不成功情况下的平均比较次数为( )\nA.\nn\nB.\nn/2\nC.\n(n+1)/2\nD.\n(n-1)/2\nA n\nB n/2\nC (n+1)/2\nD (n-1)/2",
+      "answer": "A",
+      "fingerprint": "0418c50980ec158ea31cacff41c140e7800e738b37b3cc2330e8873937d0c246",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "3. 单选题\n对于一个具有n个顶点的无向图,若采用邻接矩阵表示,则该矩阵的大小为\nA. n ×n\nB. (n-1)× (n-1)\nC. (n-1)×n\nD. n×(n+1)",
@@ -434,6 +488,12 @@
       "source": "local"
     },
     {
+      "stem": "3. 判断题\n在平衡二叉树中,插入一个新节点后,树可能不再是平衡的,因此需要进行旋转操作来恢复平衡。\nA 对\nB 错",
+      "answer": "对",
+      "fingerprint": "c0a8fce6dbd962c517bd335e43fee1249cebc92c88e78fe605c86197c03c7675",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "4. 单选题\n根据使用频率为5个字符设计的哈夫曼编码不可能是（  ）\nA. 000，001，010，011，1\nB. 0000，0001，001，01，1\nC. 000，001，01，10，11\nD. 00，100，101，110，111",
       "answer": "D",
       "source": "local"
@@ -447,6 +507,12 @@
       "stem": "4. 单选题\n具有 n 个结点的完全二叉树的深度为（ )\nA.\nB.\nC.\nD.",
       "answer": "B",
       "source": "local"
+    },
+    {
+      "stem": "4. 单选题\n设一组初始关键字记录关键字为(20,15,14,18,21,36,40,10),则以20为基准记录的一趟快速排序结束后的结果为( )。\nA.\n10,15,14,18,20,36,40,21\nB.\n10,15,14,18,20,40,36,21\nC.\n10,15,14,20,18,40,36,2l\nD.\n15,10,14,18,20,36,40,21\nA 10,15,14,18,20,36,40,21\nB 10,15,14,18,20,40,36,21\nC 10,15,14,20,18,40,36,2l\nD 15,10,14,18,20,36,40,21",
+      "answer": "A",
+      "fingerprint": "8a0970e2eb22bdd14075353e110d1534707b38a6be8d9e6aef8d8d6884cf0744",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n图中的简单路径指的是（ ）\nA 图序列中顶点不重复出现的路径\nB 图序列中第一个顶点和最后一个顶点相同，其他顶点不重复出现的路径\nC 图序列中第一个顶点和最后一个顶点相同的路径\nD 图序列中最短的路径",
@@ -479,6 +545,12 @@
       "source": "local"
     },
     {
+      "stem": "4. 单选题\n以下排序方法中,( )不需要进行关键字的比较。\nA.\n归并排序\nB.\n基数排序\nC.\n堆排序\nD.\n快速排序\nA 归并排序\nB 基数排序\nC 堆排序\nD 快速排序",
+      "answer": "B",
+      "fingerprint": "2ac05397bde172a9bd96416b8dfbb068fd8ced6246655176c2f8d0147b3e36b3",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "4. 单选题\n用链表存储时，通常一个结点中可以存放一个字符，也可以存放多个字符。（   ）\nA. 对\nB. 错",
       "answer": "对",
       "source": "local"
@@ -509,6 +581,12 @@
       "source": "local"
     },
     {
+      "stem": "4. 多选题\n以下哪些是平衡二叉树的性质?\nA 所有叶子节点都在同一层\nB 任意节点的左子树和右子树的高度差不超过1\nC 节点的值按照从左到右的顺序排列\nD 每个节点的值都大于其左子树中所有节点的值,且小于其右子树中所有节点的值",
+      "answer": "BCD",
+      "fingerprint": "38764d3044ceee77e8891b071b732588c6c8a67352eb8099f8d410dbc9f835af",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "4. 判断题\n动态数组在插入元素时，如果空间不足，需要重新分配内存并复制原有元素到新内存空间。\nA. 对\nB. 错",
       "answer": "对",
       "source": "local"
@@ -527,6 +605,12 @@
       "stem": "4. 判断题\n在二叉树中，每个节点最多有两个子节点。\nA. 对\nB. 错",
       "answer": "对",
       "source": "local"
+    },
+    {
+      "stem": "5. 单选题\n\n若用冒泡排序对关键字序列{10,8,6,4,2},进行从小到大的排序,所需进行的关键字比较总次数是\n\nA.\n10\nB.\n20\nC.\n25\nD.\n15\nA 10\nB 20\nC 25\nD 15",
+      "answer": "A",
+      "fingerprint": "a57859f5de4e7081a5f63d13de6eabfc2f60d4a16c8ee4021e24f6bbe3273091",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "5. 单选题\n赫夫曼编码算法的时间复杂度是多少？\nA. O(n)\nB. O(nlogn)\nC. O(n^2)\nD. O(logn)",
@@ -599,6 +683,24 @@
       "source": "local"
     },
     {
+      "stem": "5. 判断题\n在平衡二叉树中,插入一个新节点后,树可能不再保持平衡。\nA 对\nB 错",
+      "answer": "A",
+      "fingerprint": "e35ee180b2f923dbfda55fe6d16022b947fdba0a5819d91fd396f66ab4fd6bd1",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "6. 单选题\n\n基数排序的设计思想是按照对关键字的比较来实施的。( )\n\nA.\n\n对\n\nB.\n\n错\nA 对\nB 错",
+      "answer": "B",
+      "fingerprint": "8ce1910b53919dc3e027ba64937d20f2872ae27c96e141dd3a8a86b933df21d1",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "6. 单选题\n\n在AVL树中,插入一个新节点后,可能需要进行以下哪种操作来恢复树的平衡?\n\nA.\n\n单旋\n\nB.\n\n双旋\n\nC.\n\n单旋和双旋\n\nD.\n\n无需任何操作\nA 单旋\nB 双旋\nC 单旋和双旋\nD 无需任何操作",
+      "answer": "C",
+      "fingerprint": "83208f49bc2358352c01646562ddafb5b2faa87a0e9ed48081fd2957a9f9d4f9",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "6. 单选题\n对于一个具有n个顶点和e条边的无向图,若采用邻接表表示，所有邻接表中的结点总数是（   ）。\nA. e/2\nB. e\nC. 2e\nD. n+e",
       "answer": "C",
       "source": "local"
@@ -622,6 +724,12 @@
       "stem": "6. 单选题\n如下的无向图中有多少个不同的最小生成树（  ）\nA. 4\nB. 5\nC. 6\nD. 7",
       "answer": "A",
       "source": "local"
+    },
+    {
+      "stem": "6. 单选题\n若采用三元组压缩技术存储稀疏矩阵,只要把每个元素的行下标和列下标互换,就完成了对该矩阵的转置运算,这种观点( )。\nA 正确\nB 错误",
+      "answer": "B",
+      "fingerprint": "0fbfe7c330dd6ac2f708b3d288ec83b21da96de60fb34ddde83b30fd12ab694e",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n若一棵二叉树具有10个度为2的结点，5个度为1的结点，则度为0的结点个数为（  ）\nA. 9\nB. 11\nC. 15\nD. 不确定",
@@ -667,6 +775,12 @@
       "stem": "6. 判断题\n使用三元组表表示稀疏矩阵时，可以省略矩阵的行数和列数信息。\nA. 对\nB. 错",
       "answer": "B",
       "source": "local"
+    },
+    {
+      "stem": "返回\n平衡二叉树\n错题反馈\n提交作业\n一、 知识点练习默认部分\n2. 多选题\n\n以下不是平衡二叉查找树的是\n\nA\nAVL树\nB\n红黑树\nC\n B+/B-\n树\nD\n哈夫曼树\n上一题下一题\n答题进度\n66.7%\n答题卡\n知识点练习默认部分\n1\n2\n3\n4\n5\n6\n已作答: 未作答:\nA AVL树\nB 红黑树\nC B+/B-树\nD 哈夫曼树",
+      "answer": "CD",
+      "fingerprint": "b40bcdbcb1db1af0a714bf41a56357edee0341146d54f370283c2ced2e7c0c5c",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "任务描述\n编程要求\n任务描述\n\n本关要求按照完成顺序栈数据类型定义，并初始化一个空的顺序栈。\n\n编程要求\n\n顺序栈数据结构定义如下：\ntypedef int DataType;\nstruct seqList\n{\n  int MAXNUM;//用于记录顺序栈中能存放的最大元素个数的 整型 MAXNUM\n  int top;//用于存放顺序栈的栈顶位置  整型  curNum\n  DataType *element;//用于存放顺序栈数据元素的连续空间的起始地址\n};\n\n本关的编程任务是补全文件中createNullStack_seq函数，以实现初始化一个空的顺序栈的要求。\n\n开始你的任务吧，祝你成功！",
