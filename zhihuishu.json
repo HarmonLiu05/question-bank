@@ -1,6 +1,5 @@
 {
   "version": 1,
-  "category": "zhihuishu",
   "name": "zhihuishu",
   "questions": [
     {
@@ -870,6 +869,26 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "1. 判断题\n对有向图进行深度优先遍历时,得到的遍历序列一定是唯一的,因为每个顶点的访 问顺序由其邻接顶点的顺序唯一确定。\nA.\n对\nB.\n错\nA 对\nB 错",
+      "answer": "错",
+      "fingerprint": "c622b646d2083827f5f9adc144e06c81bf91307b2b2278b655a4a7d88447f66a",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9ad01fc35f21738c5a9611e0b01b039a8d6030304d8d1ca3e49b588912f2546b",
+      "answerText": "",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "weak",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n\n采用递归方式对顺序表进行快速排序。下列关于递归次数的叙述中,正确的是()\n\nA.\n递归次数与初始数据的排列次序无关\nB.\n每次划分后,先处理较长的分区可以减少递归次数\nC.\n每次划分后,先处理较短的分区可以减少递归次数\nD.\n递归次数与每次划分后得到的分区的处理顺序无关\nA 递归次数与初始数据的排列次序无关\nB 每次划分后,先处理较长的分区可以减少递归次数\nC 每次划分后,先处理较短的分区可以减少递归次数\nD 递归次数与每次划分后得到的分区的处理顺序无关",
