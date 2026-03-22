@@ -1711,6 +1711,34 @@
       "source": "local"
     },
     {
+      "stem": "2. 多选题\n\n以下哪些矩阵适合使用压缩存储?\n\nA\n稠密矩阵\nB\n对称矩阵\nC\n稀疏矩阵\nD\n完全矩阵\nA 稠密矩阵\nB 对称矩阵\nC 稀疏矩阵\nD 完全矩阵",
+      "answer": "BC",
+      "fingerprint": "stem:2175e993",
+      "questionType": "choice",
+      "statementFingerprint": "stem:2175e993",
+      "answerText": "对称矩阵 | 稀疏矩阵",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "稠密矩阵"
+        },
+        {
+          "label": "B",
+          "text": "对称矩阵"
+        },
+        {
+          "label": "C",
+          "text": "稀疏矩阵"
+        },
+        {
+          "label": "D",
+          "text": "完全矩阵"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 多选题\n以下不是平衡二叉查找树的是\nA AVL树\nB 红黑树\nC B+/B-树\nD 哈夫曼树",
       "answer": "CD",
       "fingerprint": "8887f5a977164d7a9baa140fc792f38616275657b1868a954a7e7fdc47349371",
@@ -2265,6 +2293,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "4. 单选题\n\n设 n行n列的下三角矩阵A已压缩到一维数组B[0..n*(n+1)/2-1]中,若按行为主序存储,则A[i,j](i>=j)对应的B中存储位置为_______。\n\nA.\n\ni(i-1)/2+j-1\n\nB.\n\ni*i/2+j\n\nC.\n\ni*i/2+j-1\n\nD.\n\n其它\nA i(i-1)/2+j-1\nB i*i/2+j\nC i*i/2+j-1\nD 其它",
+      "answer": "A",
+      "fingerprint": "stem:108d2eb5",
+      "questionType": "choice",
+      "statementFingerprint": "stem:108d2eb5",
+      "answerText": "i(i-1)/2+j-1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "i(i-1)/2+j-1"
+        },
+        {
+          "label": "B",
+          "text": "i*i/2+j"
+        },
+        {
+          "label": "C",
+          "text": "i*i/2+j-1"
+        },
+        {
+          "label": "D",
+          "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n根据使用频率为5个字符设计的哈夫曼编码不可能是（  ）\nA. 000，001，010，011，1\nB. 0000，0001，001，01，1\nC. 000，001，01，10，11\nD. 00，100，101，110，111",
@@ -2993,6 +3049,26 @@
         {
           "label": "B",
           "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "6. 单选题\n\n若采用三元组压缩技术存储稀疏矩阵,只要把每个元素的行下标和列下标互换,就完成了对该矩阵的转置运算,这种观点( )。\n\nA.\n\n正确\n\nB.\n\n错误\nA 正确\nB 错误",
+      "answer": "B",
+      "fingerprint": "stem:62932e70",
+      "questionType": "choice",
+      "statementFingerprint": "stem:62932e70",
+      "answerText": "错误",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "正确"
+        },
+        {
+          "label": "B",
+          "text": "错误"
         }
       ],
       "formatStrength": "strong",
