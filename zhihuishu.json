@@ -3,6 +3,34 @@
   "name": "zhihuishu",
   "questions": [
     {
+      "stem": "1. 单选题\n\n 三元组用来存储( )\n\nA.\n\n稠密矩阵\n\nB.\n\n稀疏矩阵\n\nC.\n\n广义表\n\nD.\n\n特殊矩阵\nA 稠密矩阵\nB 稀疏矩阵\nC 广义表\nD 特殊矩阵",
+      "answer": "B",
+      "fingerprint": "stem:35cfecfe",
+      "questionType": "choice",
+      "statementFingerprint": "stem:35cfecfe",
+      "answerText": "稀疏矩阵",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "稠密矩阵"
+        },
+        {
+          "label": "B",
+          "text": "稀疏矩阵"
+        },
+        {
+          "label": "C",
+          "text": "广义表"
+        },
+        {
+          "label": "D",
+          "text": "特殊矩阵"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n\n设一组初始记录关键字序列为(345,253,674,924,627),则用基数排序需要进行( )趟的分配和回收才能使得初始关键字序列变成有序序列。\n\nA.\n\n3\n\nB.\n\n4\n\nC.\n\n5\n\nD.\n\n8\nA 3\nB 4\nC 5\nD 8",
       "answer": "A",
       "fingerprint": "54d9ef53396914111d99ab62ce56fb82a210bc0f71d02d7062c8af8c757b7200",
@@ -1711,6 +1739,34 @@
       "source": "local"
     },
     {
+      "stem": "2. 多选题\n\n以下哪些矩阵适合使用压缩存储?\n\nA\n稠密矩阵\nB\n对称矩阵\nC\n稀疏矩阵\nD\n完全矩阵\nA 稠密矩阵\nB 对称矩阵\nC 稀疏矩阵\nD 完全矩阵",
+      "answer": "BC",
+      "fingerprint": "stem:2175e993",
+      "questionType": "choice",
+      "statementFingerprint": "stem:2175e993",
+      "answerText": "对称矩阵 | 稀疏矩阵",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "稠密矩阵"
+        },
+        {
+          "label": "B",
+          "text": "对称矩阵"
+        },
+        {
+          "label": "C",
+          "text": "稀疏矩阵"
+        },
+        {
+          "label": "D",
+          "text": "完全矩阵"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 多选题\n以下不是平衡二叉查找树的是\nA AVL树\nB 红黑树\nC B+/B-树\nD 哈夫曼树",
       "answer": "CD",
       "fingerprint": "8887f5a977164d7a9baa140fc792f38616275657b1868a954a7e7fdc47349371",
@@ -1991,6 +2047,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "3. 单选题\n设有一个10阶的对称矩阵A,采用压缩存储方式,以行序为主存储,a11为第一元素,其存储地址为1,每个元素占一个地址空间,则a85的地址为( )。\nA.\n13\nB.\n32\nC.\n33\nD.\n40\nA 13\nB 32\nC 33\nD 40",
+      "answer": "C",
+      "fingerprint": "stem:240a04a9",
+      "questionType": "choice",
+      "statementFingerprint": "stem:240a04a9",
+      "answerText": "33",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "13"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "33"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 单选题\n试写一个算法，为一棵二叉树建立后序线索二叉树。Status PostOrderThreading(BiThrTree& T,BiThrTree& pre);//首先建立后序线索树Status FindNextInBiThrTree(BiThrTree& q,TElemType *p);//再进行查找// 后序线索二叉树的算法Status PostOrderThreading(BiThrTree& Thrt,BiThrTree& T){    BiThrTree pre;    Thrt=new BiThrNode; // 为线索二叉树建立头结点    if(!Thrt) exit(OVERFLOW);    Thrt->LTag=Link;    Thrt->RTag=Thread;    Thrt->rchild=Thrt;// 右子树回指    if(!T) Thrt->lchild=Thrt;// 若二叉树空，左子树回指    else{        Thrt->lchild=T;        pre=Thrt;        PostThreading(T,pre); // 后序遍历进行后序线索化        pre->rchild=Thrt;// 最后一个结点线索化        pre->RTag=Thread;        Thrt->rchild=pre;    }    return OK;}Status PostThreading(BiThrTree& T,BiThrTree& pre){    if(T){        if(T->LTag==Link) PostThreading(T->lchild,pre);        if(T->RTag==Link) PostThreading(T->rchild,pre);        if(!T->lchild){            T->LTag=Thread;             ____            }        if(pre && !pre->rchild){            pre->RTag=Thread;            pre->rchild=T;        }        pre=T;    }    return OK;}\nA. T->lchild=pre;\nB. pre->lchild=T;\nC. T->rchild=pre;\nD. pre->rchild=T;",
       "answer": "A",
       "fingerprint": "3ad82c258e8bbd1002652f3e861cebf5665d578bd98eff2ee391c2a4e8014eb8",
@@ -2265,6 +2349,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "4. 单选题\n\n设 n行n列的下三角矩阵A已压缩到一维数组B[0..n*(n+1)/2-1]中,若按行为主序存储,则A[i,j](i>=j)对应的B中存储位置为_______。\n\nA.\n\ni(i-1)/2+j-1\n\nB.\n\ni*i/2+j\n\nC.\n\ni*i/2+j-1\n\nD.\n\n其它\nA i(i-1)/2+j-1\nB i*i/2+j\nC i*i/2+j-1\nD 其它",
+      "answer": "A",
+      "fingerprint": "stem:108d2eb5",
+      "questionType": "choice",
+      "statementFingerprint": "stem:108d2eb5",
+      "answerText": "i(i-1)/2+j-1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "i(i-1)/2+j-1"
+        },
+        {
+          "label": "B",
+          "text": "i*i/2+j"
+        },
+        {
+          "label": "C",
+          "text": "i*i/2+j-1"
+        },
+        {
+          "label": "D",
+          "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n根据使用频率为5个字符设计的哈夫曼编码不可能是（  ）\nA. 000，001，010，011，1\nB. 0000，0001，001，01，1\nC. 000，001，01，10，11\nD. 00，100，101，110，111",
@@ -2993,6 +3105,26 @@
         {
           "label": "B",
           "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "6. 单选题\n\n若采用三元组压缩技术存储稀疏矩阵,只要把每个元素的行下标和列下标互换,就完成了对该矩阵的转置运算,这种观点( )。\n\nA.\n\n正确\n\nB.\n\n错误\nA 正确\nB 错误",
+      "answer": "B",
+      "fingerprint": "stem:62932e70",
+      "questionType": "choice",
+      "statementFingerprint": "stem:62932e70",
+      "answerText": "错误",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "正确"
+        },
+        {
+          "label": "B",
+          "text": "错误"
         }
       ],
       "formatStrength": "strong",
