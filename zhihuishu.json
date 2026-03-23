@@ -815,6 +815,34 @@
       "source": "local"
     },
     {
+      "stem": "1. 单选题\n在对图进行深度优先搜索时,一般需要用到下列哪个数据结构?\nA 栈\nB 队列\nC 二叉树\nD 单向链表",
+      "answer": "A",
+      "fingerprint": "stem:7e5c08c3",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7e5c08c3",
+      "answerText": "栈",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "栈"
+        },
+        {
+          "label": "B",
+          "text": "队列"
+        },
+        {
+          "label": "C",
+          "text": "二叉树"
+        },
+        {
+          "label": "D",
+          "text": "单向链表"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n在构建赫夫曼树的过程中，以下哪个操作是必须的？\nA. 合并两个权重最大的节点\nB. 合并两个权重最小的节点\nC. 随机选择两个节点合并\nD. 按照字母表顺序选择两个节点合并",
       "answer": "B",
       "fingerprint": "22abaae17b59743f427f038c827ded120d9386475aa4581ce3122a6ec641e9b6",
@@ -1655,6 +1683,34 @@
       "source": "local"
     },
     {
+      "stem": "2. 单选题\n在判别一个表达式中左、右括号是否配对出现的算法,采用( )数据结构最佳。\nA 线性表的顺序存储结构\nB 队列\nC 线性表的链式存储结构\nD 栈",
+      "answer": "D",
+      "fingerprint": "stem:7b5ab173",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7b5ab173",
+      "answerText": "栈",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "线性表的顺序存储结构"
+        },
+        {
+          "label": "B",
+          "text": "队列"
+        },
+        {
+          "label": "C",
+          "text": "线性表的链式存储结构"
+        },
+        {
+          "label": "D",
+          "text": "栈"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 单选题\n在数组的顺序存储中，如果已知数组的起始地址和元素大小，如何计算任意元素的地址？\nA. 起始地址 + 元素大小 * 索引\nB. 起始地址 + 索引\nC. 起始地址 + 元素大小 * (索引 - 1)\nD. 起始地址 + 索引 / 元素大小",
       "answer": "C",
       "fingerprint": "3779d7ef9c7297bc54309eb09ddccb96528494e3a26d8c07a55467a59515f303",
@@ -2271,6 +2327,34 @@
       "source": "local"
     },
     {
+      "stem": "3. 单选题\n在函数调用栈中,当一个函数执行完毕后,应该如何处理?\nA 将函数压入栈中\nB 弹出栈顶元素\nC 检查栈是否为空\nD 忽略函数执行完毕",
+      "answer": "B",
+      "fingerprint": "stem:6a4ab31b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:6a4ab31b",
+      "answerText": "弹出栈顶元素",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "将函数压入栈中"
+        },
+        {
+          "label": "B",
+          "text": "弹出栈顶元素"
+        },
+        {
+          "label": "C",
+          "text": "检查栈是否为空"
+        },
+        {
+          "label": "D",
+          "text": "忽略函数执行完毕"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 单选题\n执行（  ）操作时，需要使用队列做辅助存储空间。\nA. 查找哈希（Hash）表\nB. 广度优先搜索网\nC. 前序（根）遍历二叉树\nD. 深度优先搜索网",
       "answer": "B",
       "fingerprint": "ac86036bc4e558757e225b87160ba50081510ff0594eebb4fece41dbc4c59b01",
@@ -2457,6 +2541,34 @@
         {
           "label": "D",
           "text": "15,10,14,18,20,36,40,21"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "4. 单选题\n试写一个算法,识别依次读入的一个以@为结束符的字符序列是否为形如‘序列1&序列2’模式的字符序列。其中序列1和序列2中都不含字符‘&’,且序列2是序列1的逆序列。例如,‘a+b&b+a’是属该模式的字符序列,而‘1+3&3-1’则不是。BOOL Symmetry(char a[]){ int i=0; Stack s; InitStack(s); ElemType x; while(a[i]!='&' && a[i]){ ____ i++; } if(!a[i]) return FALSE; i++; while(a[i]){ Pop(s,x); if(x!=a[i]){ DestroyStack(s); return FALSE; } i++; } return TRUE;}A.Pop(s,a[i++]); B.Push(s,a[i++]); C.Push(s,a[i]); D.Pop(s,a[i]);\nA Pop(s,a[i++])\nB Push(s,a[i++])\nC Push(s,a[i])\nD Pop(s,a[i])",
+      "answer": "C",
+      "fingerprint": "stem:3f4716df",
+      "questionType": "choice",
+      "statementFingerprint": "stem:3f4716df",
+      "answerText": "Push(s,a[i])",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "Pop(s,a[i++])"
+        },
+        {
+          "label": "B",
+          "text": "Push(s,a[i++])"
+        },
+        {
+          "label": "C",
+          "text": "Push(s,a[i])"
+        },
+        {
+          "label": "D",
+          "text": "Pop(s,a[i])"
         }
       ],
       "formatStrength": "strong",
@@ -3071,6 +3183,34 @@
       "source": "local"
     },
     {
+      "stem": "5. 多选题\n栈在( )中应用\nA 递归调用\nB 子程序调用\nC 表达式求值\nD 其他都是",
+      "answer": "ABCD",
+      "fingerprint": "stem:5043ced8",
+      "questionType": "choice",
+      "statementFingerprint": "stem:5043ced8",
+      "answerText": "递归调用 | 子程序调用 | 表达式求值 | 其他都是",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "递归调用"
+        },
+        {
+          "label": "B",
+          "text": "子程序调用"
+        },
+        {
+          "label": "C",
+          "text": "表达式求值"
+        },
+        {
+          "label": "D",
+          "text": "其他都是"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "5. 判断题\n在平衡二叉树中,插入一个新节点后,树可能不再保持平衡。\nA 对\nB 错",
       "answer": "A",
       "fingerprint": "e35ee180b2f923dbfda55fe6d16022b947fdba0a5819d91fd396f66ab4fd6bd1",
@@ -3213,6 +3353,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "6. 单选题\n和顺序栈相比,链栈有一个比较明显的优势是\nA 通常不会出现栈满的情况\nB 通常不会出现栈空的情况\nC 插入操作更容易实现\nD 删除操作更容易实现",
+      "answer": "A",
+      "fingerprint": "stem:61adcf2f",
+      "questionType": "choice",
+      "statementFingerprint": "stem:61adcf2f",
+      "answerText": "通常不会出现栈满的情况",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "通常不会出现栈满的情况"
+        },
+        {
+          "label": "B",
+          "text": "通常不会出现栈空的情况"
+        },
+        {
+          "label": "C",
+          "text": "插入操作更容易实现"
+        },
+        {
+          "label": "D",
+          "text": "删除操作更容易实现"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n赫夫曼编码的编码长度与以下哪个因素有关？\nA. 字符的ASCII值\nB. 字符在编码中的顺序\nC. 字符出现的频率\nD. 编码使用的符号集大小",
@@ -3585,6 +3753,238 @@
         {
           "label": "D",
           "text": "哈夫曼树"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "一、 知识点练习默认部分\n1. 单选题\n\n数制转换采用( )结构来实现。\n\nA.\n\n栈\n\nB.\n\n队列\n\nC.\n\n链表\n\nD.\n\n顺序表\nA 栈\nB 队列\nC 链表\nD 顺序表",
+      "answer": "A",
+      "fingerprint": "stem:51bb004c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:51bb004c",
+      "answerText": "栈",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "栈"
+        },
+        {
+          "label": "B",
+          "text": "队列"
+        },
+        {
+          "label": "C",
+          "text": "链表"
+        },
+        {
+          "label": "D",
+          "text": "顺序表"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "一、 知识点练习默认部分\n1. 单选题\n设a=6,b=4,c=2,d=3,e=2,则后缀表达式abc-/de*+的值为( )\nA.\n6\nB.\n7\nC.\n8\nD.\n9\nA 6\nB 7\nC 8\nD 9",
+      "answer": "D",
+      "fingerprint": "stem:67866e55",
+      "questionType": "choice",
+      "statementFingerprint": "stem:67866e55",
+      "answerText": "9",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "一、 知识点练习默认部分\n2. 多选题\n\n以下哪些矩阵适合使用压缩存储?\n\nA\n稠密矩阵\nB\n对称矩阵\nC\n稀疏矩阵\nD\n完全矩阵\nA 稠密矩阵\nB 对称矩阵\nC 稀疏矩阵\nD 完全矩阵",
+      "answer": "BC",
+      "fingerprint": "stem:94388cd0",
+      "questionType": "choice",
+      "statementFingerprint": "stem:94388cd0",
+      "answerText": "对称矩阵 | 稀疏矩阵",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "稠密矩阵"
+        },
+        {
+          "label": "B",
+          "text": "对称矩阵"
+        },
+        {
+          "label": "C",
+          "text": "稀疏矩阵"
+        },
+        {
+          "label": "D",
+          "text": "完全矩阵"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "一、 知识点练习默认部分\n2. 多选题\n一个栈的输入序列为:1,2,3,4,则栈的有可能输出的序列是( )。\nA\n1243\nB\n2134\nC\n1432\nD\n4312\nE\n3214\nA 1243\nB 2134\nC 1432\nD 4312\nE 3214",
+      "answer": "ABCE",
+      "fingerprint": "stem:cc43c76",
+      "questionType": "choice",
+      "statementFingerprint": "stem:cc43c76",
+      "answerText": "1243 | 2134 | 1432",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "1243"
+        },
+        {
+          "label": "B",
+          "text": "2134"
+        },
+        {
+          "label": "C",
+          "text": "1432"
+        },
+        {
+          "label": "D",
+          "text": "4312"
+        },
+        {
+          "label": "E",
+          "text": "3214"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "一、 知识点练习默认部分\n3. 单选题\n\n假设从终端接受了这样一行字符:whli##ilr#e(s#*s),实际有效的是while (*ss)。( )\n\nA.\n\n对\n\nB.\n\n错\nA 对\nB 错",
+      "answer": "B",
+      "fingerprint": "stem:9543b2c2",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9543b2c2",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "一、 知识点练习默认部分\n4. 单选题\n数制转换采用( )结构\nA.\n顺序表\nB.\n栈\nC.\n队列\nD.\n图\nA 顺序表\nB 栈\nC 队列\nD 图",
+      "answer": "B",
+      "fingerprint": "stem:5006be4e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:5006be4e",
+      "answerText": "栈",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "顺序表"
+        },
+        {
+          "label": "B",
+          "text": "栈"
+        },
+        {
+          "label": "C",
+          "text": "队列"
+        },
+        {
+          "label": "D",
+          "text": "图"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "一、 知识点练习默认部分\n5. 判断题\n\n使用压缩存储表示稀疏矩阵时,可以通过遍历非零元素来快速计算矩阵的和。\n\nA.\n对\nB.\n错\nA 对\nB 错",
+      "answer": "对",
+      "fingerprint": "stem:b1a617b5",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b1a617b5",
+      "answerText": "",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "weak",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "一、 知识点练习默认部分\n5. 判断题\n\n栈可以用来实现迷宫寻路问题。\n\nA.\n对\nB.\n错\nA 对\nB 错",
+      "answer": "B",
+      "fingerprint": "stem:b3662d7c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b3662d7c",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "一、 知识点练习默认部分\n6. 单选题\n\n将递归算法转换成对应的非递归算法时,通常需要使用( )来保存中间结果\n\nA.\n队列\nB.\n栈\nC.\n链表\nD.\n树\nA 队列\nB 栈\nC 链表\nD 树",
+      "answer": "B",
+      "fingerprint": "stem:880482d4",
+      "questionType": "choice",
+      "statementFingerprint": "stem:880482d4",
+      "answerText": "栈",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "队列"
+        },
+        {
+          "label": "B",
+          "text": "栈"
+        },
+        {
+          "label": "C",
+          "text": "链表"
+        },
+        {
+          "label": "D",
+          "text": "树"
         }
       ],
       "formatStrength": "strong",
