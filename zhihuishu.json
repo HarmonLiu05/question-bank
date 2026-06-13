@@ -491,6 +491,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "1. 单选题\n若序列的原始状态为{1,2,3,4,5,10,6,7,8,9},要想使得排序过程中的元素比较次数最少,则应该采用( )方法。\nA 插入排序\nB 选择排序\nC 希尔排序\nD 冒泡排序",
+      "answer": "A",
+      "fingerprint": "stem:fbafb3b3",
+      "questionType": "choice",
+      "statementFingerprint": "stem:fbafb3b3",
+      "answerText": "插入排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "插入排序"
+        },
+        {
+          "label": "B",
+          "text": "选择排序"
+        },
+        {
+          "label": "C",
+          "text": "希尔排序"
+        },
+        {
+          "label": "D",
+          "text": "冒泡排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n若一个广义表的表头为空表，则此广义表亦为空表。（   ）\nA. 对\nB. 错",
       "answer": "A",
       "fingerprint": "385d019592a6c74ff7bf0e9e5b5e068cb67153591a78c8e1d16e2c1456f2c798",
@@ -509,6 +537,26 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "1. 单选题\n散列法的平均检索长度不随表中结点数目的增加而增加,而是随负载因子的增大而增大。( )\nA 对\nB 错",
+      "answer": "A",
+      "fingerprint": "stem:8dc3e4f5",
+      "questionType": "choice",
+      "statementFingerprint": "stem:8dc3e4f5",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n设串sl=″Data Structures with Java″,s2=“it″，则子串定位函数index(s1,s2)的值为（  ）\nA. 15\nB. 16\nC. 17\nD. 18",
@@ -735,6 +783,34 @@
       "source": "local"
     },
     {
+      "stem": "1. 单选题\n以下排序算法平均时间复杂度和插入排序相同的是( )\nA 冒泡排序\nB 堆排序\nC 希尔排序\nD 归并排序",
+      "answer": "A",
+      "fingerprint": "stem:7ef1349d",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7ef1349d",
+      "answerText": "冒泡排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "冒泡排序"
+        },
+        {
+          "label": "B",
+          "text": "堆排序"
+        },
+        {
+          "label": "C",
+          "text": "希尔排序"
+        },
+        {
+          "label": "D",
+          "text": "归并排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n以下数据结构中，是非线性数据结构的是（   ）\nA. 树\nB. 队列\nC. 栈\nD. 串",
       "answer": "A",
       "fingerprint": "083c7290f7e82954004919fc04d517ede73beb3923871b266a2d2f576c720bed",
@@ -927,6 +1003,54 @@
       "source": "local"
     },
     {
+      "stem": "1. 单选题\n在B-树中,如果一个节点的关键字数量少于最小值,需要进行什么操作?\nA 删除关键字\nB 插入关键字\nC 合并节点\nD 分裂节点",
+      "answer": "C",
+      "fingerprint": "stem:e7aa15c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e7aa15c",
+      "answerText": "合并节点",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "删除关键字"
+        },
+        {
+          "label": "B",
+          "text": "插入关键字"
+        },
+        {
+          "label": "C",
+          "text": "合并节点"
+        },
+        {
+          "label": "D",
+          "text": "分裂节点"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "1. 判断题\n\n平衡二叉树的删除操作一定比非平衡二叉树复杂。\n\nA.\n对\nB.\n错\nA 对\nB 错",
+      "answer": "A",
+      "fingerprint": "stem:c45c3bb8",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c45c3bb8",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 判断题\n对有向图进行深度优先遍历时,得到的遍历序列一定是唯一的,因为每个顶点的访 问顺序由其邻接顶点的顺序唯一确定。\nA.\n对\nB.\n错\nA 对\nB 错",
       "answer": "错",
       "fingerprint": "c622b646d2083827f5f9adc144e06c81bf91307b2b2278b655a4a7d88447f66a",
@@ -1079,6 +1203,34 @@
       "source": "local"
     },
     {
+      "stem": "2. 单选题\n关于排序算法,下列说法错误的是:\nA 快速排序的最坏时间复杂度是 O(n*log(n))\nB 插入排序的最坏时间复杂度是 O(n2)\nC 堆排序的平均时间复杂度是 O(n*log(n))\nD 归并排序的最坏时间复杂度是 O(n*log(n))",
+      "answer": "A",
+      "fingerprint": "stem:1862cb8",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1862cb8",
+      "answerText": "快速排序的最坏时间复杂度是 O(n*log(n))",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "快速排序的最坏时间复杂度是 O(n*log(n))"
+        },
+        {
+          "label": "B",
+          "text": "插入排序的最坏时间复杂度是 O(n2)"
+        },
+        {
+          "label": "C",
+          "text": "堆排序的平均时间复杂度是 O(n*log(n))"
+        },
+        {
+          "label": "D",
+          "text": "归并排序的最坏时间复杂度是 O(n*log(n))"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 单选题\n广义表((a,b,c,d))的表头是（ ）。\nA. a\nB. ()\nC. (a,b,c,d)\nD. (b,c,d)",
       "answer": "C",
       "fingerprint": "8b4742862bae13cdc152d97d41983e77f8f337fd27c42578b643349a7d9593e2",
@@ -1133,6 +1285,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n哈希表长m=14,哈希函数H(key)=key%11。表中已有4个结点:addr (15)=4; addr (38)=5; addr (61)=6; addr (84)=7;如用二次探测再散列处理冲突,关键字为49的结点的地址是____。\nA 8\nB 3\nC 5\nD 9",
+      "answer": "D",
+      "fingerprint": "stem:157fec47",
+      "questionType": "choice",
+      "statementFingerprint": "stem:157fec47",
+      "answerText": "9",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n假如一棵二叉树的中序遍历结果为ABCD，则结点A和结点D的关系一定不是（  ）\nA. 结点A是结点D的双亲结点\nB. 结点A是结点D的右子树上的结点\nC. 结点A是结点D的左子树上的结点\nD. 结点A与结点D具有共同的双亲的右子树上的结",
@@ -1217,6 +1397,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n排序方法中,从未排序序列中依次取出元素与已排序序列中的元素进行比较,将其放入已排序序列的正确位置上的方法称为\nA 希尔排序\nB 起泡排序\nC 插入排序\nD 选择排序",
+      "answer": "C",
+      "fingerprint": "stem:cbad656e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:cbad656e",
+      "answerText": "插入排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "希尔排序"
+        },
+        {
+          "label": "B",
+          "text": "起泡排序"
+        },
+        {
+          "label": "C",
+          "text": "插入排序"
+        },
+        {
+          "label": "D",
+          "text": "选择排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n若对n阶对称矩阵A以行序为主序方式将其下三角形的元素(包括主对角线上所有元素)依次存放于一维数组B[1..(n(n+1))/2]中，则在B中确定aij（i\nA i*(i-1)/2+j\nB j*(j-1)/2+i\nC i*(i+1)/2+j\nD j*(j+1)/2+i",
@@ -1795,6 +2003,34 @@
       "source": "local"
     },
     {
+      "stem": "2. 单选题\n在B-树中,如果需要插入一个新的关键字,可能会触发哪种操作?\nA 节点分裂\nB 节点合并\nC 树的高度增加\nD 树的高度减少",
+      "answer": "A",
+      "fingerprint": "stem:b6cdc348",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b6cdc348",
+      "answerText": "节点分裂",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "节点分裂"
+        },
+        {
+          "label": "B",
+          "text": "节点合并"
+        },
+        {
+          "label": "C",
+          "text": "树的高度增加"
+        },
+        {
+          "label": "D",
+          "text": "树的高度减少"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 多选题\n\n以下哪些矩阵适合使用压缩存储?\n\nA\n稠密矩阵\nB\n对称矩阵\nC\n稀疏矩阵\nD\n完全矩阵\nA 稠密矩阵\nB 对称矩阵\nC 稀疏矩阵\nD 完全矩阵",
       "answer": "BC",
       "fingerprint": "stem:2175e993",
@@ -1817,6 +2053,34 @@
         {
           "label": "D",
           "text": "完全矩阵"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "2. 多选题\n\n在下列表述中,()是错误的\n\nA\n含有一个或多个空格字符的串称为空串\nB\n对\nn(n>0)\n个顶点的网\n,\n求出权最小的\nn-1\n条边便可构成其最小生成树\nC\n选择排序算法是不稳定的\nD\n平衡二叉树的左右子树的结点数之差的绝对值不超过\n1\nA 含有一个或多个空格字符的串称为空串\nB 对n(n>0)个顶点的网,求出权最小的n-1条边便可构成其最小生成树\nC 选择排序算法是不稳定的\nD 平衡二叉树的左右子树的结点数之差的绝对值不超过1",
+      "answer": "ABD",
+      "fingerprint": "stem:eabf8d70",
+      "questionType": "choice",
+      "statementFingerprint": "stem:eabf8d70",
+      "answerText": "含有一个或多个空格字符的串称为空串 | 对n(n>0)个顶点的网,求出权最小的n-1条边便可构成其最小生成树 | 平衡二叉树的左右子树的结点数之差的绝对值不超过1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "含有一个或多个空格字符的串称为空串"
+        },
+        {
+          "label": "B",
+          "text": "对n(n>0)个顶点的网,求出权最小的n-1条边便可构成其最小生成树"
+        },
+        {
+          "label": "C",
+          "text": "选择排序算法是不稳定的"
+        },
+        {
+          "label": "D",
+          "text": "平衡二叉树的左右子树的结点数之差的绝对值不超过1"
         }
       ],
       "formatStrength": "strong",
@@ -1989,6 +2253,54 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "3. 单选题\n某内排序方法的稳定性是指( )。\nA 该排序算法不允许有相同的关键字记录\nB 该排序算法允许有相同的关键字记录\nC 平均时间为0(n log n)的排序方法\nD 其他都不对",
+      "answer": "D",
+      "fingerprint": "stem:4c0e26e2",
+      "questionType": "choice",
+      "statementFingerprint": "stem:4c0e26e2",
+      "answerText": "其他都不对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "该排序算法不允许有相同的关键字记录"
+        },
+        {
+          "label": "B",
+          "text": "该排序算法允许有相同的关键字记录"
+        },
+        {
+          "label": "C",
+          "text": "平均时间为0(n log n)的排序方法"
+        },
+        {
+          "label": "D",
+          "text": "其他都不对"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 单选题\n如果两个关键字的值不等但哈希函数值相等,则称这两个关键字为同义词。( )\nA 对\nB 错",
+      "answer": "A",
+      "fingerprint": "stem:80aa4d0a",
+      "questionType": "choice",
+      "statementFingerprint": "stem:80aa4d0a",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "3. 单选题\n若一棵具有n个结点的二叉树采用二叉链表存储结构,那么该二叉树所有结点共有（   ）个空指针域。\nA. n+1\nB. n\nC. n-1\nD. n-2",
@@ -2299,6 +2611,34 @@
       "source": "local"
     },
     {
+      "stem": "3. 单选题\n以下排序方法中( )在初始序列已基本有序的情况下,排序效率最高。\nA 冒泡排序\nB 直接插入排序\nC 堆排序\nD 快速排序",
+      "answer": "B",
+      "fingerprint": "stem:e09e85df",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e09e85df",
+      "answerText": "直接插入排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "冒泡排序"
+        },
+        {
+          "label": "B",
+          "text": "直接插入排序"
+        },
+        {
+          "label": "C",
+          "text": "堆排序"
+        },
+        {
+          "label": "D",
+          "text": "快速排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 单选题\n由权值分别为3，8，6，2，5的叶子结点生成一棵哈夫曼树，它的带权路径长度为(    )\nA. 24\nB. 48\nC. 72\nD. 53",
       "answer": "D",
       "fingerprint": "b0602ad779e32f3eafa714f55190a7bc72730bbf287280fcbfb35e7b324be207",
@@ -2349,6 +2689,62 @@
         {
           "label": "D",
           "text": "忽略函数执行完毕"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 单选题\n在平衡二又树中插入一个结点后造成了不平衡,设最小不平衡子树根为A,并已知A的左孩子的平衡因子为0,右孩子的平衡因子为1,则应做( )型调整以使其平衡( )\nA.\nLL\nB.\nLR\nC.\nRL\nD.\nRR\nA LL\nB LR\nC RL\nD RR",
+      "answer": "C",
+      "fingerprint": "stem:7c7daa7a",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7c7daa7a",
+      "answerText": "RL",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "LL"
+        },
+        {
+          "label": "B",
+          "text": "LR"
+        },
+        {
+          "label": "C",
+          "text": "RL"
+        },
+        {
+          "label": "D",
+          "text": "RR"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 单选题\n在B-树中进行搜索操作时,如果关键字不在树中,搜索过程会在哪结束?\nA 在树的根节点\nB 在树的叶子节点\nC 在树的中间节点\nD 在树的任何节点",
+      "answer": "B",
+      "fingerprint": "stem:e703a538",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e703a538",
+      "answerText": "在树的叶子节点",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "在树的根节点"
+        },
+        {
+          "label": "B",
+          "text": "在树的叶子节点"
+        },
+        {
+          "label": "C",
+          "text": "在树的中间节点"
+        },
+        {
+          "label": "D",
+          "text": "在树的任何节点"
         }
       ],
       "formatStrength": "strong",
@@ -2435,6 +2831,34 @@
       "source": "local"
     },
     {
+      "stem": "4. 单选题\n\n平衡二叉树(AVL树)中,节点的平衡因子是如何定义的?\n\nA.\n\n左子树的高度减去右子树的高度\n\nB.\n\n右子树的高度减去左子树的高度\n\nC.\n\n左子树的高度加上右子树的高度\n\nD.\n\n左子树的高度除以右子树的高度\nA 左子树的高度减去右子树的高度\nB 右子树的高度减去左子树的高度\nC 左子树的高度加上右子树的高度\nD 左子树的高度除以右子树的高度",
+      "answer": "A",
+      "fingerprint": "stem:55598f54",
+      "questionType": "choice",
+      "statementFingerprint": "stem:55598f54",
+      "answerText": "左子树的高度减去右子树的高度",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "左子树的高度减去右子树的高度"
+        },
+        {
+          "label": "B",
+          "text": "右子树的高度减去左子树的高度"
+        },
+        {
+          "label": "C",
+          "text": "左子树的高度加上右子树的高度"
+        },
+        {
+          "label": "D",
+          "text": "左子树的高度除以右子树的高度"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "4. 单选题\n\n设 n行n列的下三角矩阵A已压缩到一维数组B[0..n*(n+1)/2-1]中,若按行为主序存储,则A[i,j](i>=j)对应的B中存储位置为_______。\n\nA.\n\ni(i-1)/2+j-1\n\nB.\n\ni*i/2+j\n\nC.\n\ni*i/2+j-1\n\nD.\n\n其它\nA i(i-1)/2+j-1\nB i*i/2+j\nC i*i/2+j-1\nD 其它",
       "answer": "A",
       "fingerprint": "stem:108d2eb5",
@@ -2457,6 +2881,34 @@
         {
           "label": "D",
           "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "4. 单选题\n待排序元素规模较小时,宜选取哪种排序算法效率最高()\nA 堆排序\nB 归并排序\nC 冒泡排序\nD 希尔排序",
+      "answer": "C",
+      "fingerprint": "stem:ee80ad6c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ee80ad6c",
+      "answerText": "冒泡排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "堆排序"
+        },
+        {
+          "label": "B",
+          "text": "归并排序"
+        },
+        {
+          "label": "C",
+          "text": "冒泡排序"
+        },
+        {
+          "label": "D",
+          "text": "希尔排序"
         }
       ],
       "formatStrength": "strong",
@@ -2517,6 +2969,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "4. 单选题\n具有10个记录的序列,采用冒泡排序最少的比较次数是 ( )\nA 9\nB 81\nC 1\nD 54",
+      "answer": "A",
+      "fingerprint": "stem:719614fd",
+      "questionType": "choice",
+      "statementFingerprint": "stem:719614fd",
+      "answerText": "9",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "9"
+        },
+        {
+          "label": "B",
+          "text": "81"
+        },
+        {
+          "label": "C",
+          "text": "1"
+        },
+        {
+          "label": "D",
+          "text": "54"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n设一组初始关键字记录关键字为(20,15,14,18,21,36,40,10),则以20为基准记录的一趟快速排序结束后的结果为( )。\nA.\n10,15,14,18,20,36,40,21\nB.\n10,15,14,18,20,40,36,21\nC.\n10,15,14,20,18,40,36,2l\nD.\n15,10,14,18,20,36,40,21\nA 10,15,14,18,20,36,40,21\nB 10,15,14,18,20,40,36,21\nC 10,15,14,20,18,40,36,2l\nD 15,10,14,18,20,36,40,21",
@@ -2629,6 +3109,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "4. 单选题\n下面关于m阶B-树说法正确的是( )1每个结点至少有两棵非空子树2树中每个结点至多有m-1个关键字3所有叶子在同一层上4当插入一个数据项引起B-树结点分裂后,树长高一层\nA 123\nB 23\nC 234\nD 3",
+      "answer": "B",
+      "fingerprint": "stem:7614ce1a",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7614ce1a",
+      "answerText": "23",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "123"
+        },
+        {
+          "label": "B",
+          "text": "23"
+        },
+        {
+          "label": "C",
+          "text": "234"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n下面结构中最适于表示稀疏无向图的是（    ）。\nA. 邻接矩阵\nB. 逆邻接表\nC. 邻接多重表\nD. 十字链表",
@@ -2827,6 +3335,34 @@
       "source": "local"
     },
     {
+      "stem": "4. 单选题\n在各种查找方法中,平均查找长度与结点个数n无关的查法方法是( )\nA 哈希表\nB 顺序表\nC 有序表\nD 二叉排序树",
+      "answer": "A",
+      "fingerprint": "stem:f01f3473",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f01f3473",
+      "answerText": "哈希表",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "哈希表"
+        },
+        {
+          "label": "B",
+          "text": "顺序表"
+        },
+        {
+          "label": "C",
+          "text": "有序表"
+        },
+        {
+          "label": "D",
+          "text": "二叉排序树"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "4. 单选题\n在图的存储结构中，哪种表示法可以方便地获取图中所有顶点的度数？\nA. 邻接矩阵\nB. 邻接表\nC. 边列表\nD. 所有选项都可以",
       "answer": "A",
       "fingerprint": "47b27a843bfec2325bcad20dcf581767fa80d00d434f6b9b9e6c09ad422a8eb9",
@@ -2961,6 +3497,34 @@
         {
           "label": "D",
           "text": "15"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "5. 单选题\n\n在AVL树中,以下哪种类型的旋转操作可以解决RR型的情况?\n\nA.\n\n左旋\n\nB.\n\n右旋\n\nC.\n\n左右旋\n\nD.\n\n右左旋\nA 左旋\nB 右旋\nC 左右旋\nD 右左旋",
+      "answer": "A",
+      "fingerprint": "stem:1ae188a6",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1ae188a6",
+      "answerText": "左旋",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "左旋"
+        },
+        {
+          "label": "B",
+          "text": "右旋"
+        },
+        {
+          "label": "C",
+          "text": "左右旋"
+        },
+        {
+          "label": "D",
+          "text": "右左旋"
         }
       ],
       "formatStrength": "strong",
@@ -3163,6 +3727,34 @@
       "source": "local"
     },
     {
+      "stem": "5. 单选题\n用直接插入排序方法对下面四个序列进行排序(由小到大),元素比较次数最少的是( )。\nA 94,32,40,90,80,46,21,69\nB 32,40,21,46,69,94,90,80\nC 21,32,46,40,80,69,90,94\nD 90,69,80,46,21,32,94,40",
+      "answer": "C",
+      "fingerprint": "stem:24ceb352",
+      "questionType": "choice",
+      "statementFingerprint": "stem:24ceb352",
+      "answerText": "21,32,46,40,80,69,90,94",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "94,32,40,90,80,46,21,69"
+        },
+        {
+          "label": "B",
+          "text": "32,40,21,46,69,94,90,80"
+        },
+        {
+          "label": "C",
+          "text": "21,32,46,40,80,69,90,94"
+        },
+        {
+          "label": "D",
+          "text": "90,69,80,46,21,32,94,40"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "5. 单选题\n在二叉树的第i层上至多有(   )结点\nA.\nB.\nC.\nD.",
       "answer": "A",
       "fingerprint": "f85e2cc8312f3f147585eb317ecac195af8320c3005225bdf51f0f4ce3cda720",
@@ -3181,6 +3773,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "5. 单选题\n在B-树中,如果一个节点的关键字数量达到最大值,那么它的子节点数量是多少?\nA 关键字数量减1\nB 关键字数量加1\nC 关键字数量\nD 关键字数量的两倍",
+      "answer": "B",
+      "fingerprint": "stem:66b81e66",
+      "questionType": "choice",
+      "statementFingerprint": "stem:66b81e66",
+      "answerText": "关键字数量加1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "关键字数量减1"
+        },
+        {
+          "label": "B",
+          "text": "关键字数量加1"
+        },
+        {
+          "label": "C",
+          "text": "关键字数量"
+        },
+        {
+          "label": "D",
+          "text": "关键字数量的两倍"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "5. 多选题\n栈在( )中应用\nA 递归调用\nB 子程序调用\nC 表达式求值\nD 其他都是",
@@ -3205,6 +3825,26 @@
         {
           "label": "D",
           "text": "其他都是"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "5. 判断题\n哈希查找中,哈希函数的设计越复杂,哈希冲突发生的概率就越低,因此哈希表的查\n找效率也一定越高。\nA 对\nB 错",
+      "answer": "B",
+      "fingerprint": "stem:5e1abafb",
+      "questionType": "choice",
+      "statementFingerprint": "stem:5e1abafb",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
         }
       ],
       "formatStrength": "strong",
@@ -3265,6 +3905,34 @@
         {
           "label": "B",
           "text": "错误"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "6. 单选题\n\n一棵3阶B-树中含有2047个关键字,包括叶子结点层,该树的最大深度为( )\n\nA.\n11\nB.\n12\nC.\n13\nD.\n14\nA 11\nB 12\nC 13\nD 14",
+      "answer": "A",
+      "fingerprint": "stem:1438866",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1438866",
+      "answerText": "11",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "11"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "14"
         }
       ],
       "formatStrength": "strong",
@@ -3355,6 +4023,34 @@
       "source": "local"
     },
     {
+      "stem": "6. 单选题\n好的哈希函数有一个共同的性质,即函数值应当以( )取其值域的每个值。\nA 最大概率\nB 最小概率\nC 平均概率\nD 同等概率",
+      "answer": "D",
+      "fingerprint": "stem:7a415b7b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7a415b7b",
+      "answerText": "同等概率",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "最大概率"
+        },
+        {
+          "label": "B",
+          "text": "最小概率"
+        },
+        {
+          "label": "C",
+          "text": "平均概率"
+        },
+        {
+          "label": "D",
+          "text": "同等概率"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "6. 单选题\n和顺序栈相比,链栈有一个比较明显的优势是\nA 通常不会出现栈满的情况\nB 通常不会出现栈空的情况\nC 插入操作更容易实现\nD 删除操作更容易实现",
       "answer": "A",
       "fingerprint": "stem:61adcf2f",
@@ -3409,6 +4105,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "6. 单选题\n排序方法中,从未排序序列中依次取出元素与己排序序列(初始时为空)中的元素进行比 较,将其放入己排序序列的正确位置上的方法,称为( )\nA 希尔排序\nB 起泡排序\nC 插入排序\nD 选择排序",
+      "answer": "C",
+      "fingerprint": "stem:d47b0cca",
+      "questionType": "choice",
+      "statementFingerprint": "stem:d47b0cca",
+      "answerText": "插入排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "希尔排序"
+        },
+        {
+          "label": "B",
+          "text": "起泡排序"
+        },
+        {
+          "label": "C",
+          "text": "插入排序"
+        },
+        {
+          "label": "D",
+          "text": "选择排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n如何表示一个空的广义表？\nA. ()\nB. []\nC. {}\nD. \"\"",
@@ -3709,6 +4433,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "6. 单选题\nAVL树是一种平衡的二叉排序树,树中任一结点的( )\nA.\n左、右子树的高度均相同\nB.\n左、右子树高度差的绝对值不超过1\nC.\n左子树的高度均大于右子树的高度\nD.\n左子树的高度均小于右子树的高度\nA 左、右子树的高度均相同\nB 左、右子树高度差的绝对值不超过1\nC 左子树的高度均大于右子树的高度\nD 左子树的高度均小于右子树的高度",
+      "answer": "B",
+      "fingerprint": "stem:104ab862",
+      "questionType": "choice",
+      "statementFingerprint": "stem:104ab862",
+      "answerText": "左、右子树高度差的绝对值不超过1",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "左、右子树的高度均相同"
+        },
+        {
+          "label": "B",
+          "text": "左、右子树高度差的绝对值不超过1"
+        },
+        {
+          "label": "C",
+          "text": "左子树的高度均大于右子树的高度"
+        },
+        {
+          "label": "D",
+          "text": "左子树的高度均小于右子树的高度"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "6. 判断题\n使用三元组表表示稀疏矩阵时，可以省略矩阵的行数和列数信息。\nA. 对\nB. 错",
