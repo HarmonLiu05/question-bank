@@ -59,6 +59,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "1. 单选题\n( )是一个值的集合和定义在这个值集上的一组操作的总称。\nA 抽象数据类型\nB 数据元素\nC 数据项\nD 数据结合",
+      "answer": "A",
+      "fingerprint": "stem:4d568a81",
+      "questionType": "choice",
+      "statementFingerprint": "stem:4d568a81",
+      "answerText": "抽象数据类型",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "数据类型"
+        },
+        {
+          "label": "B",
+          "text": "数据元素"
+        },
+        {
+          "label": "C",
+          "text": "数据项"
+        },
+        {
+          "label": "D",
+          "text": "数据结构"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n按照二叉树的定义，具有3个结点的二叉树有（    ）种。\nA. 3\nB. 4\nC. 5\nD. 6",
       "answer": "C",
       "fingerprint": "c5920bcf026ab6a2590dcb6118204d4a7cc0fa137d1ceb1025360c94033f0a15",
@@ -141,6 +169,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "1. 单选题\n采用简单选择排序,比较次数与移动次数分别为( )。\nA O(n),O(logn)\nB O(logn),O(n*n)\nC O(n*n),O(n)\nD O(nlogn),O(n)",
+      "answer": "C",
+      "fingerprint": "stem:9d950736",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9d950736",
+      "answerText": "O(n*n),O(n)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "O(n),O(logn)"
+        },
+        {
+          "label": "B",
+          "text": "O(logn),O(n*n)"
+        },
+        {
+          "label": "C",
+          "text": "O(n*n),O(n)"
+        },
+        {
+          "label": "D",
+          "text": "O(nlogn),O(n)"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n采用邻接表存储的图的宽度优先遍历算法类似于二叉树的（   ）。\nA 先序遍历\nB 中序遍历\nC 后序遍历\nD 层次遍历",
@@ -671,6 +727,26 @@
       "source": "local"
     },
     {
+      "stem": "1. 单选题\n树形选择排序的过程可用一棵有n个叶子结点的完全二叉树表示。( )\nA 对\nB 错",
+      "answer": "A",
+      "fingerprint": "stem:53998e03",
+      "questionType": "choice",
+      "statementFingerprint": "stem:53998e03",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n数组A中，每个元素A的长度为3个字节，行下标i从1到8，列下标j从1到10，从首地址SA开始连续存放在存储器内，存放该数组至少需要的单元数是____。\nA. 80\nB. 100\nC. 240\nD. 270",
       "answer": "C",
       "fingerprint": "095f4bc20b220a9f0caff47de81e9f63f5e2d2e96a7e958e7878ce7376d27481",
@@ -697,6 +773,62 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "1. 单选题\n图书馆的数目检索系统采用____关系的数据结构。\nA 集合\nB 线性\nC 树形\nD 图状",
+      "answer": "B",
+      "fingerprint": "stem:34468f8c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:34468f8c",
+      "answerText": "线性",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "集合"
+        },
+        {
+          "label": "B",
+          "text": "线性"
+        },
+        {
+          "label": "C",
+          "text": "树形"
+        },
+        {
+          "label": "D",
+          "text": "图状"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "1. 单选题\n下列排序算法中存储消耗最大的是?()\nA 快速排序\nB 堆排序\nC 归并排序\nD 插入排序",
+      "answer": "C",
+      "fingerprint": "stem:b0706077",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b0706077",
+      "answerText": "归并排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "快速排序"
+        },
+        {
+          "label": "B",
+          "text": "堆排序"
+        },
+        {
+          "label": "C",
+          "text": "归并排序"
+        },
+        {
+          "label": "D",
+          "text": "插入排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n下面哪个选项不是数组顺序存储的优点？\nA. 随机访问速度快\nB. 插入和删除操作快\nC. 内存利用率高\nD. 存储空间分配简单",
@@ -753,6 +885,62 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "1. 单选题\n一组记录的关键码(46,79,56,38,40,84),则利用快速排序的方法,以第一个记录为基准得到的一次划分结果为( )\nA 38,40,46,56,79,84\nB 40,38,46,79,56,84\nC 40,38,46,56,79,84\nD 40,38,46,84,56,79",
+      "answer": "C",
+      "fingerprint": "stem:8904ff09",
+      "questionType": "choice",
+      "statementFingerprint": "stem:8904ff09",
+      "answerText": "40,38,46,56,79,84",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "38,40,46,56,79,84"
+        },
+        {
+          "label": "B",
+          "text": "40,38,46,79,56,84"
+        },
+        {
+          "label": "C",
+          "text": "40,38,46,56,79,84"
+        },
+        {
+          "label": "D",
+          "text": "40,38,46,84,56,79"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "1. 单选题\n一组记录的排序码为(46,79,56,38,40,84),则利用堆排序的方法建立的初始推为( )。\nA 79,46,56,38,40,80\nB 84,79,56,38,40,46\nC 84,79,56,46,40,38\nD 84,56,79,40,46,38",
+      "answer": "B",
+      "fingerprint": "stem:a31def69",
+      "questionType": "choice",
+      "statementFingerprint": "stem:a31def69",
+      "answerText": "84,79,56,38,40,46",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "79,46,56,38,40,80"
+        },
+        {
+          "label": "B",
+          "text": "84,79,56,38,40,46"
+        },
+        {
+          "label": "C",
+          "text": "84,79,56,46,40,38"
+        },
+        {
+          "label": "D",
+          "text": "84,56,79,40,46,38"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n已知一棵树边的集合为{<I,M>, <I,N>, <E,I>, <B,E>, <B,D>, <A,B>, <G,J>, <G,K>, <C,G>, <C,F>, <H,L>, <C,H>, <A,C>},将此树转化为二叉树后，E的左孩子为（  ）\nA. A\nB. C\nC. I\nD. B",
@@ -975,6 +1163,34 @@
       "source": "local"
     },
     {
+      "stem": "1. 单选题\n在任意一棵非空二又排序树T1中删除某结点v之后形成二又排序树T2,再将v插入T2形成二又排序树T3。下列关于T1与T3的叙述中,正确的是( )I.若v是T1的叶结点,则与T1与T3不同II.若v是T1的叶结点,则T1与T3相同III.若v不是T1的叶结点,则T1与T3不同IV.若v不是T1的叶结点,则T1与T3相同\nA 仅I、III\nB 仅I、IV\nC 仅II、III\nD 仅II、IV",
+      "answer": "C",
+      "fingerprint": "stem:d8a46ab6",
+      "questionType": "choice",
+      "statementFingerprint": "stem:d8a46ab6",
+      "answerText": "仅II、III",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "仅I、III"
+        },
+        {
+          "label": "B",
+          "text": "仅I、IV"
+        },
+        {
+          "label": "C",
+          "text": "仅II、III"
+        },
+        {
+          "label": "D",
+          "text": "仅II、IV"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n在图的存储结构中，邻接矩阵表示法适用于哪种类型的图？\nA. 无向图\nB. 有向图\nC. 稀疏图\nD. 稠密图",
       "answer": "D",
       "fingerprint": "b26d2d7edbf7dca2f09625863f8253b547af6ae8e01ddfa6a4a69e84dc190c0b",
@@ -1096,6 +1312,46 @@
         }
       ],
       "formatStrength": "weak",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "1. 判断题\n算法的五个特性为:有穷性、输入、输出、完成性和确定性。( )\nA.\n对\nB.\n错\nA 对\nB 错",
+      "answer": "B",
+      "fingerprint": "stem:6a7fa902",
+      "questionType": "choice",
+      "statementFingerprint": "stem:6a7fa902",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "1. 判断题\n算法一般用类C语言之类的伪码来描述,如果用C语言等高级语言来描述,则算法实际上就是程序了。\nA 对\nB 错",
+      "answer": "B",
+      "fingerprint": "stem:9c30ad10",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9c30ad10",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
@@ -1229,6 +1485,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n关系数据模型的基本数据结构是:\nA 树\nB 图\nC 关系\nD 索引",
+      "answer": "C",
+      "fingerprint": "stem:9223123a",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9223123a",
+      "answerText": "关系",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "树"
+        },
+        {
+          "label": "B",
+          "text": "图"
+        },
+        {
+          "label": "C",
+          "text": "关系"
+        },
+        {
+          "label": "D",
+          "text": "索引"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n关于排序算法,下列说法错误的是:\nA 快速排序的最坏时间复杂度是 O(n*log(n))\nB 插入排序的最坏时间复杂度是 O(n2)\nC 堆排序的平均时间复杂度是 O(n*log(n))\nD 归并排序的最坏时间复杂度是 O(n*log(n))",
@@ -1427,6 +1711,34 @@
       "source": "local"
     },
     {
+      "stem": "2. 单选题\n枚举法的主要优点是( )\nA.\n思路直观、实现简单\nB.\n能够保证找到所有解或最优解\nC.\n时间复杂度低\nD.\n适合大规模问题\nA 思路直观、实现简单\nB 能够保证找到所有解或最优解\nC 时间复杂度低\nD 适合大规模问题",
+      "answer": "A",
+      "fingerprint": "stem:8463be88",
+      "questionType": "choice",
+      "statementFingerprint": "stem:8463be88",
+      "answerText": "思路直观、实现简单",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "思路直观、实现简单"
+        },
+        {
+          "label": "B",
+          "text": "能够保证找到所有解或最优解"
+        },
+        {
+          "label": "C",
+          "text": "时间复杂度低"
+        },
+        {
+          "label": "D",
+          "text": "适合大规模问题"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 单选题\n排序方法中,从未排序序列中依次取出元素与已排序序列中的元素进行比较,将其放入已排序序列的正确位置上的方法称为\nA 希尔排序\nB 起泡排序\nC 插入排序\nD 选择排序",
       "answer": "C",
       "fingerprint": "stem:cbad656e",
@@ -1621,6 +1933,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n设一组初始记录关键字序列为(25,50,15,35,80,85,20,40,36,70),其中含有5个长度为2的有序子表,则用归并排序的方法对该记录关键字序列进行一趟归并后的结果为( )。\nA 15,25,35,50,20,40,80,85,36,70\nB 15,25,35,50,80,20,85,40,70,36\nC 15,25,35,50,80,85,20,36,40,70\nD 15,25,35,50,80,20,36,40,70,85",
+      "answer": "A",
+      "fingerprint": "stem:1d14bfd7",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1d14bfd7",
+      "answerText": "15,25,35,50,20,40,80,85,36,70",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "15,25,35,50,20,40,80,85,36,70"
+        },
+        {
+          "label": "B",
+          "text": "15,25,35,50,80,20,85,40,70,36"
+        },
+        {
+          "label": "C",
+          "text": "15,25,35,50,80,85,20,36,40,70"
+        },
+        {
+          "label": "D",
+          "text": "15,25,35,50,80,20,36,40,70,85"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n设有两个串p和q，其中q是p的子串，求q在p中首次出现的位置的算法称为（    ）\nA. 求子串\nB. 联接\nC. 匹配\nD. 求串长",
@@ -1819,6 +2159,34 @@
       "source": "local"
     },
     {
+      "stem": "2. 单选题\n以下序列不是堆的是( )。\nA (100,85,98,77,80,60,82,40,20,10,66)\nB (100,98,85,82,80,77,66,60,40,20,10)\nC (10,20,40,60,66,77,80,82,85,98,100)\nD (100,85,40,77,80,60,66,98,82,10,20)",
+      "answer": "D",
+      "fingerprint": "stem:340ebac1",
+      "questionType": "choice",
+      "statementFingerprint": "stem:340ebac1",
+      "answerText": "(100,85,40,77,80,60,66,98,82,10,20)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "(100,85,98,77,80,60,82,40,20,10,66)"
+        },
+        {
+          "label": "B",
+          "text": "(100,98,85,82,80,77,66,60,40,20,10)"
+        },
+        {
+          "label": "C",
+          "text": "(10,20,40,60,66,77,80,82,85,98,100)"
+        },
+        {
+          "label": "D",
+          "text": "(100,85,40,77,80,60,66,98,82,10,20)"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 单选题\n引入二叉线索树的目的是（    ）\nA. 加快查找结点的前驱或后继的速度\nB. 为了能在二叉树中方便的进行插入与删除\nC. 为了能方便的找到双亲\nD. 使二叉树的遍历结果唯一",
       "answer": "A",
       "fingerprint": "7a652c6773985437cb9aae5b7403f3913e6f41e6453bd68da40bc3270aed794b",
@@ -1893,6 +2261,62 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n在二叉排序树中插入一个新节点时,如果插入位置的父节点为空,那么新节点将成为?\nA 根节点\nB 叶子节点\nC 内部节点\nD 外部节点",
+      "answer": "A",
+      "fingerprint": "stem:bf6d95c1",
+      "questionType": "choice",
+      "statementFingerprint": "stem:bf6d95c1",
+      "answerText": "根节点",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "根节点"
+        },
+        {
+          "label": "B",
+          "text": "叶子节点"
+        },
+        {
+          "label": "C",
+          "text": "内部节点"
+        },
+        {
+          "label": "D",
+          "text": "外部节点"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "2. 单选题\n在快速排序,归并排序,插入排序,选择排序,冒泡排序中,使用到分治思想的算法个数有几个( )\nA 1\nB 2\nC 3\nD 4",
+      "answer": "B",
+      "fingerprint": "stem:f3b3ff53",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f3b3ff53",
+      "answerText": "2",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n在离散事件的模拟中，（   ）采用队列结构来实现。\nA. 到达事件和离开事件\nB. 每个窗口的客户\nC. 其它",
@@ -1973,6 +2397,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n在所有的排序方法中,关键字比较的次数与记录的初始排列次序无关的是\nA 希尔排序\nB 冒泡排序\nC 直接插入排序\nD 直接选择排序",
+      "answer": "D",
+      "fingerprint": "stem:155ab457",
+      "questionType": "choice",
+      "statementFingerprint": "stem:155ab457",
+      "answerText": "直接选择排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "希尔排序"
+        },
+        {
+          "label": "B",
+          "text": "冒泡排序"
+        },
+        {
+          "label": "C",
+          "text": "直接插入排序"
+        },
+        {
+          "label": "D",
+          "text": "直接选择排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n在图的存储结构中，邻接表表示法的主要优点是什么？\nA. 节省空间\nB. 便于随机访问\nC. 便于插入和删除操作\nD. 所有选项都正确",
@@ -2143,6 +2595,26 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "2. 判断题\n研究算法中的输入和输出的关系是算法分析的目的之一。( )\nA 对\nB 错",
+      "answer": "B",
+      "fingerprint": "stem:8f7f3f64",
+      "questionType": "choice",
+      "statementFingerprint": "stem:8f7f3f64",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 单选题\n\n设一组初始记录关键字序列(5,2,6,3,8),以第一个记录关键字5为基准进行一趟快速排序的结果为\n\nA.\n2\n,3,5,8,6\nB.\n3\n,2,5,8,6\nC.\n3,2,5,6,8\nD.\n2\n,3,6,5,8\nA 2,3,5,8,6\nB 3,2,5,8,6\nC 3,2,5,6,8\nD 2,3,6,5,8",
       "answer": "C",
       "fingerprint": "06e7d2eee7f8d9e14a22a0ab77b29eba6bb5bfe94f462b33577714983c538b82",
@@ -2171,6 +2643,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "3. 单选题\n( )是数据的最小单位。\nA 数据元素\nB 数据项\nC 数据对象\nD 数据文件",
+      "answer": "A",
+      "fingerprint": "stem:a4d616de",
+      "questionType": "choice",
+      "statementFingerprint": "stem:a4d616de",
+      "answerText": "数据元素",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "数据元素"
+        },
+        {
+          "label": "B",
+          "text": "数据项"
+        },
+        {
+          "label": "C",
+          "text": "数据对象"
+        },
+        {
+          "label": "D",
+          "text": "数据文件"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 单选题\n采用顺序查找方法查找长度为n的线性表时,不成功情况下的平均比较次数为( )\nA.\nn\nB.\nn/2\nC.\n(n+1)/2\nD.\n(n-1)/2\nA n\nB n/2\nC (n+1)/2\nD (n-1)/2",
       "answer": "A",
       "fingerprint": "0418c50980ec158ea31cacff41c140e7800e738b37b3cc2330e8873937d0c246",
@@ -2193,6 +2693,62 @@
         {
           "label": "D",
           "text": "(n-1)/2"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 单选题\n动态规划适用的关键条件包括( )\nA.\n贪心选择性质\nB.\n最优子结构\nC.\n重叠子问题\nD.\n子问题必须相互独立\nA 贪心选择性质\nB 最优子结构\nC 重叠子问题\nD 子问题必须相互独立",
+      "answer": "C",
+      "fingerprint": "stem:873ef0bf",
+      "questionType": "choice",
+      "statementFingerprint": "stem:873ef0bf",
+      "answerText": "重叠子问题",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "贪心选择性质"
+        },
+        {
+          "label": "B",
+          "text": "最优子结构"
+        },
+        {
+          "label": "C",
+          "text": "重叠子问题"
+        },
+        {
+          "label": "D",
+          "text": "子问题必须相互独立"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 单选题\n对于排序算法,经常关注的是其时间复杂度和稳定性。下列排序算法中平均时间复杂度是O(n)且稳定的是?( )\nA 插入排序\nB 归并排序\nC 堆排序\nD 快速排序",
+      "answer": "B",
+      "fingerprint": "stem:a540ead3",
+      "questionType": "choice",
+      "statementFingerprint": "stem:a540ead3",
+      "answerText": "归并排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "插入排序"
+        },
+        {
+          "label": "B",
+          "text": "归并排序"
+        },
+        {
+          "label": "C",
+          "text": "堆排序"
+        },
+        {
+          "label": "D",
+          "text": "快速排序"
         }
       ],
       "formatStrength": "strong",
@@ -2415,6 +2971,34 @@
       "source": "local"
     },
     {
+      "stem": "3. 单选题\n设有5000个待排序的记录关键字,如果需要用最快的方法选出其中最小的10个记录关键字,则用下列( )方法可以达到此目的。\nA 快速排序\nB 堆排序\nC 归并排序\nD 插入排序",
+      "answer": "B",
+      "fingerprint": "stem:2fdcb7ef",
+      "questionType": "choice",
+      "statementFingerprint": "stem:2fdcb7ef",
+      "answerText": "堆排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "快速排序"
+        },
+        {
+          "label": "B",
+          "text": "堆排序"
+        },
+        {
+          "label": "C",
+          "text": "归并排序"
+        },
+        {
+          "label": "D",
+          "text": "插入排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 单选题\n设有数组A[i,j],数组的每个元素长度为3字节,i的值为1到8,j的值为1到10,数组从内存首地址BA开始顺序存放,当用以列为主存放时,元素A[5,8]的存储首地址为( )。\nA BA+141\nB BA+180\nC BA+222\nD BA+225",
       "answer": "B",
       "fingerprint": "df773464e8effa44d18601a3feb0db9be0a413028f89c61e32a90f131800112d",
@@ -2465,6 +3049,34 @@
         {
           "label": "D",
           "text": "40"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 单选题\n使用直接选择排序算法对序列18,23,19,9,23,15进行排序,第3趟排序后的结果为( )\nA 9,23,19,18,23,15\nB 9,15,18,23,23,19\nC 18,19,23,9,23,15\nD 18,19,23,9,15,23",
+      "answer": "B",
+      "fingerprint": "stem:dfd59742",
+      "questionType": "choice",
+      "statementFingerprint": "stem:dfd59742",
+      "answerText": "9,15,18,23,23,19",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "9,23,19,18,23,15"
+        },
+        {
+          "label": "B",
+          "text": "9,15,18,23,23,19"
+        },
+        {
+          "label": "C",
+          "text": "18,19,23,9,23,15"
+        },
+        {
+          "label": "D",
+          "text": "18,19,23,9,15,23"
         }
       ],
       "formatStrength": "strong",
@@ -2581,6 +3193,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "3. 单选题\n下列算法中,属于分治法典型应用的是( )\nA 快速排序\nB 归并排序\nC Dijkstra最短路径算法\nD Karatsuba大整数乘法",
+      "answer": "B",
+      "fingerprint": "stem:f9f8cc8c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f9f8cc8c",
+      "answerText": "归并排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "快速排序"
+        },
+        {
+          "label": "B",
+          "text": "归并排序"
+        },
+        {
+          "label": "C",
+          "text": "Dijkstra最短路径算法"
+        },
+        {
+          "label": "D",
+          "text": "Karatsuba大整数乘法"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "3. 单选题\n下面关于串的叙述中，哪一个是不正确的？（    ）\nA. 串是字符的有限序列\nB. 空串是由空格构成的串\nC. 模式匹配是串的一种重要运算\nD. 串既可以采用顺序存储，也可以采用链式存储",
@@ -2859,6 +3499,58 @@
       "source": "local"
     },
     {
+      "stem": "3. 多选题\n计算机算法必须具备( )等特性。\nA 输入、输出\nB 可行性\nC 确定性\nD 有穷性\nE 易读性",
+      "answer": "ABCD",
+      "fingerprint": "stem:ef294bff",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ef294bff",
+      "answerText": "输入、输出 | 可行性 | 确定性 | 有穷性",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "输入、输出"
+        },
+        {
+          "label": "B",
+          "text": "可行性"
+        },
+        {
+          "label": "C",
+          "text": "确定性"
+        },
+        {
+          "label": "D",
+          "text": "有穷性"
+        },
+        {
+          "label": "E",
+          "text": "易读性"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 判断题\n在二叉排序树中,插入一个新节点时,总是将其作为根节点插入。\nA 对\nB 错",
+      "answer": "B",
+      "fingerprint": "stem:daf47e2f",
+      "questionType": "choice",
+      "statementFingerprint": "stem:daf47e2f",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "4. 单选题\n\n平衡二叉树(AVL树)中,节点的平衡因子是如何定义的?\n\nA.\n\n左子树的高度减去右子树的高度\n\nB.\n\n右子树的高度减去左子树的高度\n\nC.\n\n左子树的高度加上右子树的高度\n\nD.\n\n左子树的高度除以右子树的高度\nA 左子树的高度减去右子树的高度\nB 右子树的高度减去左子树的高度\nC 左子树的高度加上右子树的高度\nD 左子树的高度除以右子树的高度",
       "answer": "A",
       "fingerprint": "stem:55598f54",
@@ -2943,6 +3635,62 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "4. 单选题\n堆是一种有用的数据结构。下列关键码序列 ( ) 是一个堆。\nA 94,31,53,23,16,72\nB 94,53,31,72,16,23\nC 16,53,23,94,31,72\nD 16,31,23,94,53,72",
+      "answer": "D",
+      "fingerprint": "stem:e197808d",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e197808d",
+      "answerText": "16,31,23,94,53,72",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "94,31,53,23,16,72"
+        },
+        {
+          "label": "B",
+          "text": "94,53,31,72,16,23"
+        },
+        {
+          "label": "C",
+          "text": "16,53,23,94,31,72"
+        },
+        {
+          "label": "D",
+          "text": "16,31,23,94,53,72"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "4. 单选题\n对n个元素进行排序,其排序趟数肯定为n-1趟的排序算法是( )。\nA 直接插入排序和快速排序\nB 冒泡排序和快速排序\nC 简单选择排序和直接插入排序\nD 简单选择排序和冒泡排序",
+      "answer": "C",
+      "fingerprint": "stem:e298d88",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e298d88",
+      "answerText": "简单选择排序和直接插入排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "直接插入排序和快速排序"
+        },
+        {
+          "label": "B",
+          "text": "冒泡排序和快速排序"
+        },
+        {
+          "label": "C",
+          "text": "简单选择排序和直接插入排序"
+        },
+        {
+          "label": "D",
+          "text": "简单选择排序和冒泡排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "4. 单选题\n根据使用频率为5个字符设计的哈夫曼编码不可能是（  ）\nA. 000，001，010，011，1\nB. 0000，0001，001，01，1\nC. 000，001，01，10，11\nD. 00，100，101，110，111",
       "answer": "D",
       "fingerprint": "ee28ef42693748d4292bc565dc2741d5fcfacff3f12d8d49f47d023199aad065",
@@ -2997,6 +3745,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "4. 单选题\n计算机算法必须具备输入、输出和 ( )等5个特性。\nA 可行性、可移植性和可扩充性\nB 可行性、确定性和有穷性\nC 确定性、有穷性和稳定性\nD 易读性、稳定性和安全性",
+      "answer": "B",
+      "fingerprint": "stem:8db69b8b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:8db69b8b",
+      "answerText": "可行性、确定性和有穷性",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "可行性、可移植性和可扩充性"
+        },
+        {
+          "label": "B",
+          "text": "可行性、确定性和有穷性"
+        },
+        {
+          "label": "C",
+          "text": "确定性、有穷性和稳定性"
+        },
+        {
+          "label": "D",
+          "text": "易读性、稳定性和安全性"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n具有10个记录的序列,采用冒泡排序最少的比较次数是 ( )\nA 9\nB 81\nC 1\nD 54",
@@ -3137,6 +3913,62 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "4. 单选题\n下列排序算法中,算法在进行一趟相应的排序处理结束后不一定能选出一个元素放到其最终位置上。 ( )\nA 直选择排序\nB 冒泡排序\nC 归并排序\nD 堆排序",
+      "answer": "C",
+      "fingerprint": "stem:a6964e86",
+      "questionType": "choice",
+      "statementFingerprint": "stem:a6964e86",
+      "answerText": "归并排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "直选择排序"
+        },
+        {
+          "label": "B",
+          "text": "冒泡排序"
+        },
+        {
+          "label": "C",
+          "text": "归并排序"
+        },
+        {
+          "label": "D",
+          "text": "堆排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "4. 单选题\n下列叙述正确的是\nA 虽然给出关键字序列的顺序不一样,但依次生成的二叉排序树却是一样的\nB 在二叉排序树中插入一个新结点,总是插入到最下层,作为新的叶子结点\nC 二叉树中除叶结点外, 任一结点X,其左子树根结点的值小于该结点(X)的值;其右子树根结点的值≥该结点(X)的值,则此二叉树一定是二叉排序树\nD 在任意一棵非空二叉排序树,删除某结点后又将其插入,则所得二叉排序树与删除前原二叉排序树相同",
+      "answer": "B",
+      "fingerprint": "stem:c584d2f9",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c584d2f9",
+      "answerText": "在二叉排序树中插入一个新结点,总是插入到最下层,作为新的叶子结点",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "虽然给出关键字序列的顺序不一样,但依次生成的二叉排序树却是一样的"
+        },
+        {
+          "label": "B",
+          "text": "在二叉排序树中插入一个新结点,总是插入到最下层,作为新的叶子结点"
+        },
+        {
+          "label": "C",
+          "text": "二叉树中除叶结点外, 任一结点X,其左子树根结点的值小于该结点(X)的值;其右子树根结点的值≥该结点(X)的值,则此二叉树一定是二叉排序树"
+        },
+        {
+          "label": "D",
+          "text": "在任意一棵非空二叉排序树,删除某结点后又将其插入,则所得二叉排序树与删除前原二叉排序树相同"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n下面关于m阶B-树说法正确的是( )1每个结点至少有两棵非空子树2树中每个结点至多有m-1个关键字3所有叶子在同一层上4当插入一个数据项引起B-树结点分裂后,树长高一层\nA 123\nB 23\nC 234\nD 3",
@@ -3503,6 +4335,28 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "4. 填空客观题(自动批阅)\n数据逻辑结构包括________、________、_________ 和_________四种类型,其中树形结构和图形结构合称为_____。",
+      "answer": "集合、线性结构、树形结构、图形结构;非线性结构",
+      "fingerprint": "stem:fd308496",
+      "questionType": "choice",
+      "statementFingerprint": "stem:fd308496",
+      "answerText": "",
+      "optionMapSnapshot": [],
+      "formatStrength": "weak",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "4. 填空客观题(自动批阅)\n算法的五个重要特性是_______、_______、______、_______、_______。\n(1)\n(2)\n(3)\n(4)\n(5)",
+      "answer": "有穷性、确定性、可行性、有输入、有输出",
+      "fingerprint": "stem:c121cf29",
+      "questionType": "choice",
+      "statementFingerprint": "stem:c121cf29",
+      "answerText": "",
+      "optionMapSnapshot": [],
+      "formatStrength": "weak",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "5. 单选题\n\n若用冒泡排序对关键字序列{10,8,6,4,2},进行从小到大的排序,所需进行的关键字比较总次数是\n\nA.\n10\nB.\n20\nC.\n25\nD.\n15\nA 10\nB 20\nC 25\nD 15",
       "answer": "A",
       "fingerprint": "a57859f5de4e7081a5f63d13de6eabfc2f60d4a16c8ee4021e24f6bbe3273091",
@@ -3553,6 +4407,34 @@
         {
           "label": "D",
           "text": "右左旋"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "5. 单选题\n堆排序是一种 ( ) 排序。\nA 插入\nB 选择\nC 交换\nD 归并",
+      "answer": "B",
+      "fingerprint": "stem:49fd2724",
+      "questionType": "choice",
+      "statementFingerprint": "stem:49fd2724",
+      "answerText": "选择",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "插入"
+        },
+        {
+          "label": "B",
+          "text": "选择"
+        },
+        {
+          "label": "C",
+          "text": "交换"
+        },
+        {
+          "label": "D",
+          "text": "归并"
         }
       ],
       "formatStrength": "strong",
@@ -3699,6 +4581,90 @@
       "source": "local"
     },
     {
+      "stem": "5. 单选题\n数据结构中,与所使用的计算机无关的是数据的 ( ) 结构;\nA.\n存储\nB.\n物理\nC.\n逻辑\nD.\n物理和存储\nA 存储\nB 物理\nC 逻辑\nD 物理和存储",
+      "answer": "C",
+      "fingerprint": "stem:25cf42e3",
+      "questionType": "choice",
+      "statementFingerprint": "stem:25cf42e3",
+      "answerText": "逻辑",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "存储"
+        },
+        {
+          "label": "B",
+          "text": "物理"
+        },
+        {
+          "label": "C",
+          "text": "逻辑"
+        },
+        {
+          "label": "D",
+          "text": "物理和存储"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "5. 单选题\n数据挖掘算法主要有聚类算法、关联算法、决策树算法和回归分析等,各种算法用于解决不同的实际问题,某分行拟通过对县域机构数量与存款市场竞争力的相关性分析,进 而建立两者之间的函数表达式,用新思维拓展县域市场,提升县域存款的市场竞争力。则可以采用的是( )\nA 关联算法\nB 决策树算法\nC 聚类分析\nD 回归分析",
+      "answer": "D",
+      "fingerprint": "stem:e8e2e8d8",
+      "questionType": "choice",
+      "statementFingerprint": "stem:e8e2e8d8",
+      "answerText": "回归分析",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "关联算法"
+        },
+        {
+          "label": "B",
+          "text": "决策树算法"
+        },
+        {
+          "label": "C",
+          "text": "聚类分析"
+        },
+        {
+          "label": "D",
+          "text": "回归分析"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "5. 单选题\n算法的确定性是指( )\nA.\n当输入数据非法时,算法也能做出反应或进行处理\nB.\n在任何情况下,算法不会出现死循环\nC.\n算法中的每一条指令必须有确切的含义\nD.\n算法中没有逻辑错误\nA 当输入数据非法时,算法也能做出反应或进行处理\nB 在任何情况下,算法不会出现死循环\nC 算法中的每一条指令必须有确切的含义\nD 算法中没有逻辑错误",
+      "answer": "C",
+      "fingerprint": "stem:4b41bdf1",
+      "questionType": "choice",
+      "statementFingerprint": "stem:4b41bdf1",
+      "answerText": "算法中的每一条指令必须有确切的含义",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "当输入数据非法时,算法也能做出反应或进行处理"
+        },
+        {
+          "label": "B",
+          "text": "在任何情况下,算法不会出现死循环"
+        },
+        {
+          "label": "C",
+          "text": "算法中的每一条指令必须有确切的含义"
+        },
+        {
+          "label": "D",
+          "text": "算法中没有逻辑错误"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "5. 单选题\n图的深度优先遍历算法类似于二又树的算法( )\nA. 先序遍历\nB. 中序遍历\nC. 后序遍历\nD. 层次遍历",
       "answer": "A",
       "fingerprint": "124c70ab3ec61bf336987695c627673f83497eb7728886be2f200c094e7b2b47",
@@ -3725,6 +4691,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "5. 单选题\n下列排序算法中,算法( )在进行一趟相应的排序处理结束后不一定能选出一个元素放到其最终位置上。\nA 直选择排序\nB 冒泡排序\nC 归并排序\nD 堆排序",
+      "answer": "C",
+      "fingerprint": "stem:620daf56",
+      "questionType": "choice",
+      "statementFingerprint": "stem:620daf56",
+      "answerText": "归并排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "直选择排序"
+        },
+        {
+          "label": "B",
+          "text": "冒泡排序"
+        },
+        {
+          "label": "C",
+          "text": "归并排序"
+        },
+        {
+          "label": "D",
+          "text": "堆排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "5. 单选题\n线索二叉树中，线索节点的指针域通常用于存储什么类型的信息？\nA. 节点的键值\nB. 节点的平衡因子\nC. 节点的前驱或后继节点的指针\nD. 节点的颜色（用于红黑树）",
@@ -3803,6 +4797,34 @@
       "source": "local"
     },
     {
+      "stem": "5. 单选题\n在含有27个结点的二叉排序树上查找关键字为35的结点,则依次比较的关键字有可能是( )\nA 28,36,18,46,35\nB 18,36,28,46,35\nC 46,28,18,36,35\nD 46,36,18,28,35",
+      "answer": "D",
+      "fingerprint": "stem:52c52b9b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:52c52b9b",
+      "answerText": "46,36,18,28,35",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "28,36,18,46,35"
+        },
+        {
+          "label": "B",
+          "text": "18,36,28,46,35"
+        },
+        {
+          "label": "C",
+          "text": "46,28,18,36,35"
+        },
+        {
+          "label": "D",
+          "text": "46,36,18,28,35"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "5. 单选题\n在B-树中,如果一个节点的关键字数量达到最大值,那么它的子节点数量是多少?\nA 关键字数量减1\nB 关键字数量加1\nC 关键字数量\nD 关键字数量的两倍",
       "answer": "B",
       "fingerprint": "stem:66b81e66",
@@ -3879,6 +4901,26 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "5. 判断题\n数据在计算机内的表示称为数据的存储结构。( )\nA.\n对\nB.\n错\nA 对\nB 错",
+      "answer": "A",
+      "fingerprint": "stem:d39b5aee",
+      "questionType": "choice",
+      "statementFingerprint": "stem:d39b5aee",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "5. 判断题\n在平衡二叉树中,插入一个新节点后,树可能不再保持平衡。\nA 对\nB 错",
       "answer": "A",
       "fingerprint": "e35ee180b2f923dbfda55fe6d16022b947fdba0a5819d91fd396f66ab4fd6bd1",
@@ -3896,6 +4938,17 @@
         }
       ],
       "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "5. 填空客观题(自动批阅)\n设无向图的顶点个数为n,则该图最多有()条边",
+      "answer": "n(n-1)/2",
+      "fingerprint": "stem:40df254e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:40df254e",
+      "answerText": "",
+      "optionMapSnapshot": [],
+      "formatStrength": "weak",
       "source": "github-issue-contribution"
     },
     {
@@ -3995,6 +5048,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "6. 单选题\n当输入非法数据时,算法也能适当地做出反应或进行处理,而不会产生莫名其妙的输出结果。是指算法的( )\nA 健壮性\nB 正确性\nC 有穷性\nD 可读性",
+      "answer": "A",
+      "fingerprint": "stem:8bb42829",
+      "questionType": "choice",
+      "statementFingerprint": "stem:8bb42829",
+      "answerText": "健壮性",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "健壮性"
+        },
+        {
+          "label": "B",
+          "text": "正确性"
+        },
+        {
+          "label": "C",
+          "text": "有穷性"
+        },
+        {
+          "label": "D",
+          "text": "可读性"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "6. 单选题\n对于一个具有n个顶点和e条边的无向图,若采用邻接表表示，所有邻接表中的结点总数是（   ）。\nA. e/2\nB. e\nC. 2e\nD. n+e",
       "answer": "C",
       "fingerprint": "8127c757a377efa3639ba4af03b984182eed3bb72617927a4628cb253c83ddba",
@@ -4021,6 +5102,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "6. 单选题\n多叉路口交通灯的管理问题,采用____关系的数据结构。\nA 集合\nB 线性\nC 树形\nD 图状",
+      "answer": "D",
+      "fingerprint": "stem:619a5f47",
+      "questionType": "choice",
+      "statementFingerprint": "stem:619a5f47",
+      "answerText": "图状",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "集合"
+        },
+        {
+          "label": "B",
+          "text": "线性"
+        },
+        {
+          "label": "C",
+          "text": "树形"
+        },
+        {
+          "label": "D",
+          "text": "图状"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n二维数组A[8][9]按行优先顺序存储，若数组元素A[2][3]的存储地址为1087，A[4][7]的存储地址为1153，则数组元素A[6][7]的存储地址为（　　）\nA. 1207\nB. 1209\nC. 1211\nD. 1213",
@@ -4133,6 +5242,62 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "6. 单选题\n计算机所处理的数据一般具备某种内在联系,这是指\nA.\n数据和数据之间存在某种关系\nB.\n元素和元素之间存在某种关系\nC.\n元素内部具有某种结构\nD.\n数据项和数据项之间存在某种关系\nA 数据和数据之间存在某种关系\nB 元素和元素之间存在某种关系\nC 元素内部具有某种结构\nD 数据项和数据项之间存在某种关系",
+      "answer": "A",
+      "fingerprint": "stem:15777e14",
+      "questionType": "choice",
+      "statementFingerprint": "stem:15777e14",
+      "answerText": "数据和数据之间存在某种关系",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "数据和数据之间存在某种关系"
+        },
+        {
+          "label": "B",
+          "text": "元素和元素之间存在某种关系"
+        },
+        {
+          "label": "C",
+          "text": "元素内部具有某种结构"
+        },
+        {
+          "label": "D",
+          "text": "数据项和数据项之间存在某种关系"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "6. 单选题\n就排序算法所用的辅助空间而言,堆排序、快速排序和归并排序的关系是( )。\nA 堆排序<快速排序<归并排序\nB 堆排序<归并排序<快速排序\nC 堆排序>归并排序>快速排序\nD 堆排序>快速排序>归并排序",
+      "answer": "A",
+      "fingerprint": "stem:ba4ce5c4",
+      "questionType": "choice",
+      "statementFingerprint": "stem:ba4ce5c4",
+      "answerText": "堆排序<快速排序<归并排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "堆排序<快速排序<归并排序"
+        },
+        {
+          "label": "B",
+          "text": "堆排序<归并排序<快速排序"
+        },
+        {
+          "label": "C",
+          "text": "堆排序>归并排序>快速排序"
+        },
+        {
+          "label": "D",
+          "text": "堆排序>快速排序>归并排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n排序方法中,从未排序序列中依次取出元素与己排序序列(初始时为空)中的元素进行比 较,将其放入己排序序列的正确位置上的方法,称为( )\nA 希尔排序\nB 起泡排序\nC 插入排序\nD 选择排序",
@@ -4379,6 +5544,34 @@
       "source": "local"
     },
     {
+      "stem": "6. 单选题\n以下哪种排序算法在最坏情况下的时间复杂度最小?\nA 冒泡排序\nB 选择排序\nC 归并排序\nD 插入排序",
+      "answer": "C",
+      "fingerprint": "stem:57477fe6",
+      "questionType": "choice",
+      "statementFingerprint": "stem:57477fe6",
+      "answerText": "归并排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "冒泡排序"
+        },
+        {
+          "label": "B",
+          "text": "选择排序"
+        },
+        {
+          "label": "C",
+          "text": "归并排序"
+        },
+        {
+          "label": "D",
+          "text": "插入排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "6. 单选题\n以下数据结构中哪一个是非线性结构？\nA. 队列\nB. 栈\nC. 线性表\nD. 二叉树",
       "answer": "D",
       "fingerprint": "6740fcfabb41af0a7060dc341081af15fa14778d5a38ba36c5a9208470a2fc79",
@@ -4429,6 +5622,34 @@
         {
           "label": "D",
           "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "6. 单选题\n在二叉排序树中,进行中序遍历时,可以得到节点值的什么顺序?\nA 升序\nB 降序\nC 无序\nD 随机顺序",
+      "answer": "A",
+      "fingerprint": "stem:6a627583",
+      "questionType": "choice",
+      "statementFingerprint": "stem:6a627583",
+      "answerText": "升序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "升序"
+        },
+        {
+          "label": "B",
+          "text": "降序"
+        },
+        {
+          "label": "C",
+          "text": "无序"
+        },
+        {
+          "label": "D",
+          "text": "随机顺序"
         }
       ],
       "formatStrength": "strong",
@@ -4491,6 +5712,26 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "6. 判断题\n从逻辑上可以把数据结构分为动态结构和静态结构。( )\nA.\n对\nB.\n错\nA 对\nB 错",
+      "answer": "A",
+      "fingerprint": "stem:23f47037",
+      "questionType": "choice",
+      "statementFingerprint": "stem:23f47037",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "6. 判断题\n使用三元组表表示稀疏矩阵时，可以省略矩阵的行数和列数信息。\nA. 对\nB. 错",
       "answer": "B",
       "fingerprint": "0c2678b6df2df53c7841e9610b58cb56646478295f77d1d46c83017f399adc77",
@@ -4509,6 +5750,26 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "6. 判断题\n算法就是程序。( )\nA.\n对\nB.\n错\nA 对\nB 错",
+      "answer": "B",
+      "fingerprint": "stem:5474e232",
+      "questionType": "choice",
+      "statementFingerprint": "stem:5474e232",
+      "answerText": "错",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "返回\n平衡二叉树\n错题反馈\n提交作业\n一、 知识点练习默认部分\n2. 多选题\n\n以下不是平衡二叉查找树的是\n\nA\nAVL树\nB\n红黑树\nC\n B+/B-\n树\nD\n哈夫曼树\n上一题下一题\n答题进度\n66.7%\n答题卡\n知识点练习默认部分\n1\n2\n3\n4\n5\n6\n已作答: 未作答:\nA AVL树\nB 红黑树\nC B+/B-树\nD 哈夫曼树",
