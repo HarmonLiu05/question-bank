@@ -31,6 +31,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "1. 单选题\n\n对n个不同的数据进行冒泡排序,实现从小到大排序,在下列哪种情况下比较的次数最多 ( )\n\nA.\n从小到大排列好的\nB.\n从大到小排列好的\nC.\n数据无序\nD.\n数据基本有序\nA 从小到大排列好的\nB 从大到小排列好的\nC 数据无序\nD 数据基本有序",
+      "answer": "B",
+      "fingerprint": "stem:5e378d17",
+      "questionType": "choice",
+      "statementFingerprint": "stem:5e378d17",
+      "answerText": "从大到小排列好的",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "从小到大排列好的"
+        },
+        {
+          "label": "B",
+          "text": "从大到小排列好的"
+        },
+        {
+          "label": "C",
+          "text": "数据无序"
+        },
+        {
+          "label": "D",
+          "text": "数据基本有序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n\n设一组初始记录关键字序列为(345,253,674,924,627),则用基数排序需要进行( )趟的分配和回收才能使得初始关键字序列变成有序序列。\n\nA.\n\n3\n\nB.\n\n4\n\nC.\n\n5\n\nD.\n\n8\nA 3\nB 4\nC 5\nD 8",
       "answer": "A",
       "fingerprint": "54d9ef53396914111d99ab62ce56fb82a210bc0f71d02d7062c8af8c757b7200",
@@ -53,6 +81,34 @@
         {
           "label": "D",
           "text": "8"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "1. 单选题\n\n设一组初始记录关键字序列为(50,40,95,20,15,70,60,45),则以增量d=4 的一趟希尔排序结束后前4条记录关键字为( )。\n\nA.\n\n40,50,20,95\n\nB.\n\n15,40,60,20\n\nC.\n\n15,20,40,45\n\nD.\n\n45,40,15,20\nA 40,50,20,95\nB 15,40,60,20\nC 15,20,40,45\nD 45,40,15,20",
+      "answer": "B",
+      "fingerprint": "stem:cc94b6c3",
+      "questionType": "choice",
+      "statementFingerprint": "stem:cc94b6c3",
+      "answerText": "15,40,60,20",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "40,50,20,95"
+        },
+        {
+          "label": "B",
+          "text": "15,40,60,20"
+        },
+        {
+          "label": "C",
+          "text": "15,20,40,45"
+        },
+        {
+          "label": "D",
+          "text": "45,40,15,20"
         }
       ],
       "formatStrength": "strong",
@@ -227,6 +283,26 @@
       "source": "local"
     },
     {
+      "stem": "1. 单选题\n对初始状态为递增序列的表按递增顺序排序,最省时间的是( )算法。\nA 直接插入排序\nB 折半插入排序",
+      "answer": "B",
+      "fingerprint": "stem:1d33021c",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1d33021c",
+      "answerText": "折半插入排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "直接插入排序"
+        },
+        {
+          "label": "B",
+          "text": "折半插入排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n对关键字{28,16,32,12,60,2,5,72}序列进行快速排序,第一趟从小到大一次划分结果为( )\nA.\n(2,5,12,16)28(60,32,72)\nB.\n(5,16,2,12)28(60,32,72)\nC.\n(2,16,12,5)28(60,32,72)\nD.\n(5,16,2,12)28(32,60,72)\nA (2,5,12,16)28(60,32,72)\nB (5,16,2,12)28(60,32,72)\nC (2,16,12,5)28(60,32,72)\nD (5,16,2,12)28(32,60,72)",
       "answer": "B",
       "fingerprint": "71ad5900af478f54e2bf9c44a362c459ffea047601a9db9b8ce4e563b35dfd05",
@@ -249,6 +325,34 @@
         {
           "label": "D",
           "text": "(5,16,2,12)28(32,60,72)"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "1. 单选题\n对序列{15,9,7,8,20,-1,4,}用希尔排序方法排序,经一趟后序列变为{15,-1,4,8,20,9,7},则该次采用的增量是( )。\nA 1\nB 4\nC 3\nD 2",
+      "answer": "B",
+      "fingerprint": "stem:1cc000c4",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1cc000c4",
+      "answerText": "4",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "2"
         }
       ],
       "formatStrength": "strong",
@@ -527,6 +631,34 @@
       "source": "local"
     },
     {
+      "stem": "1. 单选题\n快速排序算法的空间复杂度是多少?\nA O(n)\nB O(logn)\nC O(1)\nD O(n^2)",
+      "answer": "B",
+      "fingerprint": "stem:3b24b684",
+      "questionType": "choice",
+      "statementFingerprint": "stem:3b24b684",
+      "answerText": "O(logn)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "O(n)"
+        },
+        {
+          "label": "B",
+          "text": "O(logn)"
+        },
+        {
+          "label": "C",
+          "text": "O(1)"
+        },
+        {
+          "label": "D",
+          "text": "O(n^2)"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n若采用三元组压缩技术存储稀疏矩阵，只要把每个元素的行下标和列下标互换，就完成了对该矩阵的转置运算，这种观点（  ）。\nA. 正确\nB. 错误",
       "answer": "B",
       "fingerprint": "6b7cff13873baeec6c6cbfa3f42760a5c088d358be6c722835a248236165dc2e",
@@ -669,6 +801,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "1. 单选题\n设一组初始记录关键字序列为(45,80,55,40,42,85),则以第一个记录关键字45为基准而得到一趟快速排序的结果是( )。\nA 40,42,45,55,80,83\nB 42,40,45,80,85,88\nC 42,40,45,55,80,85\nD 42,40,45,85,55,80",
+      "answer": "C",
+      "fingerprint": "stem:798a7f62",
+      "questionType": "choice",
+      "statementFingerprint": "stem:798a7f62",
+      "answerText": "42,40,45,55,80,85",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "40,42,45,55,80,83"
+        },
+        {
+          "label": "B",
+          "text": "42,40,45,80,85,88"
+        },
+        {
+          "label": "C",
+          "text": "42,40,45,55,80,85"
+        },
+        {
+          "label": "D",
+          "text": "42,40,45,85,55,80"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "1. 单选题\n设有两个串p和q，其中q是p的子串，求q在p中首次出现的位置的算法称为（    ）\nA. 求子串\nB. 联接\nC. 匹配\nD. 求串长",
@@ -1383,6 +1543,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "2. 单选题\n\n设有1000个无序的元素,希望用最快的速度挑选出其中前10个最大的元素,最好的排序方法是( )。\n\nA.\n\n选择排序\n\nB.\n\n快速排序\n\nC.\n\n堆排序\n\nD.\n\n插入排序\nA 选择排序\nB 快速排序\nC 堆排序\nD 插入排序",
+      "answer": "A",
+      "fingerprint": "stem:9282c3eb",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9282c3eb",
+      "answerText": "选择排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "选择排序"
+        },
+        {
+          "label": "B",
+          "text": "快速排序"
+        },
+        {
+          "label": "C",
+          "text": "堆排序"
+        },
+        {
+          "label": "D",
+          "text": "插入排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 单选题\n\n在多关键字排序方法中低位优先排序采用的排序算法必须是稳定的算法( )\n\nA.\n\n对\n\nB.\n\n错\nA 对\nB 错",
       "answer": "A",
       "fingerprint": "3d09841b01862df7c1d4657e2f2d6a1b8ee5a02f47907c0fb59d0810696df966",
@@ -1457,6 +1645,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n对序列{12,9,7,8,20,-3,5},用希尔排序方法排序,经过一趟排序后序列变为{12,-3,5,8,20,9,7},则该趟采用的步长增量是( )。\nA.\n1\nB.\n2\nC.\n3\nD.\n4\nA 1\nB 2\nC 3\nD 4",
+      "answer": "C",
+      "fingerprint": "stem:f1a1b97",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f1a1b97",
+      "answerText": "3",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n二叉树的先序遍历序列中,任意一个结点均处在其子女结点的（    ）位置。\nA. 后面\nB. 前面\nC. 中间\nD. 不确定",
@@ -1795,6 +2011,34 @@
       "source": "local"
     },
     {
+      "stem": "2. 单选题\n若有序表的关键字序列为(b,c,d,e,f,g,q,r,s,t),则在二分查找关键字b的过程中,先后进行比较的关键字依次为 ( )\nA f,c,b\nB f,d,b\nC g,c,b\nD g,d,b",
+      "answer": "A",
+      "fingerprint": "stem:f5940de3",
+      "questionType": "choice",
+      "statementFingerprint": "stem:f5940de3",
+      "answerText": "f,c,b",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "f,c,b"
+        },
+        {
+          "label": "B",
+          "text": "f,d,b"
+        },
+        {
+          "label": "C",
+          "text": "g,c,b"
+        },
+        {
+          "label": "D",
+          "text": "g,d,b"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 单选题\n三元组用来存储（  ）\nA. 稠密矩阵\nB. 稀疏矩阵\nC. 广义表\nD. 特殊矩阵",
       "answer": "B",
       "fingerprint": "f435244c3ef3287af90fdc2ab12bd1d2d11f5cfddf3b9bf55902207c5431d5e8",
@@ -2103,6 +2347,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "2. 单选题\n希尔排序与插入排序的主要区别是什么?\nA 希尔排序需要额外的存储空间,而插入排序不需要\nB 希尔排序不需要额外的存储空间,而插入排序需要\nC 希尔排序引入了增量序列,而插入排序没有\nD 希尔排序和插入排序没有区别",
+      "answer": "C",
+      "fingerprint": "stem:b8a5b2f5",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b8a5b2f5",
+      "answerText": "希尔排序引入了增量序列,而插入排序没有",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "希尔排序需要额外的存储空间,而插入排序不需要"
+        },
+        {
+          "label": "B",
+          "text": "希尔排序不需要额外的存储空间,而插入排序需要"
+        },
+        {
+          "label": "C",
+          "text": "希尔排序引入了增量序列,而插入排序没有"
+        },
+        {
+          "label": "D",
+          "text": "希尔排序和插入排序没有区别"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 单选题\n下列陈述中正确的是(    )\nA. 二叉树是度为2的有序树\nB. 二叉树中结点只有一个孩子时无左右之分\nC. 二叉树中必有度为2的结点\nD. 二叉树中最多只有两棵子树，并且有左右之分",
       "answer": "D",
       "fingerprint": "63935bd3aff8162c938a5a35b33a96b8a7bbd1aa0c18445c3c01cb698c50fb8a",
@@ -2129,6 +2401,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "2. 单选题\n下列排序算法中,在待排序数据已有序时,花费时间反而最多的是( )排序。\nA.\n冒泡\nB.\n希尔\nC.\n快速\nD.\n堆\nA 冒泡\nB 希尔\nC 快速\nD 堆",
+      "answer": "C",
+      "fingerprint": "stem:20256258",
+      "questionType": "choice",
+      "statementFingerprint": "stem:20256258",
+      "answerText": "快速",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "冒泡"
+        },
+        {
+          "label": "B",
+          "text": "希尔"
+        },
+        {
+          "label": "C",
+          "text": "快速"
+        },
+        {
+          "label": "D",
+          "text": "堆"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "2. 单选题\n下面哪种树结构不是二叉树(  )\nA. 红黑树\nB. AVL树\nC. B-Tree\nD. 哈夫曼树",
@@ -2595,6 +2895,26 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "2. 判断题\n快速排序算法的时间复杂度在最坏情况下是O(n^2)。\nA 对\nB 错",
+      "answer": "对",
+      "fingerprint": "stem:1f9ede84",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1f9ede84",
+      "answerText": "",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "weak",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "2. 判断题\n研究算法中的输入和输出的关系是算法分析的目的之一。( )\nA 对\nB 错",
       "answer": "B",
       "fingerprint": "stem:8f7f3f64",
@@ -2609,6 +2929,34 @@
         {
           "label": "B",
           "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 单选题\n\n快速排序方法在( )情况下最不利于发挥其长处\n\nA.\n要排序的数据量太大\nB.\n要排序的数据中含有多个相同值\nC.\n要排序的数据已基本有序\nD.\n要排序的数据个数为奇数\nA 要排序的数据量太大\nB 要排序的数据中含有多个相同值\nC 要排序的数据已基本有序\nD 要排序的数据个数为奇数",
+      "answer": "C",
+      "fingerprint": "stem:88b4ca50",
+      "questionType": "choice",
+      "statementFingerprint": "stem:88b4ca50",
+      "answerText": "要排序的数据已基本有序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "要排序的数据量太大"
+        },
+        {
+          "label": "B",
+          "text": "要排序的数据中含有多个相同值"
+        },
+        {
+          "label": "C",
+          "text": "要排序的数据已基本有序"
+        },
+        {
+          "label": "D",
+          "text": "要排序的数据个数为奇数"
         }
       ],
       "formatStrength": "strong",
@@ -2837,6 +3185,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "3. 单选题\n快速排序方法在情况下最不利于发挥其长处。( )\nA 要排序的数据量太大\nB 要排序的数据中含有多个相同值\nC 要排序的数据已基本有序\nD 要排序的数据个数为奇数",
+      "answer": "C",
+      "fingerprint": "stem:74f81bb5",
+      "questionType": "choice",
+      "statementFingerprint": "stem:74f81bb5",
+      "answerText": "要排序的数据已基本有序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "要排序的数据量太大"
+        },
+        {
+          "label": "B",
+          "text": "要排序的数据中含有多个相同值"
+        },
+        {
+          "label": "C",
+          "text": "要排序的数据已基本有序"
+        },
+        {
+          "label": "D",
+          "text": "要排序的数据个数为奇数"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "3. 单选题\n某内排序方法的稳定性是指( )。\nA 该排序算法不允许有相同的关键字记录\nB 该排序算法允许有相同的关键字记录\nC 平均时间为0(n log n)的排序方法\nD 其他都不对",
@@ -3335,6 +3711,34 @@
       "source": "local"
     },
     {
+      "stem": "3. 单选题\n有一个有序表为(1,3,9,12,32,41,45,62,75,77,82,95,100),当二分查找值为82的结点时,( )比较后查找成功。\nA 1\nB 2\nC 4\nD 8",
+      "answer": "C",
+      "fingerprint": "stem:70cad718",
+      "questionType": "choice",
+      "statementFingerprint": "stem:70cad718",
+      "answerText": "4",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 单选题\n在函数调用栈中,当一个函数执行完毕后,应该如何处理?\nA 将函数压入栈中\nB 弹出栈顶元素\nC 检查栈是否为空\nD 忽略函数执行完毕",
       "answer": "B",
       "fingerprint": "stem:6a4ab31b",
@@ -3531,6 +3935,54 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "3. 多选题\n希尔排序的时间复杂度受哪些因素影响?\nA 增量序列的选择\nB 初始数据的分布\nC 元素数量的多少\nD 计算机硬件性能",
+      "answer": "ABC",
+      "fingerprint": "stem:fb274f50",
+      "questionType": "choice",
+      "statementFingerprint": "stem:fb274f50",
+      "answerText": "增量序列的选择 | 初始数据的分布 | 元素数量的多少",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "增量序列的选择"
+        },
+        {
+          "label": "B",
+          "text": "初始数据的分布"
+        },
+        {
+          "label": "C",
+          "text": "元素数量的多少"
+        },
+        {
+          "label": "D",
+          "text": "计算机硬件性能"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "3. 判断题\n快速排序是基于比较的排序算法中平均性能最好的一种排序。( )\nA.\n对\nB.\n错\nA 对\nB 错",
+      "answer": "对",
+      "fingerprint": "stem:9f5dd0ca",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9f5dd0ca",
+      "answerText": "",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "weak",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "3. 判断题\n在二叉排序树中,插入一个新节点时,总是将其作为根节点插入。\nA 对\nB 错",
       "answer": "B",
       "fingerprint": "stem:daf47e2f",
@@ -3601,6 +4053,34 @@
         {
           "label": "D",
           "text": "其它"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "4. 单选题\n\n下列排序算法中,其时间复杂度和记录的初始排列状态无关的是 ( )\n\nA.\n\n直接选择排序\n\nB.\n\n冒泡排序\n\nC.\n\n快速排序\n\nD.\n\n插入排序\nA 直接选择排序\nB 冒泡排序\nC 快速排序\nD 插入排序",
+      "answer": "A",
+      "fingerprint": "stem:2abde2d",
+      "questionType": "choice",
+      "statementFingerprint": "stem:2abde2d",
+      "answerText": "直接选择排序",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "直接选择排序"
+        },
+        {
+          "label": "B",
+          "text": "冒泡排序"
+        },
+        {
+          "label": "C",
+          "text": "快速排序"
+        },
+        {
+          "label": "D",
+          "text": "插入排序"
         }
       ],
       "formatStrength": "strong",
@@ -3803,6 +4283,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "4. 单选题\n排序趟数与序列的原始状态有关的排序算法是( )排序算法。\nA.\n插入\nB.\n选择\nC.\n冒泡\nD.\n基数\nA 插入\nB 选择\nC 冒泡\nD 基数",
+      "answer": "C",
+      "fingerprint": "stem:1c40ce34",
+      "questionType": "choice",
+      "statementFingerprint": "stem:1c40ce34",
+      "answerText": "冒泡",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "插入"
+        },
+        {
+          "label": "B",
+          "text": "选择"
+        },
+        {
+          "label": "C",
+          "text": "冒泡"
+        },
+        {
+          "label": "D",
+          "text": "基数"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "4. 单选题\n设一组初始关键字记录关键字为(20,15,14,18,21,36,40,10),则以20为基准记录的一趟快速排序结束后的结果为( )。\nA.\n10,15,14,18,20,36,40,21\nB.\n10,15,14,18,20,40,36,21\nC.\n10,15,14,20,18,40,36,2l\nD.\n15,10,14,18,20,36,40,21\nA 10,15,14,18,20,36,40,21\nB 10,15,14,18,20,40,36,21\nC 10,15,14,20,18,40,36,2l\nD 15,10,14,18,20,36,40,21",
       "answer": "A",
       "fingerprint": "8a0970e2eb22bdd14075353e110d1534707b38a6be8d9e6aef8d8d6884cf0744",
@@ -3913,6 +4421,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "4. 单选题\n希尔排序中,增量序列的选择对排序效率的影响是什么?\nA 增量序列的选择对排序效率没有影响\nB 增量序列的选择对排序效率有影响,但影响不大\nC 增量序列的选择对排序效率有显著影响\nD 增量序列的选择对排序效率没有显著影响",
+      "answer": "C",
+      "fingerprint": "stem:cc78ff59",
+      "questionType": "choice",
+      "statementFingerprint": "stem:cc78ff59",
+      "answerText": "增量序列的选择对排序效率有显著影响",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "增量序列的选择对排序效率没有影响"
+        },
+        {
+          "label": "B",
+          "text": "增量序列的选择对排序效率有影响,但影响不大"
+        },
+        {
+          "label": "C",
+          "text": "增量序列的选择对排序效率有显著影响"
+        },
+        {
+          "label": "D",
+          "text": "增量序列的选择对排序效率没有显著影响"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "4. 单选题\n下列排序算法中,算法在进行一趟相应的排序处理结束后不一定能选出一个元素放到其最终位置上。 ( )\nA 直选择排序\nB 冒泡排序\nC 归并排序\nD 堆排序",
@@ -4335,6 +4871,46 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "4. 判断题\n快速排序算法的分区操作是将数组分成两个子数组,一个包含所有小于基准元素的元素,另一个包含所有大于基准元素的元素。\nA 对\nB 错",
+      "answer": "对",
+      "fingerprint": "stem:b2d34101",
+      "questionType": "choice",
+      "statementFingerprint": "stem:b2d34101",
+      "answerText": "",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "weak",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "4. 判断题\n折半查找(二分查找)要求待查找的表必须是有序的顺序表,若将其应用于无序表或\n链表,则无法正常工作。\nA 对\nB 错",
+      "answer": "A",
+      "fingerprint": "stem:8093d1c7",
+      "questionType": "choice",
+      "statementFingerprint": "stem:8093d1c7",
+      "answerText": "对",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "对"
+        },
+        {
+          "label": "B",
+          "text": "错"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "4. 填空客观题(自动批阅)\n数据逻辑结构包括________、________、_________ 和_________四种类型,其中树形结构和图形结构合称为_____。",
       "answer": "集合、线性结构、树形结构、图形结构;非线性结构",
       "fingerprint": "stem:fd308496",
@@ -4354,6 +4930,34 @@
       "answerText": "",
       "optionMapSnapshot": [],
       "formatStrength": "weak",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "5. 单选题\n\n编写算法,对n个关键字取整数值的记录序列进行整理,以使所有关键字为负值的记录排在关键字为非负值的记录之前,要求:\n(1)采用顺序存储结构,至多使用一个记录的辅助存储空间;\n(2)算法的时间复杂度为O(n);\nvoid Divide(int a[ ],int n)//把数组a中所有值为负的记录调到非负的记录之前\n{\n low=0;high=n-1;\n while(____)\n {\n while(low<high&&a[high]>=0) high--; //以0作为虚拟的枢轴记录\n a[low]<->a[high];\n while(low<high&&a[low]<0) low++;\n a[low]<->a[high];\n }\n\n}//Divide\n\nA.\n\nlow<=high\n\nB.\n\nlow>high\n\nC.\n\nlow!=high\n\nD.\n\nlow<high\nA low<=high\nB low>high\nC low!=high\nD low<high",
+      "answer": "D",
+      "fingerprint": "stem:9736fa7d",
+      "questionType": "choice",
+      "statementFingerprint": "stem:9736fa7d",
+      "answerText": "low<high",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "low<=high"
+        },
+        {
+          "label": "B",
+          "text": "low>high"
+        },
+        {
+          "label": "C",
+          "text": "low!=high"
+        },
+        {
+          "label": "D",
+          "text": "low<high"
+        }
+      ],
+      "formatStrength": "strong",
       "source": "github-issue-contribution"
     },
     {
@@ -4525,6 +5129,34 @@
       "source": "local"
     },
     {
+      "stem": "5. 单选题\n快速排序算法的稳定性如何?\nA 稳定\nB 不稳定\nC 不确定\nD 既稳定又不稳定",
+      "answer": "B",
+      "fingerprint": "stem:116f7dbe",
+      "questionType": "choice",
+      "statementFingerprint": "stem:116f7dbe",
+      "answerText": "不稳定",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "稳定"
+        },
+        {
+          "label": "B",
+          "text": "不稳定"
+        },
+        {
+          "label": "C",
+          "text": "不确定"
+        },
+        {
+          "label": "D",
+          "text": "既稳定又不稳定"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "5. 单选题\n设某哈夫曼树中有199个结点，则该哈夫曼树中有（  ）个叶子结点\nA. 99\nB. 100\nC. 101\nD. 102",
       "answer": "B",
       "fingerprint": "047e0212012ab7ff11f0664088587df809bab008f8cb23a0feb3b46333e63de0",
@@ -4691,6 +5323,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "5. 单选题\n希尔排序的空间复杂度是多少?\nA O(1)\nB O(n)\nC O(nlogn)\nD O(n^2)",
+      "answer": "A",
+      "fingerprint": "stem:902dde2e",
+      "questionType": "choice",
+      "statementFingerprint": "stem:902dde2e",
+      "answerText": "O(1)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "O(1)"
+        },
+        {
+          "label": "B",
+          "text": "O(n)"
+        },
+        {
+          "label": "C",
+          "text": "O(nlogn)"
+        },
+        {
+          "label": "D",
+          "text": "O(n^2)"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "5. 单选题\n下列排序算法中,算法( )在进行一趟相应的排序处理结束后不一定能选出一个元素放到其最终位置上。\nA 直选择排序\nB 冒泡排序\nC 归并排序\nD 堆排序",
@@ -4941,6 +5601,17 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "5. 填空客观题(自动批阅)\n补全下面折半插入排序函数中的空白:\nvoid BinaryInsertSort(int a[], int n) {\nfor (int i = 1; i < n; i++) {\nint temp = a[i];\nint low = 0, high = i - 1;\nwhile ( ) {\nint mid = (low + high) / 2;\nif (a[mid] > temp)\nhigh =() ;\nelse\nlow = ();\n}\nfor (int j = i - 1; j > high; j--)\na[j + 1] = a[j];\na[high + 1] = temp;\n}\n}",
+      "answer": "D",
+      "fingerprint": "stem:32e39fbe",
+      "questionType": "choice",
+      "statementFingerprint": "stem:32e39fbe",
+      "answerText": "",
+      "optionMapSnapshot": [],
+      "formatStrength": "weak",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "5. 填空客观题(自动批阅)\n设无向图的顶点个数为n,则该图最多有()条边",
       "answer": "n(n-1)/2",
       "fingerprint": "stem:40df254e",
@@ -4986,6 +5657,34 @@
         {
           "label": "B",
           "text": "错误"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "6. 单选题\n\n试以L.r[k+1]作为监视哨改写教科书10.2.1节中给出的直接插入排序算法。其中,L.r[1..k]为待排序记录且k<MAXSIZE。\nvoid InsertionSort ( SqList &L ) {\n // 对顺序表 L 作直接插入排序。\n\n for ( i=k-1-1; i>=1; --i )\n {\n\n if (L.r[i+1].key < L.r[i].key)\n\n {\n L.r[k+1] = L.r[i]; // 复制为监视哨\n for ( j=i+1; L.r[k+1].key > L.r[j].key; ++ j )\n L.r[j] = L.r[j+1]; // 记录前移\n }//end if\n\n ____\n }//end for\n} // InsertSort\n\nA.\n\nL.r[j+1] = L.r[k+1];\n\nB.\n\nL.r[j] = L.r[k];\n\nC.\n\nL.r[j-1] = L.r[k+1];\n\nD.\n\nL.r[i] = L.r[k+1];\nA L.r[j+1] = L.r[k+1];\nB L.r[j] = L.r[k];\nC L.r[j-1] = L.r[k+1];\nD L.r[i] = L.r[k+1];",
+      "answer": "C",
+      "fingerprint": "stem:47d56654",
+      "questionType": "choice",
+      "statementFingerprint": "stem:47d56654",
+      "answerText": "L.r[j-1] = L.r[k+1];",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "L.r[j+1] = L.r[k+1];"
+        },
+        {
+          "label": "B",
+          "text": "L.r[j] = L.r[k];"
+        },
+        {
+          "label": "C",
+          "text": "L.r[j-1] = L.r[k+1];"
+        },
+        {
+          "label": "D",
+          "text": "L.r[i] = L.r[k+1];"
         }
       ],
       "formatStrength": "strong",
@@ -5300,6 +5999,34 @@
       "source": "github-issue-contribution"
     },
     {
+      "stem": "6. 单选题\n快速排序算法的时间复杂度是多少?\nA O(n)\nB O(nlogn)\nC O(n^2)\nD O(logn)",
+      "answer": "B",
+      "fingerprint": "stem:13882788",
+      "questionType": "choice",
+      "statementFingerprint": "stem:13882788",
+      "answerText": "O(nlogn)",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "O(n)"
+        },
+        {
+          "label": "B",
+          "text": "O(nlogn)"
+        },
+        {
+          "label": "C",
+          "text": "O(n^2)"
+        },
+        {
+          "label": "D",
+          "text": "O(logn)"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "6. 单选题\n排序方法中,从未排序序列中依次取出元素与己排序序列(初始时为空)中的元素进行比 较,将其放入己排序序列的正确位置上的方法,称为( )\nA 希尔排序\nB 起泡排序\nC 插入排序\nD 选择排序",
       "answer": "C",
       "fingerprint": "stem:d47b0cca",
@@ -5322,6 +6049,34 @@
         {
           "label": "D",
           "text": "选择排序"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
+      "stem": "6. 单选题\n排序趟数与序列的原始状态有关的排序方法是 ( )排序法。\nA.\n插入\nB.\n选择\nC.\n冒泡\nD.\n快速\nA 插入\nB 选择\nC 冒泡\nD 快速",
+      "answer": "C",
+      "fingerprint": "stem:40dec5b",
+      "questionType": "choice",
+      "statementFingerprint": "stem:40dec5b",
+      "answerText": "冒泡",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "插入"
+        },
+        {
+          "label": "B",
+          "text": "选择"
+        },
+        {
+          "label": "C",
+          "text": "冒泡"
+        },
+        {
+          "label": "D",
+          "text": "快速"
         }
       ],
       "formatStrength": "strong",
@@ -5458,6 +6213,34 @@
       ],
       "formatStrength": "strong",
       "source": "local"
+    },
+    {
+      "stem": "6. 单选题\n希尔排序适用于哪些场景?\nA 数据量较小的场景\nB 数据量较大且基本有序的场景\nC 数据量较大且完全无序的场景\nD 所有场景",
+      "answer": "B",
+      "fingerprint": "stem:7b1f54a9",
+      "questionType": "choice",
+      "statementFingerprint": "stem:7b1f54a9",
+      "answerText": "数据量较大且基本有序的场景",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "数据量较小的场景"
+        },
+        {
+          "label": "B",
+          "text": "数据量较大且基本有序的场景"
+        },
+        {
+          "label": "C",
+          "text": "数据量较大且完全无序的场景"
+        },
+        {
+          "label": "D",
+          "text": "所有场景"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
     },
     {
       "stem": "6. 单选题\n线索二叉树中，若一个节点的左孩子为空，那么该节点的左指针应该指向什么？\nA. 其左子节点\nB. 其右子节点\nC. 其前驱节点\nD. 其后继节点",
