@@ -255,6 +255,34 @@
       "source": "local"
     },
     {
+      "stem": "1. 单选题\n关于贪心法,下列说法正确的是( )。\nA.\n每一步选择当前最优解,不回溯\nB.\n只要问题有最优子结构,就一定适合贪心法\nC.\n常用于最短路径、最小生成树等问题\nD.\n活动选择问题可以用贪心法得到最优解\nA 每一步选择当前最优解,不回溯\nB 只要问题有最优子结构,就一定适合贪心法\nC 常用于最短路径、最小生成树等问题\nD 活动选择问题可以用贪心法得到最优解",
+      "answer": "A",
+      "fingerprint": "stem:58601f",
+      "questionType": "choice",
+      "statementFingerprint": "stem:58601f",
+      "answerText": "每一步选择当前最优解,不回溯",
+      "optionMapSnapshot": [
+        {
+          "label": "A",
+          "text": "每一步选择当前最优解,不回溯"
+        },
+        {
+          "label": "B",
+          "text": "只要问题有最优子结构,就一定适合贪心法"
+        },
+        {
+          "label": "C",
+          "text": "常用于最短路径、最小生成树等问题"
+        },
+        {
+          "label": "D",
+          "text": "活动选择问题可以用贪心法得到最优解"
+        }
+      ],
+      "formatStrength": "strong",
+      "source": "github-issue-contribution"
+    },
+    {
       "stem": "1. 单选题\n广义表（（（））,a,((b,c),(),d),(((e)))）的长度为（  ）\nA. 3\nB. 4\nC. 5\nD. 2",
       "answer": "B",
       "fingerprint": "7c2c2c929bf9fdff1adc4f6b0cc93486c9d41c8409b7746802ebb05a0567ca94",
